@@ -1,0 +1,13 @@
+dataset,scheme,comparison_band,actual_age_coverage,n,pc_alpha,pc_edges,pc_skeleton,bic_edges,bic_skeleton,bic_score,bic_one_optimal_dag,age_min_observed,age_max_observed,age_mean,age_sd,age_median
+sapa,pooled_four,18 and under,18 and under,4550,0.05,2,"A-H, C-H",2,"A-H, C-H",-36022.55466461277,"H->A, H->C",,,,,
+sapa,pooled_four,19-39,19-39,11510,0.05,0,,5,"A-H, A-X, C-X, E-X, O-X",-89984.02904003808,"A->H, X->A, X->C, X->E, X->O",,,,,
+sapa,pooled_four,40-59,40-59,2253,0.05,0,,0,,-17540.858481199863,,,,,,
+sapa,pooled_four,60 and over,60 and over,303,0.05,0,,0,,-2365.4119517526697,,,,,,
+sapa,native_eight,18 and under,18 and under,4550,0.05,2,"A-H, C-H",2,"A-H, C-H",-36022.55466461277,"H->A, H->C",,,,,
+sapa,native_eight,19-24,19-24,6231,0.05,5,"A-E, A-H, A-X, C-H, C-X",4,"A-H, A-X, C-X, O-X",-48790.19596082047,"A->H, O->X, X->A, X->C",,,,,
+sapa,native_eight,25-29,25-29,2586,0.05,0,,1,A-H,-20534.778319171503,A->H,,,,,
+sapa,native_eight,30-34,30-34,1635,0.05,1,A-H,0,,-12890.338641654918,,,,,,
+sapa,native_eight,35-39,35-39,1058,0.05,2,"A-H, O-X",0,,-8325.573074923106,,,,,,
+sapa,native_eight,40-49,40-49,1494,0.05,5,"A-E, A-H, C-H, E-X, O-X",0,,-11754.923825962152,,,,,,
+sapa,native_eight,50-59,50-59,759,0.05,1,C-X,0,,-5836.2301379752535,,,,,,
+sapa,native_eight,60 and over,60 and over,303,0.05,0,,0,,-2365.4119517526697,,,,,,

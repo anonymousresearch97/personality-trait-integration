@@ -1,0 +1,14 @@
+SECOND REVIEW: ASSOCIATION AUDIT AND CROSS-SECTIONAL CPDAGS
+
+Association audit (analysis/audit_submission_associations.py):
+Read against the source analysis/original_continuous_age_detail.py. No computation error found in the independent centered least-squares residual partial correlations, metric definitions, SeedSequence reconstruction, adjacent-contrast ordering, use of common group draws across adjacent contrasts, centered fixed-SE max-|t| calibration, percentile broad-adult contrasts, or decade-summary arithmetic. The validation is appropriately bounded: four full-sample recomputations and 16 freshly refit bootstrap draws, with arithmetic checks on the saved arrays and summary tables. It is not a fresh regeneration of all 8,000 bootstrap draws or all 7,000 narrower-band subsamples. Statistical assumptions remain approximate, cross-sectional, and exploratory as described.
+
+CPDAG review:
+An independently written enumeration over all 720 node orders was applied to each of the 16 retained Primary/SAPA full-sample rows. It deduplicated DAGs, identified their unshielded colliders, retained the selected equivalence class, and intersected arrows across that class. All 16 saved class sizes, directed edges, and reversible edges match. The accompanying cross_sectional_cpdag_second_review.csv records the results.
+
+Four PC fits have no DAG extension with every original collider suggestion: primary ages 40-64 and 65-100, and SAPA ages 19-39 and 60+. Their completed CPDAGs are valid for the selected classes; the class choice depends on the documented conflict-resolution policy. SAPA 19-39 uses the additional-collider fallback. This review validates the graph completions, not an independent execution of R pcalg. It does not convert these arrows into stable or causal directions.
+
+The current historical orientation_method_note.txt correctly describes the original 20-row package (including four community longitudinal rows). A package limited to Primary/SAPA must use 16 networks, eight BIC rows, four previously valid PC rows, and four completion-dependent PC rows. Its single fallback remains SAPA 19-39. The existing complete_main_pc_cpdags.py entry point asserts 20 rows and revision_cpdag_reconstruction.py entry point loads longitudinal data, so a cross-sectional-only driver is required if those data/results are omitted.
+
+Package scope:
+Keep longitudinal_gaussian_bn.py despite its historical filename: it is a generic six-variable Gaussian engine imported by the primary age-detail analysis and CPDAG helper. Likewise, outputs/longitudinal_peak_wrapup/original_age_detail contains primary cross-sectional analyses and should not be removed by a blanket filename filter. Actual longitudinal cohort data/results can be excluded.

@@ -1,0 +1,4 @@
+dataset,age_group,source_variable,category,n,n_group,percent_within_group
+Primary childhood (separate archive),Childhood 3-12,sexnumeric,men,51,98,52.04081632653061
+Primary childhood (separate archive),Childhood 3-12,sexnumeric,women,46,98,46.93877551020408
+Primary childhood (separate archive),Childhood 3-12,sexnumeric,Missing,1,98,1.0204081632653061

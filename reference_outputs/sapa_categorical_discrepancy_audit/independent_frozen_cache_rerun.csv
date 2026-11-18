@@ -1,0 +1,5 @@
+band,n,pc_edges,pc_skeleton,pc_matches_saved,bic_edges,bic_skeleton,bic_saved_is_optimal,bic_saved_score_error,bic_optimal_order_skeletons,bic_saved_skeleton_seen_in_enumeration
+18 and under,4550,2,"A-H, C-H",True,2,"A-H, C-H",True,7.275957614183426e-12,1,True
+19-39,11510,0,,True,5,"A-H, A-X, C-X, E-X, O-X",True,2.9103830456733704e-11,1,True
+40-59,2253,0,,True,0,,True,7.275957614183426e-12,1,True
+60 and over,303,0,,True,0,,True,0.0,1,True

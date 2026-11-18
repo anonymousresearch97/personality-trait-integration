@@ -1,0 +1,25 @@
+dataset,sample,variable,n,n_missing
+Primary,Raw source,user_age,100318,1373
+Primary,Raw source,sexnumeric,100318,1359
+Primary,Raw source,hones16,100318,0
+Primary,Raw source,emoti16,100318,0
+Primary,Raw source,extra16,100318,0
+Primary,Raw source,agree16,100318,0
+Primary,Raw source,consc16,100318,0
+Primary,Raw source,openn16,100318,0
+Primary,Analytic main sample,H,98819,0
+Primary,Analytic main sample,E,98819,0
+Primary,Analytic main sample,X,98819,0
+Primary,Analytic main sample,A,98819,0
+Primary,Analytic main sample,C,98819,0
+Primary,Analytic main sample,O,98819,0
+Primary,Analytic main sample,sexnumeric,98819,689
+SAPA,Raw source,age,23679,0
+SAPA,Raw source,gender,23679,0
+SAPA,Analytic main sample,H,18616,0
+SAPA,Analytic main sample,E,18616,0
+SAPA,Analytic main sample,X,18616,0
+SAPA,Analytic main sample,A,18616,0
+SAPA,Analytic main sample,C,18616,0
+SAPA,Analytic main sample,O,18616,0
+SAPA,Analytic main sample,gender,18616,0

@@ -1,0 +1,28 @@
+Baseline verification before interpreting the regrouped results
+
+The existing cached analytic domain-score files were loaded with pandas and
+discretized using sapa_hexaco_pc_bic.discretize_equal_width. Networks were
+re-estimated using sapa_hexaco_pc_bic.pc_stable_edges (alpha=.05) and
+hexaco_bic_exhaustive.exact_bic_dag, followed by skeleton extraction.
+
+For each of the original five primary groups and four estimated pooled SAPA
+groups, sample sizes and the full PC and BIC skeleton edge sets matched the
+saved results exactly. Every BIC score difference was 0.0.
+
+Primary baseline group order: 3-12, 13-19, 20-39, 40-64, 65-100.
+PC edge counts: 1, 4, 5, 2, 1.
+BIC edge counts: 0, 4, 7, 7, 4.
+
+SAPA baseline actual group order: <=18, 19-39, 40-59, >=60.
+PC edge counts: 2, 0, 0, 0.
+BIC edge counts: 2, 5, 0, 0.
+
+Reference results:
+outputs/original_pc_stable_edge_counts.csv
+outputs/original_bic_exact_edge_counts.csv
+outputs/six_png_results_tables/sapa_pc_stable_manuscript_age_groups.csv
+outputs/six_png_results_tables/sapa_bic_manuscript_age_groups.csv
+
+This check applies to the current input files identified by SHA-256 in
+provenance.json. It verifies reproduction of the existing implementation,
+not the validity of its statistical assumptions.

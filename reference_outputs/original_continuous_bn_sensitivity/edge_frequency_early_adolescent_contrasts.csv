@@ -1,0 +1,31 @@
+method,edge,adolescent_selection_fraction,early_selection_fraction,early_minus_adolescent
+Gaussian PC-stable,A-C,0.002,0.008,0.006
+Gaussian PC-stable,A-E,0.693,0.41,-0.283
+Gaussian PC-stable,A-H,1.0,1.0,0.0
+Gaussian PC-stable,A-O,0.479,0.943,0.46399999999999997
+Gaussian PC-stable,A-X,1.0,1.0,0.0
+Gaussian PC-stable,C-E,0.199,0.369,0.16999999999999998
+Gaussian PC-stable,C-H,0.026,1.0,0.974
+Gaussian PC-stable,C-O,0.998,0.259,-0.739
+Gaussian PC-stable,C-X,1.0,1.0,0.0
+Gaussian PC-stable,E-H,1.0,1.0,0.0
+Gaussian PC-stable,E-O,0.598,0.263,-0.33499999999999996
+Gaussian PC-stable,E-X,0.935,0.999,0.06399999999999995
+Gaussian PC-stable,H-O,0.605,0.87,0.265
+Gaussian PC-stable,H-X,1.0,0.655,-0.345
+Gaussian PC-stable,O-X,0.77,0.986,0.21599999999999997
+Gaussian exact BIC,A-C,0.004,0.009,0.004999999999999999
+Gaussian exact BIC,A-E,0.673,0.189,-0.48400000000000004
+Gaussian exact BIC,A-H,1.0,1.0,0.0
+Gaussian exact BIC,A-O,0.357,0.854,0.497
+Gaussian exact BIC,A-X,1.0,1.0,0.0
+Gaussian exact BIC,C-E,0.164,0.141,-0.02300000000000002
+Gaussian exact BIC,C-H,0.203,1.0,0.7969999999999999
+Gaussian exact BIC,C-O,0.967,0.224,-0.743
+Gaussian exact BIC,C-X,1.0,1.0,0.0
+Gaussian exact BIC,E-H,1.0,1.0,0.0
+Gaussian exact BIC,E-O,0.55,0.191,-0.35900000000000004
+Gaussian exact BIC,E-X,0.793,0.998,0.20499999999999996
+Gaussian exact BIC,H-O,0.739,0.93,0.19100000000000006
+Gaussian exact BIC,H-X,1.0,0.989,-0.01100000000000001
+Gaussian exact BIC,O-X,0.707,0.964,0.257

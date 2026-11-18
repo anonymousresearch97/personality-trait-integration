@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "full_group_regression_residual_checks": 4,
+  "fresh_participant_bootstrap_draw_checks": 16,
+  "saved_bootstrap_draw_vectors_checked": 8000,
+  "signed_contrasts_checked": 45,
+  "simultaneous_intervals_excluding_zero": 13,
+  "by_adjacent_contrast": [
+    6,
+    7,
+    0
+  ],
+  "max_t_critical": 3.2440673437974814,
+  "decade_draw_rows": 7000,
+  "all_decade_summary_rows_checked": 35,
+  "max_error_fresh_draws": 4.75175454539567e-14,
+  "scope": "Fresh checks use 16 bootstrap draws; all stored arrays/summaries are checked. No full new 2000-draw bootstrap.",
+  "assumptions": "Independent participants; approximate centered fixed-SE bootstrap simultaneous intervals; scalar/metric equivalence not established.",
+  "source_hash": "02593a9a05a0c90aee8de6c2ae1e2be5ebb8a9491a0efdbffb7fc70c0e8f3b36"
+}

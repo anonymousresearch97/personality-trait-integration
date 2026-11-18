@@ -1,0 +1,80 @@
+RESOLUTION OF THE REMAINING CHECKS
+
+Categorical-alpha verification: completed computationally.
+The categorical PC-stable analyses were independently recomputed at alpha
+.01, .05 and .10 for the fixed full samples. All 27 fits (including the
+historical primary childhood group for audit only) matched production code.
+SAPA counts for <=18 / 19-39 / 40-59 / >=60 were 4/2/3/2 at .01 and 2/0/0/0
+at both .05 and .10. The unusual ordering is reproducible: alpha changes
+earlier edge removals and therefore the conditioning sets available later.
+The fresh figures, exact edge lists and complete test traces are supplied.
+These are single full-sample fits, not bootstraps. The original SAPA alpha
+image was unavailable, so the supplied figure is a verified reconstruction,
+not a claim that the unavailable original image was inspected. Sparse-table
+asymptotic G-squared limitations remain acknowledged.
+
+Remaining descriptive statistics: computed and verified; ready for insertion.
+The supplied tables include age mean/SD/median/range and single-year counts
+for the primary sample; SAPA constituent age-band counts; sex/gender counts
+and percentages with explicit missingness; and domain means/SDs by group.
+SAPA item coverage and sample exclusions are included. Primary sex labels
+are verified from SAV metadata (1=men, 2=women). Childhood descriptions are
+separate from the four main groups. Exact SAPA individual-age summaries are
+unavailable from its categorical public ages; no midpoint ages were invented.
+The numerical tables are complete. This audit did not itself insert them
+into the manuscript or edit the response letter.
+
+Code correctness and package: audited and packaged for sharing.
+All 8,000 standard Gaussian equal-N participant draws were reconstructed
+and refitted with both PC and BIC: all 16,000 fitted skeletons reproduced.
+The independent checks covered Gaussian likelihoods, conditional-independence
+probabilities, global BIC optimization, categorical fits, sampling hashes,
+edge-frequency and summary calculations, association bootstrap summaries,
+and all 16 cross-sectional Gaussian figure panels. All 36 saved primary CFA
+objects and their loading constraints were rechecked. No numerical error
+requiring a change to the reported results was detected in this scope.
+This is a scoped computational audit, not a guarantee of modeling assumptions.
+
+The code archive contains curated analysis sources, documented dependencies,
+portable execution stages, aggregate/per-draw reference outputs, descriptive
+tables, and audit evidence. Networks, descriptions and figures use Python;
+the primary hierarchical CFA uses R/lavaan. The original study was not
+preregistered. Historical code wording implying preregistration has been
+corrected in the packaged copy without changing calculations.
+
+Code deposition: local package prepared, public deposition not yet completed.
+There is no verified repository URL or DOI for this package. Do not state
+that it has been publicly deposited. The archive can now be uploaded to the
+selected repository and its actual URL/DOI then recorded. Participant-level
+raw files and caches are excluded; required inputs and their hashes are
+documented. The original data sources should retain their own access terms.
+
+Editorial checklist: the study-specific online form is still required.
+The pasted decision letter says "here" where its checklist link should be;
+the actual URL/form is absent from the supplied text and local attachments.
+The numerical and code evidence is ready, but this does not establish that
+every row in that unseen form or the final manuscript has been completed.
+The general journal guidance confirms that the online Editorial Requests
+Table must be completed during revision. The actual form must be supplied
+to complete that administrative step; it should not be marked complete yet.
+Guide: https://www.nature.com/commspsychol/submit/guide-to-authors
+Policy: https://www.nature.com/commspsychol/submit/policy
+
+Orientation scope reminder (no numerical change):
+There are 16 cross-sectional Gaussian full-sample graphs. Four PC graphs
+need the explicitly documented completion policy if arrows are displayed:
+primary 40-64 and 65-100, SAPA 19-39 and >=60. SAPA 19-39 additionally uses
+the stated collider allowance. All resulting classes were independently
+verified, but their directions remain conditional on that extra policy.
+Main skeletons and all edge counts are unchanged. No orientation bootstrap
+or orientation-selection-frequency claim is made. The archive distinguishes
+strict reconstruction from the separately documented resolved diagrams.
+
+FILES TO USE
+descriptives/descriptive_tables.html: readable descriptive tables.
+descriptives/domain_mean_sd_wide.csv: compact domain means (SD) table.
+descriptives/: all requested descriptive CSVs and validation.
+categorical_alpha/: verified alpha figures, results and test traces.
+core/audit_report.txt and core/validation.json: numerical audit scope/results.
+associations/validation.json: bootstrap/contrast-summary checks.
+measurement/audit_note.txt: 36 saved CFA objects rechecked.

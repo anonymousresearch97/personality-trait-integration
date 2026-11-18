@@ -1,0 +1,10 @@
+dataset,group,n,status,min_items_per_domain,bic,dag_edge_count,skeleton_edge_count,dag_edges,skeleton_edges
+SAPA IPIP-HEXACO,All SAPA age bands,18616,estimated,3,-145849.10825291448,5,5,"A->H, H->C, O->X, X->A, X->E","A-H, A-X, C-H, E-X, O-X"
+SAPA IPIP-HEXACO,18 and under,4550,estimated,3,-36022.55466461277,2,2,"H->A, H->C","A-H, C-H"
+SAPA IPIP-HEXACO,19-24,6231,estimated,3,-48790.19596082047,4,4,"A->H, O->X, X->A, X->C","A-H, A-X, C-X, O-X"
+SAPA IPIP-HEXACO,25-29,2586,estimated,3,-20534.778319171503,1,1,A->H,A-H
+SAPA IPIP-HEXACO,30-34,1635,estimated,3,-12890.338641654918,0,0,,
+SAPA IPIP-HEXACO,35-39,1058,estimated,3,-8325.573074923106,0,0,,
+SAPA IPIP-HEXACO,40-49,1494,estimated,3,-11754.923825962152,0,0,,
+SAPA IPIP-HEXACO,50-59,759,estimated,3,-5836.2301379752535,0,0,,
+SAPA IPIP-HEXACO,60 and over,303,estimated,3,-2365.4119517526697,0,0,,

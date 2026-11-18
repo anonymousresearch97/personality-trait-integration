@@ -1,0 +1,66 @@
+Reviewer 1, major comment 2: SAPA-compatible age regrouping
+
+Purpose and scope
+The primary sample contains exact integer ages. Its observations can be grouped
+using SAPA's public cut points, without inventing individual ages in SAPA.
+Four pooled groups use <=18, 19-39, 40-59 and >=60. An additional analysis uses
+all eight native SAPA bands. Existing manuscript outputs are preserved.
+
+Inputs and unchanged choices
+Both datasets use the existing saved analytic domain-score files. Primary N is
+98,917 with ages 3-100. SAPA N is 18,616 and requires at least three answered
+items per domain. The existing five equal-width bins over scores 1-5,
+PC-stable at alpha=.05, and exact discrete BIC functions are reused.
+Each unique group is refit using both methods. The identical endpoint groups
+are reused between the four-group and eight-band summaries.
+No sampling or random seed is involved. No model tuning is based on results.
+The BIC skeleton derives from one optimal DAG; directions are not interpreted.
+
+What regrouping changes
+The primary youngest group now includes all 98 participants aged 3-12 along
+with those aged 13-18. The 2,224 participants aged 19 join the 19-39 group.
+The 4,094 participants aged 60-64 join the 60-100 group.
+
+Remaining limitations
+The primary endpoint ranges are 3-18 and 60-100. SAPA's <=18 and >=60 categories
+do not reveal exact ages, so identical endpoint support and within-band age
+distributions cannot be verified. A separate SAPA childhood estimate remains
+impossible. Age midpoints are not substituted for individual ages.
+This aligns observable cut points, not measurements, sample composition,
+within-band age distributions, or group sizes. PC/BIC sample-size sensitivity,
+sparse discrete tables, measurement comparability and structural uncertainty
+are not resolved by this rerun. These are descriptive partial external checks,
+not formal tests of age differences or proof of within-person development.
+
+Four-group comparison
+comparison_band primary_ages sapa_public_ages  primary_n  primary_pc_edges  primary_bic_edges  sapa_n  sapa_pc_edges  sapa_bic_edges
+   18 and under         3-18     18 and under       5612                 2                  2    4550              2               2
+          19-39        19-39            19-39      53894                 5                  7   11510              0               5
+          40-59        40-59            40-59      31402                 1                  7    2253              0               0
+    60 and over       60-100      60 and over       8009                 3                  5     303              0               0
+
+Eight-band comparison
+comparison_band primary_ages sapa_public_ages  primary_n  primary_pc_edges  primary_bic_edges  sapa_n  sapa_pc_edges  sapa_bic_edges
+   18 and under         3-18     18 and under       5612                 2                  2    4550              2               2
+          19-24        19-24            19-24      16157                 3                  5    6231              5               4
+          25-29        25-29            25-29      13824                 7                  5    2586              0               1
+          30-34        30-34            30-34      12812                 6                  5    1635              1               0
+          35-39        35-39            35-39      11101                 5                  5    1058              2               0
+          40-49        40-49            40-49      18644                 4                  5    1494              5               0
+          50-59        50-59            50-59      12758                 3                  5     759              1               0
+    60 and over       60-100      60 and over       8009                 3                  5     303              0               0
+
+Descriptive maxima (not inferential comparisons)
+pooled_four, primary, pc_edges: maximum 5 at 19-39.
+pooled_four, primary, bic_edges: maximum 7 at 19-39, 40-59.
+pooled_four, sapa, pc_edges: maximum 2 at 18 and under.
+pooled_four, sapa, bic_edges: maximum 5 at 19-39.
+native_eight, primary, pc_edges: maximum 7 at 25-29.
+native_eight, primary, bic_edges: maximum 5 at 19-24, 25-29, 30-34, 35-39, 40-49, 50-59, 60 and over.
+native_eight, sapa, pc_edges: maximum 5 at 19-24, 40-49.
+native_eight, sapa, bic_edges: maximum 4 at 19-24.
+
+Baseline reproduction was independently checked; see baseline_validation.txt.
+
+Reproduce from the project root:
+MPLCONFIGDIR=/private/tmp/psychology-mpl python3 analysis/reviewer1_comment2_age_harmonization.py

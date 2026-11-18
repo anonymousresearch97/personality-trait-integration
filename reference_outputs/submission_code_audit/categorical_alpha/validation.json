@@ -1,0 +1,22 @@
+{
+  "language": "Python",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "scipy": "1.16.3",
+  "no_resampling": true,
+  "alpha_values": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "all_independent_skeletons_match_production": true,
+  "maximum_spotcheck_pvalue_error": 5.011546733157957e-13,
+  "sources": {
+    "outputs/original_hexaco_scored_domains.csv": "041269e1e94ead7b3b4199ab8bf439a35dd827df1874b5916344127b954fceee",
+    "outputs/sapa_hexaco_scored_domains.csv": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175"
+  },
+  "independent_script_sha256": "ca956298225a97a49899766241fcb7d06103dd74b0af875895e9f3f772305ba0",
+  "historical_SAPA_alpha_table_found": false
+}

@@ -1,0 +1,9 @@
+dataset,method,setting,draws,fraction_early_strict_maximum,fraction_early_tied_or_strict_maximum
+Primary,BIC,standard,1000,0.328,0.708
+Primary,BIC,sparse,1000,0.269,0.894
+Primary,PC,standard,1000,0.432,0.706
+Primary,PC,sparse,1000,0.51,0.811
+SAPA,BIC,standard,1000,0.09,0.297
+SAPA,BIC,sparse,1000,0.106,0.281
+SAPA,PC,standard,1000,0.192,0.45
+SAPA,PC,sparse,1000,0.078,0.274

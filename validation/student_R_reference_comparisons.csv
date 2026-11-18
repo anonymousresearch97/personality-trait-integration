@@ -1,0 +1,13 @@
+file,rows,matches,max_absolute_difference
+primary_H_fit_summary.csv,6,True,0.0
+primary_H_metric_comparison.csv,1,True,0.0
+primary_E_fit_summary.csv,6,True,0.0
+primary_E_metric_comparison.csv,1,True,0.0
+primary_X_fit_summary.csv,6,True,0.0
+primary_X_metric_comparison.csv,1,True,0.0
+primary_A_fit_summary.csv,6,True,0.0
+primary_A_metric_comparison.csv,1,True,0.0
+primary_C_fit_summary.csv,6,True,0.0
+primary_C_metric_comparison.csv,1,True,0.0
+primary_O_fit_summary.csv,6,True,0.0
+primary_O_metric_comparison.csv,1,True,0.0

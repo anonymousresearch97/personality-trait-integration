@@ -1,0 +1,102 @@
+[
+  {
+    "path": "Lee & Ashton 2018  online sample data.sav",
+    "bytes": 32178092,
+    "sha256": "d433cf80580009b94e1cf356ad77a2af82f7663f623a196b15907ae8aa2b18a4"
+  },
+  {
+    "path": "data_external/sapa/sapa_data.tab",
+    "bytes": 23975309,
+    "sha256": "fb480e6bd4c5ba0832cdd105c2fac5dc47b144378e96ffb3a50f3e8d63868cb6"
+  },
+  {
+    "path": "data_external/sapa/superKey696.csv",
+    "bytes": 190705,
+    "sha256": "8d19b6a23c7f42b91cf5bc0895e2c63790510ba9355a2c69d19703c6f791bc49"
+  },
+  {
+    "path": "outputs/original_hexaco_scored_domains.csv",
+    "bytes": 6310504,
+    "sha256": "041269e1e94ead7b3b4199ab8bf439a35dd827df1874b5916344127b954fceee"
+  },
+  {
+    "path": "outputs/sapa_hexaco_scored_domains.csv",
+    "bytes": 2005211,
+    "sha256": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175"
+  },
+  {
+    "path": "outputs/sapa_hexaco_scored_domains_all_rows.csv",
+    "bytes": 2471058,
+    "sha256": "4264390011017f97e4127f34125d7632f4d9f931a8db42ef10e418e23bfaa35a"
+  },
+  {
+    "path": "data_prepared/primary_items.csv",
+    "bytes": 21156119,
+    "sha256": "0c0fc5a72a8ff178cdf606c99a0ba321027695e9f66021236e4ad34a99479da5"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_item_facet_map.csv",
+    "bytes": 2261,
+    "sha256": "3bba9aa96209e0d1c0e6d090925ada547f738f42f282a85128dbb3c46deca4e9"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_model.lav",
+    "bytes": 189,
+    "sha256": "5b5ae68f6c41cc479cd6e8adc1949cd22c53052122cbe527d508bc67c9966eaf"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_model.lav",
+    "bytes": 189,
+    "sha256": "eb259d4dcff98b410e856a2a23a1c0476a34203b60b898e9d2cc9efcbc2bcb6f"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_model.lav",
+    "bytes": 189,
+    "sha256": "f4de21b0089ca42bfce032abbea06167bdd0acbf52304704b3606816b5ed9f46"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_model.lav",
+    "bytes": 189,
+    "sha256": "b755634d6e598683ed455df0f60849618a10fa6ebe8ffe567111be65670e5086"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_model.lav",
+    "bytes": 189,
+    "sha256": "0774204d86c93b65c35600d3575efd68fa256423c08b2b649b4364ec0adaa591"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_model.lav",
+    "bytes": 189,
+    "sha256": "4b715fb3a58181e23715fb95b3bda3ff3a971da698f2755ef0cb4f9e0bd4a371"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_fits.rds",
+    "bytes": 3201846,
+    "sha256": "1e3a49b62a089e58c8f78d463c47b6564d6091d5e8b918e651e9ac6c5c1074c0"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_fits.rds",
+    "bytes": 3183422,
+    "sha256": "3a59a6ec388252c328e067abe693c50774ed9705d1b84142ce4359b36466b691"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_fits.rds",
+    "bytes": 3161031,
+    "sha256": "70ae485c4f5e6f179a9f4ca1dc222db633d7f2cd6af62ea2646469a4f19dcfe9"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_fits.rds",
+    "bytes": 3131188,
+    "sha256": "44e1e3e23d272d5f43c7da710287e5a75aa74f57521dd3cb60e87e9d0566e88b"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_fits.rds",
+    "bytes": 3115132,
+    "sha256": "a8c7b42ae3e235abfd2bd9b485c7722292b2ff328459f46037cdac350026e3c6"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_fits.rds",
+    "bytes": 3117242,
+    "sha256": "be68897626bb346b1b4564950ad375c7a3f6ffd88d5dde57787354cc3da13519"
+  }
+]

@@ -1,0 +1,149 @@
+Personality Trait Organization Across Adolescence and Adulthood
+Point 5: completed checks and proposed revision wording
+10 November 2026
+
+Decision
+Use the title above. Close the planned measurement work with the fixed checks
+below and explicit limits on interpretation. No further item deletion,
+model modification or additional invariance methods are proposed. This
+addresses the reviewer request; it does not establish complete measurement
+equivalence. The actual manuscript source has not been edited: the text and
+replacement figures in this folder are ready for insertion.
+
+Results to retain
+1. Primary age-specific reliability: Cronbach's alpha=.784–.887 for the six
+   16-item domains across ages 13–19, 20–39, 40–64 and 65–100 (N=98,819).
+   These coefficients describe internal consistency, not age invariance.
+2. A single fixed hierarchical model per domain used 16 items, four named
+   facets and their higher-order domain. All 36 fits converged and had
+   admissible variance/covariance estimates. Both loading levels were tested
+   for equality across age groups. No post hoc modifications were made.
+
+   Domain                    Group CFI range   Change in joint robust CFI
+   Honesty–Humility             .9575–.9698             −.0011
+   Emotionality                .8997–.9126             −.0021
+   Extraversion                .8681–.9006             −.0026
+   Agreeableness               .9127–.9363             −.0013
+   Conscientiousness           .8538–.8907             −.0023
+   Openness to Experience      .8681–.8917             −.0031
+
+   H and A met the fixed screening criteria in every age group (robust
+   CFI>=.90, robust RMSEA<=.08, SRMR<=.08). E was borderline, with adolescent
+   CFI=.899727; it is not counted as passing by rounding. X, C and O did not
+   meet these criteria in every group. These thresholds are descriptive
+   screens, not universal evidence of acceptable measurement.
+   All metric changes were small: CFI decreased .0011–.0031, RMSEA decreased
+   .0016–.0033, and SRMR increased .0014–.0025. Nevertheless, robust nested
+   chi-square tests rejected exact equality for all six domains (45 df,
+   all p<2.2e−16). Small changes cannot compensate for poor baseline fit.
+   Full six-domain measurement invariance is therefore not established.
+3. SAPA: the raw reconstruction verified all 18,616 included participants and
+   their existing scores. The variable item subsets often omit facets.
+   Only 6.4%, 7.0%, 9.3% and 13.2% of respondents in the four successive
+   age bands have even one answered item from every facet of all six domains.
+   In the 60+ group (N=303), median item-pair overlap is only 7–14 respondents
+   by domain. These are coverage diagnostics, not reliability estimates.
+   A three-item minimum does not establish adequate domain coverage or
+   comparable precision. SAPA remains a limited external comparison with
+   different items and non-equivalent age categories.
+4. Replacement figures show both standard Gaussian methods symmetrically,
+   use undirected skeletons, define all six domains, and give actual ages
+   and N. Primary groups: 13–19/7,738; 20–39/51,670; 40–64/35,496;
+   65–100/3,915. SAPA bands: <=18/4,550; 19–39/11,510; 40–59/2,253;
+   >=60/303. SAPA has no separate childhood estimate. Primary childhood
+   (N=98) is reserved for exploratory supplementary reporting.
+
+Proposed concise main-text addition
+Age-specific internal consistency in the primary sample ranged from .784 to
+.887. Supplementary domain-wise measurement analyses found small changes in
+fit when loadings were constrained across age groups, but baseline fit was
+not adequate for all domains, and complete measurement invariance was not
+established. We therefore interpret the networks as patterns among observed
+HEXACO domain scores; measurement differences may contribute to apparent age
+differences. SAPA provides a partial external comparison with non-equivalent
+age bands and variable item and facet coverage, rather than validation of
+the same developmental groups or a common lifespan trajectory.
+
+Proposed supplementary Methods
+We fitted one fixed hierarchical model for each primary HEXACO domain using
+its 16 keyed items, four established facets and one higher-order domain.
+Models were estimated separately within each age group and jointly across
+the four groups using robust maximum likelihood (MLR; lavaan 0.7-3).
+Configural models allowed age-specific parameters. Metric models equated
+both item-to-facet and facet-to-domain loadings; marker loadings fixed factor
+scales, while intercepts, residual variances, facet disturbances and domain
+variances remained group-specific. Latent means were fixed at zero. We
+reported robust CFI/TLI/RMSEA, SRMR, scaled chi-square and robust nested
+model tests, with convergence and admissibility checks. The screening rules
+were fixed before these fits and are documented in analysis_plan.txt.
+Five-category responses were treated as numeric. These checks do not test
+ordinal thresholds, scalar invariance, equality of composite reliability,
+or the full six-domain cross-loading and discriminant structure. The models
+were supplementary checks developed during revision, not preregistered
+confirmatory analyses. No post hoc model adjustments were undertaken.
+
+Proposed reviewer response (factual analysis statements; insert accompanying
+text/tables into the manuscript before describing those insertions as made)
+We agree that age-specific reliability and measurement comparability are
+distinct requirements. We calculated primary age-specific internal
+consistency (alpha=.784–.887) and fitted fixed domain-wise hierarchical
+configural and metric models across the four adolescent/adult groups.
+Equal-loading constraints at both hierarchical levels produced small changes
+in fit (robust delta-CFI=−.0011 to −.0031). However, only Honesty–Humility
+and Agreeableness met our baseline fit screen in every age group;
+Emotionality was borderline and the remaining domains showed baseline
+misfit. Exact equality was rejected in all six domains. We therefore do not
+claim complete measurement invariance or that age differences in the
+estimated networks necessarily reflect developmental reorganization of
+latent traits. For SAPA, we verified scoring and quantified answered-item,
+facet and item-pair coverage. The variable, frequently incomplete item
+subsets do not establish comparable score reliability or construct coverage;
+the SAPA findings require explicitly limited external-comparison claims.
+The accompanying revision text states these limitations and reserves the
+small childhood sample for exploratory supplementary reporting.
+
+Replacement figure captions
+Primary: Undirected skeletons learned from the primary continuous HEXACO
+domain scores using Gaussian PC-stable (alpha=.05) and exact Gaussian BIC.
+Panels give actual age ranges, sample sizes and retained edge counts.
+Node positions are identical across panels; line width does not represent
+association strength. These full-sample networks are descriptive estimates
+from unequal group sizes and should be read alongside matched-N results.
+The childhood sample is excluded from this main figure.
+SAPA: Undirected skeletons learned from SAPA domain scores using the same
+two methods. Labels show the actual pooled public age bands. These bands
+are not equivalent to the primary ranges; no separate childhood group is
+available. Full-sample networks are descriptive and should be read alongside
+matched-N results and the item-coverage audit.
+Both: H=Honesty–Humility; E=Emotionality; X=Extraversion; A=Agreeableness;
+C=Conscientiousness; O=Openness to Experience. Maximum possible edges=15.
+
+Files and reproducibility
+primary_measurement_summary.csv: six-domain condensed results.
+primary_all_fit_indices.csv: all 36 model fits, including robust fit indices.
+primary_main_age_reliability.csv: 24 primary domain-by-age estimates.
+primary_*_robust_difference_test.txt: all six robust nested-model tests.
+primary_*_parameters.csv and primary_*_fits.rds: estimates and fitted models.
+primary_joint_model_group_ids.csv: mapping for numerical IDs in joint-model
+parameter files (first appearance ordering differs from presentation order).
+sapa_measurement_note.txt and sapa_*coverage*.csv: SAPA coverage results.
+age_group_sample_sizes.csv: separate rows for actual groups in each dataset.
+primary_gaussian_skeletons.png/.svg and sapa_gaussian_skeletons.png/.svg:
+replacement full-sample figures, generated from existing saved results.
+independent_primary_validation.txt: independent source, specification and
+numeric checks, including separately rebuilt H models with manual equality
+constraints reproducing the original likelihoods exactly.
+software_setup_validation.txt: software versions and local setup notes.
+Scripts are in ../../analysis/prepare_measurement_resolution.py,
+primary_measurement_resolution.R, validate_primary_measurement_resolution.R,
+sapa_measurement_resolution.py, summarize_measurement_resolution.py and
+make_measurement_resolution_figures.py. The preparation script requires
+the original SAV file and pyreadstat; locally it used Anaconda Python 3.13.
+The R scripts require lavaan. Local temporary dependency path corrections
+are documented separately and are not part of the statistical method.
+
+Method references
+Putnick & Bornstein (2016), measurement-invariance review:
+https://doi.org/10.1016/j.dr.2016.06.004
+Official lavaan multigroup/equality-constraint documentation:
+https://lavaan.ugent.be/tutorial/groups.html

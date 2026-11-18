@@ -1,0 +1,6 @@
+Independent rerun of the current frozen 18,616-person SAPA analytic cache.
+No participant sampling or setting search was performed. PC was recomputed with independent count-entropy G-squared calculations and a separate level-stable skeleton search. BIC local scores were independently calculated from multinomial count entropies, and global maxima found by enumerating all720nodeorders. All saved pooled counts and PC edge lists reproduce, and saved BIC DAGs attain those independent maxima.
+
+This establishes internal reproducibility of the current pipeline, NOT identity with the original manuscript analysis. Current pipeline uses keyed 1-6 item means rescaled to1-5, requires at least3answereditems per domain, uses all6domains complete, pools the actual public age categories into4bands, uses5scale-anchored equal-width bins, PC alpha .05, full nominal state-space degrees of freedom, and exact discrete BIC. The original manuscript must be compared on each of those choices.
+
+Raw-data scoring recheck: the same 18,616 RIDs were recovered. All five-bin assignments were identical to the frozen cache; maximum score differences of 4.44e-16 did not change any categorical value. Refitting raw-rescored data reproduced the same four PC and BIC results.

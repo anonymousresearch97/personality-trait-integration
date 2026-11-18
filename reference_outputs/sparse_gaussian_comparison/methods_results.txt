@@ -1,0 +1,95 @@
+Stricter Gaussian comparison — 20 October 2026
+
+Completed one fixed, user-requested sensitivity comparison: Gaussian
+PC-stable with Fisher-z alpha=.01 (previously .05), and exact Gaussian BIC
+with twice its usual complexity penalty. These settings were fixed before
+the new results were inspected; no threshold sweep was performed.
+
+The modified score maximizes sum_i[logL_i - lambda/2*(parents_i+2)*log(N)],
+with lambda=2 instead of the ordinary BIC value 1. Parameters include the
+intercept, slopes and residual variance. For six nodes, K=12+number of edges.
+Report this as stronger-penalty Gaussian BIC, not ordinary BIC. All reported
+links are undirected skeleton edges, maximum 15; selected DAG directions
+are one optimizing representation and do not establish causal directions.
+
+Full-sample results: standard -> stricter
+
+Primary actual ages      N         PC        BIC
+3–12                       98      4 -> 2     6 -> 1
+13–19                   7, 738     13 ->12    13 ->11
+20–39                  51, 670     14 ->14    14 ->14
+40–64                  35, 496     13 ->13    13 ->12
+65–100                  3, 915     10 -> 9    10 -> 9
+
+SAPA actual bands        N         PC        BIC
+<=18                    4, 550     11 ->11    11 -> 9
+19–39                  11, 510     13 ->13    13 ->13
+40–59                   2, 253     12 ->12    12 -> 9
+>=60                      303      6 -> 5     7 -> 4
+
+Equal-N means: standard -> stricter
+Each entry averages the same 1, 000 draws used in the preceding comparison.
+
+Primary age band   N per draw      PC                  BIC
+13–19                 3, 000       10.305 ->8.590       10.157 ->7.613
+20–39                 3, 000       10.762 ->9.539       10.489 ->9.204
+40–64                 3, 000        9.093 ->8.196        9.514 ->8.958
+65–100                3, 000        9.467 ->7.964        9.374 ->8.928
+
+SAPA actual band   N per draw      PC                  BIC
+<=18                    300        4.616 ->2.949        4.405 ->2.064
+19–39                   300        5.792 ->3.867        5.931 ->3.005
+40–59                   300        6.146 ->4.228        6.382 ->3.686
+>=60                    300        5.852 ->4.955        6.998 ->3.991
+
+Interpretation
+The stricter settings reduce the equal-N mean link counts in every group
+for both methods. However, the largest full-sample groups remain dense:
+primary early adulthood 14/15 and SAPA 19–39 at 13/15 under both methods.
+Primary equal-N early adulthood retains the highest mean for both methods.
+For BIC, its advantage over middle and older adulthood is only .246 and
+.276 links, respectively. This is a small descriptive distinction.
+SAPA equal-N means increase across the actual bands under both methods;
+there is no early-band maximum. Thus parsimony improves, and the primary
+mean maximum survives this sensitivity, but the SAPA pattern does not
+replicate it. No universal developmental peak is established.
+
+For primary PC, early adulthood is strictly highest in 51.0% of matched
+draw combinations and highest including ties in 81.1%. BIC values are 26.9%
+and 89.4%: 62.5% involve a tie for the maximum. These are descriptive
+frequencies conditional on the observed source samples and sampling scheme,
+not probabilities that a population peak exists and not significance tests.
+
+Sampling and limitations
+Scores, filters and age bands are unchanged. Draws are without replacement
+within a draw and may overlap across draws. PC and BIC use identical people
+per draw. Every row-selection hash matches the previous comparison; SAPA
+participant-ID hashes also match. Equal N is within each dataset, not between
+datasets: 3, 000 primary versus 300 SAPA. Primary childhood is only fitted in
+full(N 98), not in the equal-N comparison. SAPA has no separable childhood
+group. Its public age bands and personality instrument are not equivalent
+to those in the primary dataset.
+The saved 2.5–97.5 percentile ranges describe subsampling variability, not
+population confidence intervals. SAPA oldest draws contain 300 of 303 people,
+so their narrow variability is not evidence of high population precision.
+Gaussian modeling assumptions remain. Lines in the plot connect descriptive
+age-group estimates; they are not individual developmental trajectories.
+
+Verification and files
+18 full-sample and 16, 000 matched-sample method fits completed without warnings.
+Independent validation checked all 8, 000 participant samples and all graph
+records, 34 summary rows and 240 edge-frequency rows. It reproduced all 9 full
+groups and the first draw from each of 8 sampled groups using independent
+OLS-residual PC and exhaustive 720-order Gaussian DAG scoring. Maximum BIC
+objective discrepancy was 1.16e-10. See independent_validation.json.
+
+comparison.csv: full and equal-N means, paired changes and descriptive ranges.
+full_sample_results.csv: full skeletons and one optimizing BIC DAG each.
+matched_replicate_results.csv: per-draw graphs, settings and sample hashes.
+edge_selection_frequencies.csv: equal-N edge retention frequencies.
+descriptive_early_maximum_fractions.csv: maxima, explicitly distinguishing ties.
+standard_vs_sparse.png/.svg: old dashed versus stricter solid curves.
+provenance.json: file hashes, settings, seed rules and software versions.
+
+Existing results were preserved. No longitudinal rerun, kernel/rank method,
+additional penalty search or manuscript edit was performed in this task.

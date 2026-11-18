@@ -1,0 +1,13 @@
+
+Scaled Chi-Squared Difference Test (method = “satorra.bentler.2001”)
+
+lavaan->lavTestLRT():  
+   lavaan NOTE: The “Chisq” column contains standard test statistics, not the 
+   robust test that should be reported per model. A robust difference test is 
+   a function of two standard (not robust) statistics.
+
+        Df     AIC     BIC Chisq Chisq diff    RMSEA Df diff Pr(>Chisq)    
+config 400 4456314 4458290 20509                                           
+metric 445 4456943 4458491 21227     699.63 0.024592      45  < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

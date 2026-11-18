@@ -1,0 +1,50 @@
+Measurement resolution plan — 10 November 2026
+Fixed before examining any new factor-model fit statistics.
+
+Scope: primary adolescence/adulthood only, age13–19/20–39/40–64/65–100.
+Retain the established sample,96 keyed domain items and six16-item means.
+Exclude childhood from the principal argument; retain its descriptive audit.
+No network re-estimation, resampling expansion or score selection is planned.
+
+Fit one predetermined measurement model per HEXACO domain:16 items loading
+on their four named facets, with those four facets loading on their domain.
+No cross-loadings or correlated item/facet residuals are added. A marker
+loading fixes each factor's scale. First fit the model separately per age
+group and jointly with age-specific loadings (configural). Then constrain
+all non-marker item-to-facet AND facet-to-domain loadings equal across the
+four groups (metric). Observed intercepts, item residual variances, facet
+disturbance variances and domain variances remain age-specific. Latent means
+are fixed at zero; no latent mean comparisons or scalar-invariance claims.
+
+Use lavaan with robust maximum likelihood (MLR) on the five-category keyed
+responses treated as numeric. This parallels the continuous-score analysis
+and adjusts the test statistics for nonnormality; it is not an ordinal
+threshold-invariance test. Report robust CFI/TLI/RMSEA and ordinary SRMR,
+normal-theory values for audit, convergence, variance admissibility and
+group-specific configural fit. Preserve the source item/facet map.
+
+Interpretation is bounded: domain-wise item/facet measurement, not the full
+six-domain cross-loading/discriminant structure and not equality of score
+precision. Reliability alone is not invariant measurement. No item deletion,
+modification-index search, ad-hoc correlated residuals, alternative parcels,
+or partial-invariance search will be used to obtain a favorable result.
+
+Descriptive fit screens, not universal hypothesis-test thresholds:
+configural robust CFI>=.90, robust RMSEA<=.08 and SRMR<=.08 in EVERY age
+group, plus convergence and admissibility. Report stricter.95/.06 context
+through the numerical table rather than treating.90 as proof. For metric
+models, report changes; deterioration beyond.010 in CFI,.015 in RMSEA or
+.030 in SRMR flags sensitivity. An inadequate configural fit or improper
+solution prevents a positive invariance claim even if changes are small.
+Large-N chi-square significance will be reported, not used alone to decide.
+
+SAPA: verify the raw-item reconstruction, actual age bands, per-person item
+and facet coverage, and pairwise item overlap. Do not impute unavailable
+responses or label pairwise-covariance alpha as reliability of each variable
+short score. Use these findings to state the limits of external comparison.
+No unsupported claim that this sparse design establishes invariance.
+
+Deliver a concise measurement/results table and proposed manuscript/reviewer
+wording. Existing manuscript source has not been located; do not claim the
+submitted paper or figures have been edited when only replacement artifacts
+and text are prepared.

@@ -1,0 +1,10 @@
+dataset,age_group,n,bic_edges,independent_best,production_score,optimized_equals_reference,independent_all_orders_score_matches
+Primary,Childhood 3-12,98,0,-772.1711028897912,-772.171102889791,True,True
+Primary,Adolescence 13-19,7738,4,-58360.54115915559,-58360.54115915556,True,True
+Primary,Early adulthood 20-39,51670,7,-374862.55731516157,-374862.5573151616,True,True
+Primary,Middle adulthood 40-64,35496,7,-241489.780343891,-241489.78034389092,True,True
+Primary,Older adulthood 65-100,3915,4,-25403.991774894093,-25403.99177489408,True,True
+SAPA,18 and under,4550,2,-36022.55466461276,-36022.55466461277,True,True
+SAPA,19-39,11510,5,-89984.02904003809,-89984.02904003808,True,True
+SAPA,40-59,2253,0,-17540.858481199873,-17540.858481199863,True,True
+SAPA,60 and over,303,0,-2365.4119517526697,-2365.4119517526697,True,True

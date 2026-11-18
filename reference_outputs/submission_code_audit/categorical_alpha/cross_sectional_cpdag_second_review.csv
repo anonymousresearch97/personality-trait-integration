@@ -1,0 +1,17 @@
+dataset,group,method,policy,final_class_size,strict_original_collider_class_size,directed,undirected,passed
+Primary,Adolescence 13-19,Gaussian PC-stable,existing_verified,2,2,12,1,True
+Primary,Adolescence 13-19,Gaussian BIC,existing_verified,3,3,11,2,True
+Primary,Early adulthood 20-39,Gaussian PC-stable,existing_verified,24,24,8,6,True
+Primary,Early adulthood 20-39,Gaussian BIC,existing_verified,18,18,9,5,True
+Primary,Middle adulthood 40-64,Gaussian PC-stable,pcalg_retry_port,2,0,12,1,True
+Primary,Middle adulthood 40-64,Gaussian BIC,existing_verified,6,6,10,3,True
+Primary,Older adulthood 65-100,Gaussian PC-stable,pcalg_retry_port,4,0,8,2,True
+Primary,Older adulthood 65-100,Gaussian BIC,existing_verified,3,3,8,2,True
+SAPA,18 and under,Gaussian PC-stable,existing_verified,2,2,10,1,True
+SAPA,18 and under,Gaussian BIC,existing_verified,8,8,7,4,True
+SAPA,19-39,Gaussian PC-stable,pcalg_fallback_port,12,0,9,4,True
+SAPA,19-39,Gaussian BIC,existing_verified,10,10,8,5,True
+SAPA,40-59,Gaussian PC-stable,existing_verified,1,1,12,0,True
+SAPA,40-59,Gaussian BIC,existing_verified,32,32,4,8,True
+SAPA,60 and over,Gaussian PC-stable,pcalg_retry_port,2,0,5,1,True
+SAPA,60 and over,Gaussian BIC,existing_verified,3,3,5,2,True

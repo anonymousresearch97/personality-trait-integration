@@ -1,0 +1,21 @@
+{
+  "source_sha256": "d433cf80580009b94e1cf356ad77a2af82f7663f623a196b15907ae8aa2b18a4",
+  "cache_sha256": "041269e1e94ead7b3b4199ab8bf439a35dd827df1874b5916344127b954fceee",
+  "data_n": 98819,
+  "age_groups": [
+    "Adolescence 13-19",
+    "Early adulthood 20-39",
+    "Middle adulthood 40-64",
+    "Older adulthood 65-100"
+  ],
+  "group_ns": [
+    7738,
+    51670,
+    35496,
+    3915
+  ],
+  "all96_items_reproduce_released_domains": true,
+  "nonchild_cache_exactly_reconstructed": true,
+  "input_location": "/private/tmp/psychology-measurement-resolution/primary_items.csv",
+  "script_sha256": "83c5e5a7edee7c48e9a2e523488a499de808a558c0a8b9c54c57b6a7778466e4"
+}

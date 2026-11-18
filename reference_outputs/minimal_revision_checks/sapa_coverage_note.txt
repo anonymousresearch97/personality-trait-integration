@@ -1,0 +1,25 @@
+Minimal SAPA item-coverage audit
+
+This descriptive audit reads only outputs/sapa_hexaco_scored_domains.csv.
+All 18,616 existing participants are retained. All six domains meet the original
+minimum of three answered keyed items, and the four pooled age-band Ns remain
+4,550 / 11,510 / 2,253 / 303. No exclusion, rescoring, raw-item access, or network
+refit was performed. Endpoint age bands remain open-ended public categories.
+
+The CSV contains 72 domain-by-age rows: four pooled bands and all eight native
+bands, each for six domains. Percentages use participants within that age band
+as their denominator. Score SD is the sample SD (ddof=1); scores remain the
+cached 1-5 rescaled means. Item counts describe answered items, not distinct
+facet coverage or whether participants answered the same item subset.
+
+18 and under: N=4,550; across the six domains, mean answered items 4.94-7.63; exactly 3 items 0.1-25.3%; at most 4 items 0.9-60.0%.
+19-39: N=11,510; across the six domains, mean answered items 5.01-7.72; exactly 3 items 0.1-26.2%; at most 4 items 0.7-60.2%.
+40-59: N=2,253; across the six domains, mean answered items 5.30-8.05; exactly 3 items 0.0-26.1%; at most 4 items 1.0-56.9%.
+60 and over: N=303; across the six domains, mean answered items 5.60-8.33; exactly 3 items 0.0-25.1%; at most 4 items 0.0-53.1%.
+
+This establishes item-coverage distributions only. It does not estimate score
+reliability or establish measurement invariance, equivalent construct coverage,
+or measurement equivalence across age bands or datasets. Differences in score
+means/SDs likewise do not establish measurement invariance or its failure.
+
+Source SHA-256: 20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175

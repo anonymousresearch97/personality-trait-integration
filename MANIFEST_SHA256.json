@@ -1,0 +1,2462 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 59,
+    "sha256": "6ee8d79eb89a5c4e583335a8d82c3308c93c7c30edf66a87c4e7c640975eebec"
+  },
+  {
+    "path": "CHANGES_FROM_PREVIOUS_ZIP.txt",
+    "bytes": 988,
+    "sha256": "5b6c4d957f6ded2ec60d97635dbcf327d7d4c688a696fbc9fe27b21f56e2a325"
+  },
+  {
+    "path": "INPUT_MANIFEST.json",
+    "bytes": 3454,
+    "sha256": "7df72a48f8d19aa45756dc5537154ed41f9d641c551ffa178c16692fdcf6c5b9"
+  },
+  {
+    "path": "Lee & Ashton 2018  online sample data.sav",
+    "bytes": 32178092,
+    "sha256": "d433cf80580009b94e1cf356ad77a2af82f7663f623a196b15907ae8aa2b18a4"
+  },
+  {
+    "path": "NOTICE.txt",
+    "bytes": 1381,
+    "sha256": "b843f7b1ba97bfdbd7f8831350c80d50f5d4f97a97cc08a388247cb27050cf64"
+  },
+  {
+    "path": "PACKAGING_CHANGES.json",
+    "bytes": 9875,
+    "sha256": "ec6801cfbbf0d099d42651394203bde78def7e548964ce186fd604b8fa0d0191"
+  },
+  {
+    "path": "README.txt",
+    "bytes": 115,
+    "sha256": "525a31c8936266bf120f8e537e6c1540625013171d6bda14171079bf8c223ce9"
+  },
+  {
+    "path": "START_HERE.txt",
+    "bytes": 4748,
+    "sha256": "9264c42b0b3682cd85fc64092ce18fd6a671942f409a43c2389a3754ac344963"
+  },
+  {
+    "path": "analysis/audit_categorical_alpha.py",
+    "bytes": 14720,
+    "sha256": "29ea47d3b3848176a2342321f8668b7b9c83e065d3dd7151b5b559bf912e3c93"
+  },
+  {
+    "path": "analysis/audit_sapa_categorical_discrepancy.py",
+    "bytes": 9789,
+    "sha256": "1402b643e5ad54e6991971828f895fc600397e35390251336f3aad0fff253925"
+  },
+  {
+    "path": "analysis/audit_submission_associations.py",
+    "bytes": 7252,
+    "sha256": "e80af2d611c6e99654959105d64a504b7d45334badedd223afa67a5e38d439ce"
+  },
+  {
+    "path": "analysis/audit_submission_core.py",
+    "bytes": 16966,
+    "sha256": "b987bcdd2c0cf20d034532b3399ca7079e237909b64e6028ed9561e160e3cb41"
+  },
+  {
+    "path": "analysis/audit_submission_measurement.R",
+    "bytes": 3552,
+    "sha256": "86f6d739cf9f0292887603dd151dfdd378e13ad702e1df719bdaf7b046a3264f"
+  },
+  {
+    "path": "analysis/complete_main_pc_cpdags.py",
+    "bytes": 13279,
+    "sha256": "e238e6b03e365cd083871442aa0010e6740270d2a846dae51306910b28ef21c2"
+  },
+  {
+    "path": "analysis/complete_submission_descriptives.py",
+    "bytes": 20515,
+    "sha256": "598c3c1d37ba8c750170f4ab1b251b6094b532d96419de5b3c808e593245a680"
+  },
+  {
+    "path": "analysis/fast_exact_bic.py",
+    "bytes": 5156,
+    "sha256": "ce224e49724f437e31e50a73054a09e8e05142a81c2dccb9b31040eca0c7c49b"
+  },
+  {
+    "path": "analysis/fast_pc_stable.py",
+    "bytes": 4646,
+    "sha256": "a3ca5044d37902cd317d02b84834b7d50a57f9fd2f75f05ac3d13a4ebf8f6742"
+  },
+  {
+    "path": "analysis/hexaco_bic_exhaustive.py",
+    "bytes": 14833,
+    "sha256": "84096c91bc72d41314fd89155d20739b63e3e6d004f8d6f75c5042ad9288f952"
+  },
+  {
+    "path": "analysis/longitudinal_gaussian_bn.py",
+    "bytes": 19993,
+    "sha256": "2b947f92621dbb6d55d6e56e55c86e10dfbcc421ca9f8aa78aae3bb57c1cfcd9"
+  },
+  {
+    "path": "analysis/minimal_primary_measurement_audit.py",
+    "bytes": 6750,
+    "sha256": "1d1770bc87cc08bc8c92884d1b5ad975658644117ff70f7f814536d6cf4a7046"
+  },
+  {
+    "path": "analysis/minimal_sapa_measurement_audit.py",
+    "bytes": 4398,
+    "sha256": "eab38167326639da7e38830b916d99ffbe5ca152346cde59253e81b386dd441c"
+  },
+  {
+    "path": "analysis/original_continuous_age_detail.py",
+    "bytes": 10127,
+    "sha256": "4ba3ddd3537ffd27a192b485c8ca385f7bc04053014673ce210b0cc7868bc0a1"
+  },
+  {
+    "path": "analysis/original_continuous_bn_sensitivity.py",
+    "bytes": 25757,
+    "sha256": "fec10ce83d62e8e00610a36df64e255f305aa2690a470e25302fef7810f367c2"
+  },
+  {
+    "path": "analysis/original_hexaco_pc_bic.py",
+    "bytes": 9896,
+    "sha256": "c8b1ad84adc2905c09a8e7354be244bf8c002b582ee3455974dbd0c6c51d13bf"
+  },
+  {
+    "path": "analysis/plot_categorical_full_sample_appendix.py",
+    "bytes": 7746,
+    "sha256": "3c093a2ced81f68544a14bbef603b6cb247f1d48f1da0657c0198602a8413a4f"
+  },
+  {
+    "path": "analysis/plot_publication_skeletons.py",
+    "bytes": 3777,
+    "sha256": "81cbc2de83e559ef1cb48c628cd5d5fffdf9c8f14b88d2920abfce06137022b3"
+  },
+  {
+    "path": "analysis/plot_revision_cpdags.py",
+    "bytes": 13007,
+    "sha256": "8247f1093aa2280b5a03498672a1c22ede5275c97a7829148bf1c2a9e5146dd4"
+  },
+  {
+    "path": "analysis/prepare_measurement_resolution.py",
+    "bytes": 3597,
+    "sha256": "cc351b0a04f0314cd651b601839941e292f4b20627c481c9dc41059bc74970d5"
+  },
+  {
+    "path": "analysis/primary_measurement_resolution.R",
+    "bytes": 5338,
+    "sha256": "b422964f4722c2b7052ca8ffee0dde979d2c35da771020780fe35cb6907b39ca"
+  },
+  {
+    "path": "analysis/reviewer1_comment2_age_harmonization.py",
+    "bytes": 12233,
+    "sha256": "1b6daca0a23d087bb8fab09f725a62d030756ba1d9698a3c43ab1d5e6bd8b6e3"
+  },
+  {
+    "path": "analysis/revision_cpdag_reconstruction.py",
+    "bytes": 17524,
+    "sha256": "b84fd156cdd84670eb33dd268f5ae4334f07c1be6231e4622b70ded77070c62c"
+  },
+  {
+    "path": "analysis/sapa_gaussian_wrapup.py",
+    "bytes": 16857,
+    "sha256": "616dc35c470eed6bd600a40d2c8dfc391920528128a3733f4daa9d472db37f3e"
+  },
+  {
+    "path": "analysis/sapa_hexaco_pc_bic.py",
+    "bytes": 21614,
+    "sha256": "d62580332504c87f00673d4f4f3f6298a3e43deaee15296e4458be026f988997"
+  },
+  {
+    "path": "analysis/sapa_measurement_resolution.py",
+    "bytes": 13946,
+    "sha256": "7cfad65781ee7e6f35d4cd14d33e1dc7712fa2fc1a4fa8d6943cc2fe05fab501"
+  },
+  {
+    "path": "analysis/sparse_gaussian_comparison.py",
+    "bytes": 14619,
+    "sha256": "de1a673f52a1fbf8d5443fa7444fd16f5e774ce3f6e0b7ebf933f9bd89e60c07"
+  },
+  {
+    "path": "analysis/summarize_measurement_resolution.py",
+    "bytes": 4256,
+    "sha256": "261ac3c98f4a9bb1e386fee296b1736620421fdb2a73cf4c2932b03df122a622"
+  },
+  {
+    "path": "analysis/validate_sparse_gaussian_comparison.py",
+    "bytes": 15875,
+    "sha256": "e7045cc4f29e564fa62a975d2ef1265901732ac7b1ee2a286ba8eb8d5a64fe09"
+  },
+  {
+    "path": "data_external/sapa/sapa_data.tab",
+    "bytes": 23975309,
+    "sha256": "fb480e6bd4c5ba0832cdd105c2fac5dc47b144378e96ffb3a50f3e8d63868cb6"
+  },
+  {
+    "path": "data_external/sapa/superKey696.csv",
+    "bytes": 190705,
+    "sha256": "8d19b6a23c7f42b91cf5bc0895e2c63790510ba9355a2c69d19703c6f791bc49"
+  },
+  {
+    "path": "data_prepared/README.txt",
+    "bytes": 365,
+    "sha256": "ad37d665913481fe3b06b163df20b1bdd1253a567b6f5efb6c19b00b209d77cc"
+  },
+  {
+    "path": "data_prepared/primary_items.csv",
+    "bytes": 21156119,
+    "sha256": "0c0fc5a72a8ff178cdf606c99a0ba321027695e9f66021236e4ad34a99479da5"
+  },
+  {
+    "path": "documentation/previous_Editorial_evidence_status.txt",
+    "bytes": 2142,
+    "sha256": "049c764bcb65656570288f4c25daaa164ae0eced6a577d0eedf5361f77298d91"
+  },
+  {
+    "path": "documentation/previous_README.txt",
+    "bytes": 11855,
+    "sha256": "e985f1e7204e9382e1242e7ad72cadd182b88ce050211ae6b8aeba123b5cf772"
+  },
+  {
+    "path": "documentation/previous_Response_for_other_chat.txt",
+    "bytes": 5104,
+    "sha256": "d921e696b1a28a03f3a9d992aab11e22b47ba9c7e56ba1ca8d552cfda5853db6"
+  },
+  {
+    "path": "documentation/previous_package_portability_validation.json",
+    "bytes": 2187,
+    "sha256": "c580a86352beadbc7b35d930a3b715beb1c7a2fbb9733ee11a533669b26cd057"
+  },
+  {
+    "path": "outputs/categorical_full_sample_appendix/full_sample_categorical_edges.csv",
+    "bytes": 1353,
+    "sha256": "7424247a0addc544139d95dd4ecee92560ae5861525a607d4829a358c3edefb1"
+  },
+  {
+    "path": "outputs/four_figure_package_work/original_pc_sensitivity_compact.csv",
+    "bytes": 3655,
+    "sha256": "e7ccd6b8efe716c71f7448254711eca159fc842f74f79901fec444a779d675ab"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/adjacent_edge_differences_simultaneous.csv",
+    "bytes": 7912,
+    "sha256": "baac09915145edff4b7a4cb78e9120bbaf337a1b9efcca04ac60c1f68c60454b"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/analysis_plan.txt",
+    "bytes": 1371,
+    "sha256": "5cf39c6d317d255f0c8bdec260913843864f3dfb61439f4da1ee5b4d723f3c3d"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/broad_adult_hump_contrasts.csv",
+    "bytes": 1207,
+    "sha256": "b24b321c00fb319ab9af6bb43472b28bf4b9df334421bf5ab79a8040de2a42e0"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/decade_full_sample.csv",
+    "bytes": 932,
+    "sha256": "bf30f399e1af6ce97a0e113bb55a6dba82ca026338edc652c8d9a43455d8d301"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/decade_matched_draws.csv",
+    "bytes": 600163,
+    "sha256": "2305518c06b1aa3a8763f06ba64c6e2c83e03eb357c83f2586cdf70c4f2a2b29"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/decade_matched_summary.csv",
+    "bytes": 3438,
+    "sha256": "d6fc27d2f0b7996eaa7faa533c62807488b1fb39531322acd8c5ec165b4da408"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/group_bootstrap_arrays.npz",
+    "bytes": 1094100,
+    "sha256": "02593a9a05a0c90aee8de6c2ae1e2be5ebb8a9491a0efdbffb7fc70c0e8f3b36"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/original_group_strengths.csv",
+    "bytes": 1432,
+    "sha256": "63ac869e12922533eb52a3e0453984537527bf856049551cf61c3371b2edf860"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/provenance.json",
+    "bytes": 400,
+    "sha256": "9f999975ed859928207def8b5bc00faa939998fd65023f58a6b45bb8d2278816"
+  },
+  {
+    "path": "outputs/longitudinal_peak_wrapup/original_age_detail/signed_partial_correlations.csv",
+    "bytes": 2101,
+    "sha256": "f3c282806b4afca7c256e565e3fe11fbb4c990e6b69a6656e485abf4bef9f2d3"
+  },
+  {
+    "path": "outputs/main_paper_cpdags/network_cpdag_results.csv",
+    "bytes": 8616,
+    "sha256": "dd081fb9deda6181ed5db35771dad3ab04e693cb61320e72274e02e1e620f72d"
+  },
+  {
+    "path": "outputs/measurement_resolution/age_group_sample_sizes.csv",
+    "bytes": 1311,
+    "sha256": "60ce08155eff30a303ec8f4ff2024a16ebcd93c6244f4d318f13570f298ec7fd"
+  },
+  {
+    "path": "outputs/measurement_resolution/analysis_plan.txt",
+    "bytes": 3112,
+    "sha256": "a0f9331c80db284b2a5267f8ffbcfe293bc447e35c0ccd6562388d8468251968"
+  },
+  {
+    "path": "outputs/measurement_resolution/independent_primary_validation.txt",
+    "bytes": 2287,
+    "sha256": "ad841b2090c390fce7b56e591469ec00f315a685a4456679bd914da0da336f24"
+  },
+  {
+    "path": "outputs/measurement_resolution/point5_resolution.txt",
+    "bytes": 9582,
+    "sha256": "ddf83e2c6cf64c6da8db36a65b84351d8721aedf0cb51c99e6f4f5ef91b84f9a"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_fit_summary.csv",
+    "bytes": 2091,
+    "sha256": "a3baacadd8c60030afc0034b0d17b68918635363834f66dca733c62e7fa79948"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_fits.rds",
+    "bytes": 3131188,
+    "sha256": "44e1e3e23d272d5f43c7da710287e5a75aa74f57521dd3cb60e87e9d0566e88b"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "ce07961e0df2126331dc569c04b4fe64391a139b44c747bd6360e65a8de92067"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_model.lav",
+    "bytes": 189,
+    "sha256": "b755634d6e598683ed455df0f60849618a10fa6ebe8ffe567111be65670e5086"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9028,
+    "sha256": "a4fbdb4cfc2f99e0b6805e1590bb80ddadd901bc93367b22a99738e115dd376e"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10131,
+    "sha256": "626ad668be4800f2bb10f45ae24b16d7b0c1edaab7067a8477bf8a4263aeb478"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "84b55e4f527d5d7e2a5f54fcacb79281dc2016701bd3767848fdd8886ed89170"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 2002,
+    "sha256": "13869ac14a634d24b195341517140ee7a3e0f86c7cfd0102eb3a8021e1dfc0b6"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1995,
+    "sha256": "63304d4dd1e0b1cc87541e88137515e22280bb630dfbcf24bc3133dfbc7c5040"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1998,
+    "sha256": "7ee61bf37ed004e075619b7973d9f7c6abbe5eaa99a92182dee358bc857e6b3d"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1996,
+    "sha256": "9cadb8b7160d7c3ad6b7c4748dc548709e367f473e4b45b9e4ebb147d7842a9d"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_A_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_fit_summary.csv",
+    "bytes": 2092,
+    "sha256": "9f77d372748ee85e16e3f9215810c120694e14de1fe221447974203327f6fb14"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_fits.rds",
+    "bytes": 3115132,
+    "sha256": "a8c7b42ae3e235abfd2bd9b485c7722292b2ff328459f46037cdac350026e3c6"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "8d1802196e67517a0b504c0d5bfa61425ba434bf11363c18530d21234812686e"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_model.lav",
+    "bytes": 189,
+    "sha256": "0774204d86c93b65c35600d3575efd68fa256423c08b2b649b4364ec0adaa591"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9019,
+    "sha256": "2d5c0d54162cf39f0de8d7416733fe85c8cd32cd8f2e274c6547d2307d942d8d"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10118,
+    "sha256": "2c0fe81503832fac29c87e7e14398b203f3f817f9309bb9049e33e660bbd826a"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "9b6d6eed9011227c9a6741c96f66e4e36d25118fc2acfd6817e138c50b7c55bf"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1996,
+    "sha256": "996524055fb06b1ee75d3f04f48c2527de6822dcbf825614fcaf5148ea87a4fe"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1995,
+    "sha256": "03e6963b3ee45dae188d3473ea030f63ab8691c2d6fa2e7b00596d4857032bcf"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1998,
+    "sha256": "afb8db2f8d4bc6f42c25cb764c22b0a2f0ea5a4c5fa05bb41e735bcd5504b95d"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1999,
+    "sha256": "e6f82fcabde0febe16c326a6a863d00ccfa24592ef010de58e29df07141ca0b2"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_C_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_fit_summary.csv",
+    "bytes": 2094,
+    "sha256": "671069d976d734dae0730647a697425e679f16028d81d747b2146374991d610f"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_fits.rds",
+    "bytes": 3183422,
+    "sha256": "3a59a6ec388252c328e067abe693c50774ed9705d1b84142ce4359b36466b691"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "a5bb440a67810e746e469a0df3853a18e11bf4267aaab31c1867b616f0fb220f"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_model.lav",
+    "bytes": 189,
+    "sha256": "eb259d4dcff98b410e856a2a23a1c0476a34203b60b898e9d2cc9efcbc2bcb6f"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9019,
+    "sha256": "9c0d467b4bbb8fbf99c97760837fad3a6e931b070f6a7754eb2f98bcf42f8493"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10115,
+    "sha256": "580dba2712c7a3422a7950922a9d0caf2819b43482420c585be3cf58364513f9"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "ef2c2a5250107d399a819ae23dabcc4f4ef23230b726e343cefefaf446c81e77"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1999,
+    "sha256": "a057472d95d47c6fa3ec41f72e48d1806cb817e627bf69f3bf19040c6920d504"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1997,
+    "sha256": "d120a08c33bfce8d14a91ff0f09145563ef61dfe6ee1f132599f46af643b38da"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1997,
+    "sha256": "8a1344737cb918e28bf8d4ad725738bc8adb95c6deeae45ad68423d5e5be6d12"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1994,
+    "sha256": "7099194da994e125fcced503334e6bbce7a825d07838b074b1e4c4c4a707767e"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_E_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_fit_summary.csv",
+    "bytes": 2084,
+    "sha256": "0f51e5e852d755e54997c310ee91170a8605047131ddc2d1203658b3d8150f44"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_fits.rds",
+    "bytes": 3201846,
+    "sha256": "1e3a49b62a089e58c8f78d463c47b6564d6091d5e8b918e651e9ac6c5c1074c0"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "327be2008fe45bf48591836e5965f16c35ec152546be2e484b4d811c319a7f21"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_model.lav",
+    "bytes": 189,
+    "sha256": "5b5ae68f6c41cc479cd6e8adc1949cd22c53052122cbe527d508bc67c9966eaf"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_multigroup_configural_all_four_parameters.csv",
+    "bytes": 8999,
+    "sha256": "b87d16d53b02019ff1431e5bc17130c356c641be96d10fe98dc03390a53ff2e8"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10103,
+    "sha256": "e373e58a569da01f97b58ad6cb43bb682bc36cb18ec80c94025dda43f6ee0bf1"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "54bb85ee8ca647b138c4bed22e0ecc1171fa2323ef2b71f15c46f77d448c5702"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1991,
+    "sha256": "840afad94d933e01ba7da8edd1957db9a23715ade0008e194e8c75683b5300db"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1982,
+    "sha256": "26463101a36272ae89371a6ef48e42e43ef21b2dd1645c9574f0f45dd2a13718"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1994,
+    "sha256": "ffffe0d38f60856e491e8dcd5cafe06a92773fbde924576cca7c977b7852ae2a"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1996,
+    "sha256": "0b58d624aeb2178f49694f6f21eaa59f354164c75536a58a9d8edecadc054def"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_H_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_fit_summary.csv",
+    "bytes": 2089,
+    "sha256": "bc4574cb8be2e49c760296a1861c41377a777c1b9b8ceb2805339c8f0b1d2b4f"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_fits.rds",
+    "bytes": 3117242,
+    "sha256": "be68897626bb346b1b4564950ad375c7a3f6ffd88d5dde57787354cc3da13519"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "c52ada8ab197f52863e2ca837488a939b5ec1d4537c77ed9592de064c6da78a8"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_model.lav",
+    "bytes": 189,
+    "sha256": "4b715fb3a58181e23715fb95b3bda3ff3a971da698f2755ef0cb4f9e0bd4a371"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9013,
+    "sha256": "e5972d96966c6ee4f0bd3fc125f6fb285f5973726b2b2d422bdcb55d62fcf60a"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10114,
+    "sha256": "33f22fc54d2df431817d3990aefc3d580f9b9d93ad8832de0e25c019aa81265d"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_robust_difference_test.txt",
+    "bytes": 629,
+    "sha256": "7d53a3ab886db4c08c7f0ebb0447126ea2fdd149ee693e816f6a56f7d71a058c"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1995,
+    "sha256": "1b46dbdbeed1226723f5b693f476070e650362706bea6df6cd9e7222b860d4b4"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1990,
+    "sha256": "10c8d559e09f6486b50141abc3d77e1e440ac778fde39d68278fc33d68177293"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1993,
+    "sha256": "70e9549a018d7084551ddfd7a1795d4c5f3c8f84a8568f5efaccd373a013625c"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1999,
+    "sha256": "d32ef4117af87fb4181f64366144d1e50e30ef24f55cbb8012f28ef551b5b615"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_O_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_fit_summary.csv",
+    "bytes": 2089,
+    "sha256": "54a8175000e759c8468b3055f48a30bf428aac23f78bcfdc24922728922c074f"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_fits.rds",
+    "bytes": 3161031,
+    "sha256": "70ae485c4f5e6f179a9f4ca1dc222db633d7f2cd6af62ea2646469a4f19dcfe9"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "7d7dc140b49950fc7fcf9efe8fa09432d4c4b238ca946ab227182d791bfc4443"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_model.lav",
+    "bytes": 189,
+    "sha256": "f4de21b0089ca42bfce032abbea06167bdd0acbf52304704b3606816b5ed9f46"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9007,
+    "sha256": "5f641a23d001eeef7c0c985c38e6e8fa610ba938ebe2be59661452be2401b798"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10116,
+    "sha256": "a2b578219ad5c6a3ac9179ba4a7d2f07571c3069c8922b038ac9f6e1ce70a922"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "bd88544c980b5e0af137e17ec5f548e3ce1545778f74c145ce27dd854c7fd7fb"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1990,
+    "sha256": "e400c7edcdfd705ed1d34a9b7edd95747cfa4363b94be9b9a441407454bb1e2a"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1992,
+    "sha256": "2f1640682ba3b746fa125a6d3731285449c692bb847f28697ca092d7742a7d47"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1996,
+    "sha256": "820b47a4420ce4a8ef958c831dea5fb241a986c20ba18650da2e8b165ce00b4b"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1992,
+    "sha256": "f465b9f6c82a86db82a4b68bb1056a344d7f9bd56cdd8124e07aef88a8f2f8db"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_X_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_all_fit_indices.csv",
+    "bytes": 10921,
+    "sha256": "05eb3d4e649e0c7a0f39b3bd89f7ce238f88c84e262e4db68c52d374937603c5"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_item_facet_map.csv",
+    "bytes": 2261,
+    "sha256": "3bba9aa96209e0d1c0e6d090925ada547f738f42f282a85128dbb3c46deca4e9"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_joint_model_group_ids.csv",
+    "bytes": 150,
+    "sha256": "e038b6a8fca569b7ebd9caf035b709fc04b9d290dcfd084fadf73f1ca6d4ac97"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_main_age_reliability.csv",
+    "bytes": 2817,
+    "sha256": "d44910c1d60ac4dcd1e8aa795040aa4df63611721ed5b6af193995c3bbdc98b4"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_measurement_summary.csv",
+    "bytes": 2601,
+    "sha256": "606d56d3fd7351bba2b7acc5a704fcfac7a4d0613e026f308b442245074f3ccd"
+  },
+  {
+    "path": "outputs/measurement_resolution/primary_preparation.json",
+    "bytes": 739,
+    "sha256": "f25638709243f513565be39a4b411ae93eb2c7d841aacc28661ffdbbf6059f1e"
+  },
+  {
+    "path": "outputs/measurement_resolution/sapa_all_domain_facet_coverage_by_age.csv",
+    "bytes": 674,
+    "sha256": "6d47fc316d9741cd4845598c253481d9355fa0e781d7d1e96e5c47ca1ca3e148"
+  },
+  {
+    "path": "outputs/measurement_resolution/sapa_coverage_by_age.csv",
+    "bytes": 12742,
+    "sha256": "e68f0b9823cd952a13056358b3c0290cee9c629ff4a81aa846ea808abe4c614c"
+  },
+  {
+    "path": "outputs/measurement_resolution/sapa_facet_coverage_by_age.csv",
+    "bytes": 30336,
+    "sha256": "2e8f3934f433ad8d853d0f411a08982f964dc3ab73086dbe6423829fa14889f8"
+  },
+  {
+    "path": "outputs/measurement_resolution/sapa_item_exposure_by_age.csv",
+    "bytes": 194124,
+    "sha256": "6301455a4c0e39a7f29d221d9902941ff379e087ec1c082bf9c2cf51f494a548"
+  },
+  {
+    "path": "outputs/measurement_resolution/sapa_item_pair_overlap_by_age.csv",
+    "bytes": 2463549,
+    "sha256": "d939b4532518c15a5107375ef65a6f9084bde7d1268d6ec48984b1136ae375b8"
+  },
+  {
+    "path": "outputs/measurement_resolution/sapa_key_map.csv",
+    "bytes": 5212,
+    "sha256": "be07576676e8e0c48088b59d2b3ec8aff7626936eaa5133aea75a50cbcba7b8a"
+  },
+  {
+    "path": "outputs/measurement_resolution/sapa_measurement_note.txt",
+    "bytes": 7850,
+    "sha256": "f590ad5c95bf29eca520ca72a04ffe7aae4fd5c2a3f8b3cba6fd5dbf8cdb287a"
+  },
+  {
+    "path": "outputs/measurement_resolution/sapa_raw_verification.json",
+    "bytes": 1482,
+    "sha256": "b81f669c100dadc1886005fae5a0ebdb5084ee0a514802eb9fca48fd7c42aaeb"
+  },
+  {
+    "path": "outputs/measurement_resolution/software_dependency_path_changes.json",
+    "bytes": 2673,
+    "sha256": "8945af3d6b7865ab807af4b100e7e76f31c62ddfb6610270af51ae80efd91f52"
+  },
+  {
+    "path": "outputs/measurement_resolution/software_setup_validation.txt",
+    "bytes": 1289,
+    "sha256": "3923112260854835177a398633d38a98100e65357b62f1413190e84f35bd202e"
+  },
+  {
+    "path": "outputs/minimal_revision_checks/independent_primary_measurement_validation.json",
+    "bytes": 2856,
+    "sha256": "aa40b83768781962353f7bd473b6d6532da531d74094a21b557c012367821a48"
+  },
+  {
+    "path": "outputs/minimal_revision_checks/primary_age_descriptives.csv",
+    "bytes": 448,
+    "sha256": "8f85ad03894667167968f50e5a111ebcf63bc9365afd17300ed1679568ff151b"
+  },
+  {
+    "path": "outputs/minimal_revision_checks/primary_age_reliability.csv",
+    "bytes": 3329,
+    "sha256": "06248a9de624f7589eeb10f01c65207322c4deb1b732f836a49a36fc3f7fa9c8"
+  },
+  {
+    "path": "outputs/minimal_revision_checks/primary_childhood_age_counts.csv",
+    "bytes": 73,
+    "sha256": "9d5ef5f1eeb66ab68f25916feda2410c7464af998b3d880662692055d7361b61"
+  },
+  {
+    "path": "outputs/minimal_revision_checks/primary_measurement_provenance.json",
+    "bytes": 2378,
+    "sha256": "f89366252d2ab89875eae45d2055a9b3ffb72434ff6899b30f24dd2a0baa9ab2"
+  },
+  {
+    "path": "outputs/minimal_revision_checks/primary_reliability_note.txt",
+    "bytes": 1903,
+    "sha256": "e628b50e4da5ce43a5dcad20f29c0a5f4c5c3570f30e7e9d914777c5d84388d2"
+  },
+  {
+    "path": "outputs/minimal_revision_checks/primary_sex_code_composition.csv",
+    "bytes": 727,
+    "sha256": "b1b8fadace694f172ab23b41af2c8a813b289aafe27c85d9e1d88d3ee05f6637"
+  },
+  {
+    "path": "outputs/minimal_revision_checks/sapa_coverage_note.txt",
+    "bytes": 1716,
+    "sha256": "eaf8bc5d47b179a9f40d8a9f33ec4d8f973971cf111cff8cc87e414d465139a7"
+  },
+  {
+    "path": "outputs/minimal_revision_checks/sapa_item_coverage.csv",
+    "bytes": 9343,
+    "sha256": "0c9af7f13e27b56cffe34d98bc7912c31342030f99a657cb55a8a85186f6ddc6"
+  },
+  {
+    "path": "outputs/original_bic_exact_edge_counts.csv",
+    "bytes": 827,
+    "sha256": "7447b3e997ce072d22819062e9d7baab02c5a18f6e449ae2f1b510378e6474c2"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/descriptive_early_maximum_fractions.csv",
+    "bytes": 153,
+    "sha256": "332bf56e692cf8a1fac48be713ab5def0925a7bafd03378ef2da7ff7a7628ce1"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/descriptive_edge_count_contrasts.csv",
+    "bytes": 852,
+    "sha256": "2f136dc92ee0c8bc080c1d8adb7f21ae565754293da325c451bad3e9c01dff1a"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/edge_frequency_early_adolescent_contrasts.csv",
+    "bytes": 1450,
+    "sha256": "f9fe45f8660278dad4f50bfd7fb8188c83c8d18a38de1cc116e564cdc9320e09"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/edge_selection_frequencies.csv",
+    "bytes": 7113,
+    "sha256": "1b05bd0827b3c63b408f051d9ec6618838ae5e62ab35bda77c7969d81ff6f070"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/full_sample_results.csv",
+    "bytes": 1588,
+    "sha256": "042ac9bedf55f748c5b9d0099d9be33b6dd8138c7a815140fa0db2427642afa4"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/interpretation.txt",
+    "bytes": 3076,
+    "sha256": "08b92c40de2bf28827e339aa529c6854d9a80574848330c0dae9602eb05cdf24"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/matched_n3000_replicate_results.csv",
+    "bytes": 1728036,
+    "sha256": "c3037d1cee708374e8c85c1f3c0f4223ec2dd132e29ed2ecab3cbf9233117209"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/matched_n3000_summary.csv",
+    "bytes": 1073,
+    "sha256": "0f6ff47d42c596865ce134b225347906a08e4e9b99f3d945b70861f4dfe4c157"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/methods_results.txt",
+    "bytes": 5844,
+    "sha256": "dfb1f8336d441101fcd08f7c9db9a73bb21a068ae68534227dce06d8e78518c9"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/provenance.json",
+    "bytes": 1649,
+    "sha256": "0345492ccaee872cc078d053f1db123629e4ecd4710f01ebd426a2533510838d"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/result_verification.json",
+    "bytes": 551,
+    "sha256": "530b3d6ce66bd4893b99f66ffd9edec912be724467a00e96ae32eedd36eb4d95"
+  },
+  {
+    "path": "outputs/original_continuous_bn_sensitivity/validation.json",
+    "bytes": 684,
+    "sha256": "73d1aaffa1377290846725c4eed1c42b976fe1bce7f124b217d7058a4abc3b47"
+  },
+  {
+    "path": "outputs/original_hexaco_scored_domains.csv",
+    "bytes": 6310504,
+    "sha256": "041269e1e94ead7b3b4199ab8bf439a35dd827df1874b5916344127b954fceee"
+  },
+  {
+    "path": "outputs/original_pc_stable_edge_counts.csv",
+    "bytes": 480,
+    "sha256": "e102d31274a32eabe707c1652e1f0c5305da40d0285593f5231880b0b7d88c55"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/all_rerun_results.csv",
+    "bytes": 3680,
+    "sha256": "cceb4919c7fcc38b67d1bb93baecc8126582e7be7af8f7564be02cc88691a655"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/baseline_validation.txt",
+    "bytes": 1254,
+    "sha256": "94ad042edbcef584b6fe84b83a4ace54700eed5f3ab4b92a34cf20fcb4cee1ee"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/methods_results.txt",
+    "bytes": 4596,
+    "sha256": "95ccab6b8d5586e41f33d345b203ab4492d2ba927e31848f1e1506ce4624654c"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/native_eight_comparison.csv",
+    "bytes": 445,
+    "sha256": "94d48bd87b835367817b11b8844ca7572e12c459c7bdf228d476f8ec06b012f6"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/pooled_four_comparison.csv",
+    "bytes": 299,
+    "sha256": "68fc9b01d56a7be722bbb63524faf6e2813ee3f4b51732681aca7ff52cddb301"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/primary_exact_age_counts.csv",
+    "bytes": 823,
+    "sha256": "32458b78bc09b8dc267df1c66879d28cb177e6236528b2fd03989b0f146d2692"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/primary_original_to_harmonized_counts.csv",
+    "bytes": 209,
+    "sha256": "3e4c315856d2fce403799401f16bf270f0a17646f57e5a3ed86561105062d73a"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/primary_rerun_results.csv",
+    "bytes": 2542,
+    "sha256": "cd80c3fcb486979833a140d7fdbc98446a8783ba6e051d1c78f997999531fd2a"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/provenance.json",
+    "bytes": 1255,
+    "sha256": "4ff289a68ef9c1e0019b94e11c2862ccbbdc5eb4c88114a742853846e6ec5188"
+  },
+  {
+    "path": "outputs/reviewer1_comment2_age_harmonization/sapa_rerun_results.csv",
+    "bytes": 1338,
+    "sha256": "4fd5d8bbae1de951d59f17853583180bce06193994b6a0dd8e92e9712ded469b"
+  },
+  {
+    "path": "outputs/revision_cpdag/network_cpdag_results.csv",
+    "bytes": 4878,
+    "sha256": "78bf455236a4bce0a659f8c7aa96623407c3c3c15741dbbf13dcf6890e986990"
+  },
+  {
+    "path": "outputs/revision_cpdag/pc_separating_sets.json",
+    "bytes": 10571,
+    "sha256": "754ce3421bf2935f98c041ed8bb0b45df67a74a8a8206a65f3f596bb44a80fd1"
+  },
+  {
+    "path": "outputs/sapa_bic_exact_edge_counts.csv",
+    "bytes": 852,
+    "sha256": "6c6d9c72cf4debe67aeca69f2f79e6a457bb0a6705a36ca568ecbaf72d5a570a"
+  },
+  {
+    "path": "outputs/sapa_categorical_discrepancy_audit/audit_note.txt",
+    "bytes": 1255,
+    "sha256": "e394256d448b6e87c4c602f6a5cdea69a6fbf2465d83f08662044184efd310b7"
+  },
+  {
+    "path": "outputs/sapa_categorical_discrepancy_audit/bin_frequencies.csv",
+    "bytes": 2065,
+    "sha256": "1d40968ba5a6710f12d64d30cc0fe231f20e98d376c3020ee103deb0ba94d428"
+  },
+  {
+    "path": "outputs/sapa_categorical_discrepancy_audit/fresh_raw_scoring_rerun.csv",
+    "bytes": 338,
+    "sha256": "53bef53f21f744ff507d7f3369c0c019d240161b6e22ae763e7f44cf35aa1fe4"
+  },
+  {
+    "path": "outputs/sapa_categorical_discrepancy_audit/independent_frozen_cache_rerun.csv",
+    "bytes": 443,
+    "sha256": "db40c9c7bf7aff016708f839532c56272eba0b04d0727fb1663e68e29423078d"
+  },
+  {
+    "path": "outputs/sapa_categorical_discrepancy_audit/independent_pc_test_trace.csv",
+    "bytes": 19930,
+    "sha256": "abc00b174942d2637e2bed8dab0764b82c964ef62480dc4d8777b0016210b15f"
+  },
+  {
+    "path": "outputs/sapa_categorical_discrepancy_audit/provenance.json",
+    "bytes": 393,
+    "sha256": "e85700eb28b8858c0ecfdec2ab21a5d5fad95dbbfb696ce1105e40d5e236201b"
+  },
+  {
+    "path": "outputs/sapa_categorical_discrepancy_audit/raw_rescoring_boundary_check.json",
+    "bytes": 434,
+    "sha256": "f9ecaec469a6fac0972c71b89f45768ea89aab02a1e02955e54888edaaaf71c3"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/captured_warnings.csv",
+    "bytes": 24,
+    "sha256": "3c1365d21fe24a866a77d5a9f188662f2159e5a54ab02a654d069a31f8bdc9f5"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/full_sample_results.csv",
+    "bytes": 7226,
+    "sha256": "2607a3a2370a13fffd25d6be842d52a13ce832458a794a430cf0fa20860dbf99"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/group_validation.csv",
+    "bytes": 1107,
+    "sha256": "98da04a354ec132f732a47db85e0d49a649e97e7639135abe600921ceaa72c1b"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/independent_validation.json",
+    "bytes": 3018,
+    "sha256": "376f6bc3037c913143ae4e830e8a7cb979e60bc3f1559c01ec01b8b7e88258f4"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/matched_n300_captured_warnings.csv",
+    "bytes": 27,
+    "sha256": "4d97dc8e0d1dd07614f21dfeb36de48d0fc0f9e5bef6d42d9502a76f9e0e43ab"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/matched_n300_edge_selection_frequencies.csv",
+    "bytes": 5884,
+    "sha256": "a80ce06244a9aeaf525d96b9050d66bfc5a8d0d2273796069c2a170b5c1d61a3"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/matched_n300_replicate_results.csv",
+    "bytes": 2145207,
+    "sha256": "f65fed457d81f7192c80d29e59de151253076475609bd226bcc5d07270eb271f"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/matched_n300_summary.csv",
+    "bytes": 1027,
+    "sha256": "69cb2db4e75a1f136c6e55851693d635394aa1f23ff930d2a354d9deb2cfad22"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/methods_results.txt",
+    "bytes": 5417,
+    "sha256": "92130edbd44adfb44c3810627ab2371e486c635a7dd5fff4eb02634c027bb62a"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/provenance.json",
+    "bytes": 2335,
+    "sha256": "2bbebfb8ea4cd5362eade03eeadcf838293ea7ae5a376232a8d73f4564dea69a"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/summary.csv",
+    "bytes": 2385,
+    "sha256": "f84a6ba8973275ec70811cf72ea36cbf6d34a587dd16c87e77ba29ee3e8e99be"
+  },
+  {
+    "path": "outputs/sapa_gaussian_wrapup/validation.json",
+    "bytes": 832,
+    "sha256": "42b1b543ef059ba3945d090dcaf9f6dfee2c22c1989a87460fe45e28b5f7c51a"
+  },
+  {
+    "path": "outputs/sapa_hexaco_scored_domains.csv",
+    "bytes": 2005211,
+    "sha256": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175"
+  },
+  {
+    "path": "outputs/sapa_hexaco_scored_domains_all_rows.csv",
+    "bytes": 2471058,
+    "sha256": "4264390011017f97e4127f34125d7632f4d9f931a8db42ef10e418e23bfaa35a"
+  },
+  {
+    "path": "outputs/sapa_pc_stable_edge_counts.csv",
+    "bytes": 812,
+    "sha256": "d3cac9477ed66e6c3a81d18b560f5afa13c28fb78739a542b51e80246eec793f"
+  },
+  {
+    "path": "outputs/six_png_results_tables/sapa_bic_manuscript_age_groups.csv",
+    "bytes": 654,
+    "sha256": "575fb347b193637fe6254dfc510d1e9e5c2e6d2abb6e328ae81c6dff4a01e572"
+  },
+  {
+    "path": "outputs/six_png_results_tables/sapa_pc_stable_manuscript_age_groups.csv",
+    "bytes": 423,
+    "sha256": "10cb1277c702b9feb9eea5edb9c2ccfb74994f28f5d1912df11de1743579126c"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/captured_warnings.csv",
+    "bytes": 38,
+    "sha256": "d62edfa5d71fbc2cdf5969108138615fa582a030ec4a0d4979e0771c6e7fc03a"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/comparison.csv",
+    "bytes": 3127,
+    "sha256": "bbc4aa222edc07bfb4c68961ae52084877b8000a985083accc87a8a30d36c9b2"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/descriptive_early_maximum_fractions.csv",
+    "bytes": 374,
+    "sha256": "c29f5e053524d4e6b7554b68b6506b503a1e691bae36f9ab366e8033e9acdaf6"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/edge_selection_frequencies.csv",
+    "bytes": 11990,
+    "sha256": "2109606b2292163adf86e0a669fbfcaa7ed94e1c900c255d7a15011d507322bc"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/full_sample_results.csv",
+    "bytes": 5557,
+    "sha256": "65989f55b59b10699883811d5b99c7be6d25a384971d8f533608e2c03c19c81a"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/independent_validation.json",
+    "bytes": 9743,
+    "sha256": "1d65551bb336e65c28431df6e7d6c33d4a31321e750ca93c4d8a299ef0d4fa2c"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/matched_replicate_results.csv",
+    "bytes": 4167513,
+    "sha256": "09d9203eac2492e5e5418b04ed1deebebc84d88415480996d901e5107cd31416"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/methods_results.txt",
+    "bytes": 5453,
+    "sha256": "b8ad6f4e0c8127aa3ce12ef4d6c1064e23779de804448a74cf7d2e0ce98e2cae"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/provenance.json",
+    "bytes": 2530,
+    "sha256": "e4c3c50950e2a363f480884dc927fd0b1b0ff2e1d15045401e63fcbb752d14b9"
+  },
+  {
+    "path": "outputs/sparse_gaussian_comparison/validation.json",
+    "bytes": 265,
+    "sha256": "0d3836807f6c8054a0ec8010d4fc669ce37e540c03004c8f401ea816d23ce3c7"
+  },
+  {
+    "path": "outputs/submission_code_audit/associations/fresh_bootstrap_draw_checks.csv",
+    "bytes": 591,
+    "sha256": "9cfbc09a6068904b4819d099c29264081f19f4d51a7e23947acd33114eb5ee25"
+  },
+  {
+    "path": "outputs/submission_code_audit/associations/validation.json",
+    "bytes": 823,
+    "sha256": "52fb0b842782c2e56f642e959ac10fb28f0372b853fffa035bb45729559c28cd"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/all_ci_tests.csv",
+    "bytes": 283328,
+    "sha256": "8ff25308bb938df8aced33d9c40550e691764fa9c9496ae5a2b5c930a3f07e82"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/audit_report.txt",
+    "bytes": 4123,
+    "sha256": "62696aaa79aa26c79480c181a7e57917b55f13e7464f0dc653815998d1347824"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/categorical_alpha_adolescence_adulthood.png",
+    "bytes": 189692,
+    "sha256": "9dc6c025c0fcab963fe71a27a6519872f122a0bb01548a45afee87338807a5e1"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/categorical_alpha_adolescence_adulthood.svg",
+    "bytes": 54833,
+    "sha256": "b31a89bc82bf89d794ba44e089bbe081bc4cb86e23fdbf28a84064e7b2c0236d"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/categorical_alpha_adolescence_adulthood_caption.txt",
+    "bytes": 550,
+    "sha256": "b314e9dec94035c4630337c60117b327b8f13573f2b814abce401295c173f865"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/categorical_alpha_results.csv",
+    "bytes": 1567,
+    "sha256": "d52153f3354f873e4916730b8025e6638d10cfbbaa5aafc297afac7d90b4d9c8"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/categorical_alpha_verified.png",
+    "bytes": 165958,
+    "sha256": "17aa61013bd00afa7d59a93c722d2506c7c5de809940bbb9e97e5374c65467bd"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/categorical_alpha_verified.svg",
+    "bytes": 65103,
+    "sha256": "09fe7f9f51b34a723048bf781ada71dd9bd60e6d3c0e71cc64c6c2801dbd2182"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/cross_sectional_cpdag_second_review.csv",
+    "bytes": 1224,
+    "sha256": "2d98c3c3c256bf9f9f05594e22a46f625fcb03a3606505d27f9bddea7c7e2602"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/historical_primary_comparison.csv",
+    "bytes": 1365,
+    "sha256": "b4db9ef57e392d3407dfa50501f0121184847b04061a2d513a486aa72e64e728"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/original_statistic_checks.csv",
+    "bytes": 7859,
+    "sha256": "2a2e7b5fb327737cf72f22771bebbd16d6fbdf5994971f9b966a6385f6052d07"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/second_review_notes.txt",
+    "bytes": 2755,
+    "sha256": "5d6099dd8681882e13bb2e5a20d6edb0e416ac111c4ac10c5ca10195dba15aa6"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/stage_edge_counts.csv",
+    "bytes": 15571,
+    "sha256": "9b216b89cf2029392800db5b238dd35713e2307903ade248a1c96af7614bcad2"
+  },
+  {
+    "path": "outputs/submission_code_audit/categorical_alpha/validation.json",
+    "bytes": 828,
+    "sha256": "ef9107399c4659d03a77a0056918a44ba9b98108c03dba1994bd2ce4d7a790da"
+  },
+  {
+    "path": "outputs/submission_code_audit/core/audit_report.txt",
+    "bytes": 7295,
+    "sha256": "85480149a0e8933bda71ad3917700b172b91b57840ff69417ad234385ed0ba1e"
+  },
+  {
+    "path": "outputs/submission_code_audit/core/categorical_bic_independent_checks.csv",
+    "bytes": 826,
+    "sha256": "2ed19c640d7a44a303ab3821bc95e63af41f0deb786d2c74f8c476f532ef24a1"
+  },
+  {
+    "path": "outputs/submission_code_audit/core/full_sample_independent_checks.csv",
+    "bytes": 1143,
+    "sha256": "af4d3b5b98208c1525c85ada35462125320ee5b6d0ddf51ed3cff58c5209ec09"
+  },
+  {
+    "path": "outputs/submission_code_audit/core/saved_output_integrity.csv",
+    "bytes": 165,
+    "sha256": "52d37029c625fb28f56082874b4aa17c615e2f9e4519d9a3429c0df1953af1f9"
+  },
+  {
+    "path": "outputs/submission_code_audit/core/selected_draw_refits.csv",
+    "bytes": 319237,
+    "sha256": "a891519044acac30d5d8a6e1bdde16a03db54ddbdcdb5746a888bf7a8ac9cd23"
+  },
+  {
+    "path": "outputs/submission_code_audit/core/validation.json",
+    "bytes": 1608,
+    "sha256": "42eff32a2786d9569aadbb9821bf51f0341cb7370bc161db0db4e8a91e646065"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/README.txt",
+    "bytes": 3756,
+    "sha256": "4e088ebfb112ba785b6203307849c261eefac1db30553b128b6833a21edf2f9b"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/childhood_age_distribution.csv",
+    "bytes": 438,
+    "sha256": "d6389aac9c664178f1d2729872529f9b44223465c63c496bc9862eb583740bce"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/childhood_age_summary.csv",
+    "bytes": 137,
+    "sha256": "85e4e34007f9a71012531e40d4b85737d7e646d79b336a164d1e5760314a9322"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/childhood_domain_descriptives.csv",
+    "bytes": 983,
+    "sha256": "28c6589d0927d6f540553624dac208031b77eb78e0db55690a93e38960b88984"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/childhood_sex_composition.csv",
+    "bytes": 353,
+    "sha256": "c6893252a44489216ea0fcdca36aaf4527c88ba05fbeac7ab779e54fdecec849"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/descriptive_tables.html",
+    "bytes": 18692,
+    "sha256": "5813d20d0d72bc604d772084ff39f2042284d9d950337029f063f227c6db6001"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/domain_descriptives.csv",
+    "bytes": 7637,
+    "sha256": "452f941321d8652d804dcc1ae2ae19ffebb8e0407ed957a8c1b866450254a91b"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/domain_mean_sd_wide.csv",
+    "bytes": 927,
+    "sha256": "78b39bf8e8ac9fda4e111eb9151a8f22c0183882ac60c6be693c63f212ac7a06"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/missingness_summary.csv",
+    "bytes": 934,
+    "sha256": "3d2b8672a73c33bcaa97834ebb1e2e39b2bfc4a4c17256d45fc73e2fb987a3ab"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/primary_age_distribution.csv",
+    "bytes": 4146,
+    "sha256": "bf0cb3c115d9fdb7bcf55fb6bf0f275a3cb2dc38cab0ac207b47d852daad1794"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/primary_age_summary.csv",
+    "bytes": 506,
+    "sha256": "7d07803b5f34ad7a12605cfd8875f940650e41d13fb9f98c89abf5df4cbde790"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/sample_flow.csv",
+    "bytes": 432,
+    "sha256": "4b4906cb9d96d1778fab20b034cac8194d4781b7da97aeac65853d89e6b145f6"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/sapa_constituent_age_bands.csv",
+    "bytes": 578,
+    "sha256": "4fa3235a97a32c93731959d78d45ec68d1d87bf7cef3969bf850b5672d14d9ee"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/sapa_item_coverage.csv",
+    "bytes": 9824,
+    "sha256": "17b623559ff4ba58ec5cf07fe729bdb79befb89ca3329d0ec1a13ce6ef651dd9"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/sex_gender_composition.csv",
+    "bytes": 2024,
+    "sha256": "50a581b4895c920c75538ffac174e715f9e34c1a841fed6c6a2bbf6f4d8c67cd"
+  },
+  {
+    "path": "outputs/submission_code_audit/descriptives/validation.json",
+    "bytes": 2254,
+    "sha256": "0676ce66f26e7adae3d8b0c4ba34fdafc985a15ff41e57a0db6582511d3d309b"
+  },
+  {
+    "path": "outputs/submission_code_audit/measurement/R_session.txt",
+    "bytes": 615,
+    "sha256": "fd8bcfefc6383a49d129a8c4dab8ab920095348db575319883990b00e0e3d8d5"
+  },
+  {
+    "path": "outputs/submission_code_audit/measurement/audit_note.txt",
+    "bytes": 294,
+    "sha256": "d0645ecf27e0accffbbe5fe325e15289f51be4a9fbf90b8f52d01ee43818a1d8"
+  },
+  {
+    "path": "outputs/submission_code_audit/measurement/saved_cfa_rechecks.csv",
+    "bytes": 2785,
+    "sha256": "e9e87febacf896c631dfa36a3cc8087b52c942d1d1f8bd32c4c8a0cc9fe22f15"
+  },
+  {
+    "path": "reference_outputs/categorical_full_sample_appendix/full_sample_categorical_edges.csv",
+    "bytes": 1353,
+    "sha256": "7424247a0addc544139d95dd4ecee92560ae5861525a607d4829a358c3edefb1"
+  },
+  {
+    "path": "reference_outputs/four_figure_package_work/original_pc_sensitivity_compact.csv",
+    "bytes": 3655,
+    "sha256": "e7ccd6b8efe716c71f7448254711eca159fc842f74f79901fec444a779d675ab"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/adjacent_edge_differences_simultaneous.csv",
+    "bytes": 7912,
+    "sha256": "baac09915145edff4b7a4cb78e9120bbaf337a1b9efcca04ac60c1f68c60454b"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/analysis_plan.txt",
+    "bytes": 1371,
+    "sha256": "5cf39c6d317d255f0c8bdec260913843864f3dfb61439f4da1ee5b4d723f3c3d"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/broad_adult_hump_contrasts.csv",
+    "bytes": 1207,
+    "sha256": "b24b321c00fb319ab9af6bb43472b28bf4b9df334421bf5ab79a8040de2a42e0"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/decade_full_sample.csv",
+    "bytes": 932,
+    "sha256": "bf30f399e1af6ce97a0e113bb55a6dba82ca026338edc652c8d9a43455d8d301"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/decade_matched_draws.csv",
+    "bytes": 600163,
+    "sha256": "2305518c06b1aa3a8763f06ba64c6e2c83e03eb357c83f2586cdf70c4f2a2b29"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/decade_matched_summary.csv",
+    "bytes": 3438,
+    "sha256": "d6fc27d2f0b7996eaa7faa533c62807488b1fb39531322acd8c5ec165b4da408"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/group_bootstrap_arrays.npz",
+    "bytes": 1094100,
+    "sha256": "02593a9a05a0c90aee8de6c2ae1e2be5ebb8a9491a0efdbffb7fc70c0e8f3b36"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/original_group_strengths.csv",
+    "bytes": 1432,
+    "sha256": "63ac869e12922533eb52a3e0453984537527bf856049551cf61c3371b2edf860"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/provenance.json",
+    "bytes": 400,
+    "sha256": "9f999975ed859928207def8b5bc00faa939998fd65023f58a6b45bb8d2278816"
+  },
+  {
+    "path": "reference_outputs/longitudinal_peak_wrapup/original_age_detail/signed_partial_correlations.csv",
+    "bytes": 2101,
+    "sha256": "f3c282806b4afca7c256e565e3fe11fbb4c990e6b69a6656e485abf4bef9f2d3"
+  },
+  {
+    "path": "reference_outputs/main_paper_cpdags/network_cpdag_results.csv",
+    "bytes": 8616,
+    "sha256": "dd081fb9deda6181ed5db35771dad3ab04e693cb61320e72274e02e1e620f72d"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/age_group_sample_sizes.csv",
+    "bytes": 1311,
+    "sha256": "60ce08155eff30a303ec8f4ff2024a16ebcd93c6244f4d318f13570f298ec7fd"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/analysis_plan.txt",
+    "bytes": 3112,
+    "sha256": "a0f9331c80db284b2a5267f8ffbcfe293bc447e35c0ccd6562388d8468251968"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/independent_primary_validation.txt",
+    "bytes": 2287,
+    "sha256": "ad841b2090c390fce7b56e591469ec00f315a685a4456679bd914da0da336f24"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/point5_resolution.txt",
+    "bytes": 9582,
+    "sha256": "ddf83e2c6cf64c6da8db36a65b84351d8721aedf0cb51c99e6f4f5ef91b84f9a"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_fit_summary.csv",
+    "bytes": 2091,
+    "sha256": "a3baacadd8c60030afc0034b0d17b68918635363834f66dca733c62e7fa79948"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "ce07961e0df2126331dc569c04b4fe64391a139b44c747bd6360e65a8de92067"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_model.lav",
+    "bytes": 189,
+    "sha256": "b755634d6e598683ed455df0f60849618a10fa6ebe8ffe567111be65670e5086"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9028,
+    "sha256": "a4fbdb4cfc2f99e0b6805e1590bb80ddadd901bc93367b22a99738e115dd376e"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10131,
+    "sha256": "626ad668be4800f2bb10f45ae24b16d7b0c1edaab7067a8477bf8a4263aeb478"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "84b55e4f527d5d7e2a5f54fcacb79281dc2016701bd3767848fdd8886ed89170"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 2002,
+    "sha256": "13869ac14a634d24b195341517140ee7a3e0f86c7cfd0102eb3a8021e1dfc0b6"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1995,
+    "sha256": "63304d4dd1e0b1cc87541e88137515e22280bb630dfbcf24bc3133dfbc7c5040"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1998,
+    "sha256": "7ee61bf37ed004e075619b7973d9f7c6abbe5eaa99a92182dee358bc857e6b3d"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1996,
+    "sha256": "9cadb8b7160d7c3ad6b7c4748dc548709e367f473e4b45b9e4ebb147d7842a9d"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_A_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_fit_summary.csv",
+    "bytes": 2092,
+    "sha256": "9f77d372748ee85e16e3f9215810c120694e14de1fe221447974203327f6fb14"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "8d1802196e67517a0b504c0d5bfa61425ba434bf11363c18530d21234812686e"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_model.lav",
+    "bytes": 189,
+    "sha256": "0774204d86c93b65c35600d3575efd68fa256423c08b2b649b4364ec0adaa591"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9019,
+    "sha256": "2d5c0d54162cf39f0de8d7416733fe85c8cd32cd8f2e274c6547d2307d942d8d"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10118,
+    "sha256": "2c0fe81503832fac29c87e7e14398b203f3f817f9309bb9049e33e660bbd826a"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "9b6d6eed9011227c9a6741c96f66e4e36d25118fc2acfd6817e138c50b7c55bf"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1996,
+    "sha256": "996524055fb06b1ee75d3f04f48c2527de6822dcbf825614fcaf5148ea87a4fe"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1995,
+    "sha256": "03e6963b3ee45dae188d3473ea030f63ab8691c2d6fa2e7b00596d4857032bcf"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1998,
+    "sha256": "afb8db2f8d4bc6f42c25cb764c22b0a2f0ea5a4c5fa05bb41e735bcd5504b95d"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1999,
+    "sha256": "e6f82fcabde0febe16c326a6a863d00ccfa24592ef010de58e29df07141ca0b2"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_C_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_fit_summary.csv",
+    "bytes": 2094,
+    "sha256": "671069d976d734dae0730647a697425e679f16028d81d747b2146374991d610f"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "a5bb440a67810e746e469a0df3853a18e11bf4267aaab31c1867b616f0fb220f"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_model.lav",
+    "bytes": 189,
+    "sha256": "eb259d4dcff98b410e856a2a23a1c0476a34203b60b898e9d2cc9efcbc2bcb6f"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9019,
+    "sha256": "9c0d467b4bbb8fbf99c97760837fad3a6e931b070f6a7754eb2f98bcf42f8493"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10115,
+    "sha256": "580dba2712c7a3422a7950922a9d0caf2819b43482420c585be3cf58364513f9"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "ef2c2a5250107d399a819ae23dabcc4f4ef23230b726e343cefefaf446c81e77"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1999,
+    "sha256": "a057472d95d47c6fa3ec41f72e48d1806cb817e627bf69f3bf19040c6920d504"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1997,
+    "sha256": "d120a08c33bfce8d14a91ff0f09145563ef61dfe6ee1f132599f46af643b38da"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1997,
+    "sha256": "8a1344737cb918e28bf8d4ad725738bc8adb95c6deeae45ad68423d5e5be6d12"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1994,
+    "sha256": "7099194da994e125fcced503334e6bbce7a825d07838b074b1e4c4c4a707767e"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_E_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_fit_summary.csv",
+    "bytes": 2084,
+    "sha256": "0f51e5e852d755e54997c310ee91170a8605047131ddc2d1203658b3d8150f44"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "327be2008fe45bf48591836e5965f16c35ec152546be2e484b4d811c319a7f21"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_model.lav",
+    "bytes": 189,
+    "sha256": "5b5ae68f6c41cc479cd6e8adc1949cd22c53052122cbe527d508bc67c9966eaf"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_multigroup_configural_all_four_parameters.csv",
+    "bytes": 8999,
+    "sha256": "b87d16d53b02019ff1431e5bc17130c356c641be96d10fe98dc03390a53ff2e8"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10103,
+    "sha256": "e373e58a569da01f97b58ad6cb43bb682bc36cb18ec80c94025dda43f6ee0bf1"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "54bb85ee8ca647b138c4bed22e0ecc1171fa2323ef2b71f15c46f77d448c5702"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1991,
+    "sha256": "840afad94d933e01ba7da8edd1957db9a23715ade0008e194e8c75683b5300db"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1982,
+    "sha256": "26463101a36272ae89371a6ef48e42e43ef21b2dd1645c9574f0f45dd2a13718"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1994,
+    "sha256": "ffffe0d38f60856e491e8dcd5cafe06a92773fbde924576cca7c977b7852ae2a"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1996,
+    "sha256": "0b58d624aeb2178f49694f6f21eaa59f354164c75536a58a9d8edecadc054def"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_H_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_fit_summary.csv",
+    "bytes": 2089,
+    "sha256": "bc4574cb8be2e49c760296a1861c41377a777c1b9b8ceb2805339c8f0b1d2b4f"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "c52ada8ab197f52863e2ca837488a939b5ec1d4537c77ed9592de064c6da78a8"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_model.lav",
+    "bytes": 189,
+    "sha256": "4b715fb3a58181e23715fb95b3bda3ff3a971da698f2755ef0cb4f9e0bd4a371"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9013,
+    "sha256": "e5972d96966c6ee4f0bd3fc125f6fb285f5973726b2b2d422bdcb55d62fcf60a"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10114,
+    "sha256": "33f22fc54d2df431817d3990aefc3d580f9b9d93ad8832de0e25c019aa81265d"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_robust_difference_test.txt",
+    "bytes": 629,
+    "sha256": "7d53a3ab886db4c08c7f0ebb0447126ea2fdd149ee693e816f6a56f7d71a058c"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1995,
+    "sha256": "1b46dbdbeed1226723f5b693f476070e650362706bea6df6cd9e7222b860d4b4"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1990,
+    "sha256": "10c8d559e09f6486b50141abc3d77e1e440ac778fde39d68278fc33d68177293"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1993,
+    "sha256": "70e9549a018d7084551ddfd7a1795d4c5f3c8f84a8568f5efaccd373a013625c"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1999,
+    "sha256": "d32ef4117af87fb4181f64366144d1e50e30ef24f55cbb8012f28ef551b5b615"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_O_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_fit_summary.csv",
+    "bytes": 2089,
+    "sha256": "54a8175000e759c8468b3055f48a30bf428aac23f78bcfdc24922728922c074f"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_metric_comparison.csv",
+    "bytes": 324,
+    "sha256": "7d7dc140b49950fc7fcf9efe8fa09432d4c4b238ca946ab227182d791bfc4443"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_model.lav",
+    "bytes": 189,
+    "sha256": "f4de21b0089ca42bfce032abbea06167bdd0acbf52304704b3606816b5ed9f46"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_multigroup_configural_all_four_parameters.csv",
+    "bytes": 9007,
+    "sha256": "5f641a23d001eeef7c0c985c38e6e8fa610ba938ebe2be59661452be2401b798"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_multigroup_metric_all_four_parameters.csv",
+    "bytes": 10116,
+    "sha256": "a2b578219ad5c6a3ac9179ba4a7d2f07571c3069c8922b038ac9f6e1ce70a922"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_robust_difference_test.txt",
+    "bytes": 632,
+    "sha256": "bd88544c980b5e0af137e17ec5f548e3ce1545778f74c145ce27dd854c7fd7fb"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_session_info.txt",
+    "bytes": 630,
+    "sha256": "7e488ed813fb7f732d3d1b17c9adfa023148284ffe01aa0f10caa3b519d03406"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_single_configural_Adolescence_13_19_parameters.csv",
+    "bytes": 1990,
+    "sha256": "e400c7edcdfd705ed1d34a9b7edd95747cfa4363b94be9b9a441407454bb1e2a"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_single_configural_Early_adulthood_20_39_parameters.csv",
+    "bytes": 1992,
+    "sha256": "2f1640682ba3b746fa125a6d3731285449c692bb847f28697ca092d7742a7d47"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_single_configural_Middle_adulthood_40_64_parameters.csv",
+    "bytes": 1996,
+    "sha256": "820b47a4420ce4a8ef958c831dea5fb241a986c20ba18650da2e8b165ce00b4b"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_single_configural_Older_adulthood_65_100_parameters.csv",
+    "bytes": 1992,
+    "sha256": "f465b9f6c82a86db82a4b68bb1056a344d7f9bd56cdd8124e07aef88a8f2f8db"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_X_warnings.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_all_fit_indices.csv",
+    "bytes": 10921,
+    "sha256": "05eb3d4e649e0c7a0f39b3bd89f7ce238f88c84e262e4db68c52d374937603c5"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_item_facet_map.csv",
+    "bytes": 2261,
+    "sha256": "3bba9aa96209e0d1c0e6d090925ada547f738f42f282a85128dbb3c46deca4e9"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_joint_model_group_ids.csv",
+    "bytes": 150,
+    "sha256": "e038b6a8fca569b7ebd9caf035b709fc04b9d290dcfd084fadf73f1ca6d4ac97"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_main_age_reliability.csv",
+    "bytes": 2817,
+    "sha256": "d44910c1d60ac4dcd1e8aa795040aa4df63611721ed5b6af193995c3bbdc98b4"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_measurement_summary.csv",
+    "bytes": 2601,
+    "sha256": "606d56d3fd7351bba2b7acc5a704fcfac7a4d0613e026f308b442245074f3ccd"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/primary_preparation.json",
+    "bytes": 666,
+    "sha256": "d4340691d7952b971d05e3e3806d3e698824f3459e053c33de4df56f7e5ba13b"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/sapa_all_domain_facet_coverage_by_age.csv",
+    "bytes": 674,
+    "sha256": "6d47fc316d9741cd4845598c253481d9355fa0e781d7d1e96e5c47ca1ca3e148"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/sapa_coverage_by_age.csv",
+    "bytes": 12742,
+    "sha256": "e68f0b9823cd952a13056358b3c0290cee9c629ff4a81aa846ea808abe4c614c"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/sapa_facet_coverage_by_age.csv",
+    "bytes": 30336,
+    "sha256": "2e8f3934f433ad8d853d0f411a08982f964dc3ab73086dbe6423829fa14889f8"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/sapa_item_exposure_by_age.csv",
+    "bytes": 194124,
+    "sha256": "6301455a4c0e39a7f29d221d9902941ff379e087ec1c082bf9c2cf51f494a548"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/sapa_item_pair_overlap_by_age.csv",
+    "bytes": 2463549,
+    "sha256": "d939b4532518c15a5107375ef65a6f9084bde7d1268d6ec48984b1136ae375b8"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/sapa_key_map.csv",
+    "bytes": 5212,
+    "sha256": "be07576676e8e0c48088b59d2b3ec8aff7626936eaa5133aea75a50cbcba7b8a"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/sapa_measurement_note.txt",
+    "bytes": 7850,
+    "sha256": "f590ad5c95bf29eca520ca72a04ffe7aae4fd5c2a3f8b3cba6fd5dbf8cdb287a"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/sapa_raw_verification.json",
+    "bytes": 1482,
+    "sha256": "b81f669c100dadc1886005fae5a0ebdb5084ee0a514802eb9fca48fd7c42aaeb"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/software_dependency_path_changes.json",
+    "bytes": 2673,
+    "sha256": "8945af3d6b7865ab807af4b100e7e76f31c62ddfb6610270af51ae80efd91f52"
+  },
+  {
+    "path": "reference_outputs/measurement_resolution/software_setup_validation.txt",
+    "bytes": 1289,
+    "sha256": "3923112260854835177a398633d38a98100e65357b62f1413190e84f35bd202e"
+  },
+  {
+    "path": "reference_outputs/minimal_revision_checks/independent_primary_measurement_validation.json",
+    "bytes": 2856,
+    "sha256": "aa40b83768781962353f7bd473b6d6532da531d74094a21b557c012367821a48"
+  },
+  {
+    "path": "reference_outputs/minimal_revision_checks/primary_age_descriptives.csv",
+    "bytes": 448,
+    "sha256": "8f85ad03894667167968f50e5a111ebcf63bc9365afd17300ed1679568ff151b"
+  },
+  {
+    "path": "reference_outputs/minimal_revision_checks/primary_age_reliability.csv",
+    "bytes": 3329,
+    "sha256": "06248a9de624f7589eeb10f01c65207322c4deb1b732f836a49a36fc3f7fa9c8"
+  },
+  {
+    "path": "reference_outputs/minimal_revision_checks/primary_childhood_age_counts.csv",
+    "bytes": 73,
+    "sha256": "9d5ef5f1eeb66ab68f25916feda2410c7464af998b3d880662692055d7361b61"
+  },
+  {
+    "path": "reference_outputs/minimal_revision_checks/primary_measurement_provenance.json",
+    "bytes": 2378,
+    "sha256": "f89366252d2ab89875eae45d2055a9b3ffb72434ff6899b30f24dd2a0baa9ab2"
+  },
+  {
+    "path": "reference_outputs/minimal_revision_checks/primary_reliability_note.txt",
+    "bytes": 1903,
+    "sha256": "e628b50e4da5ce43a5dcad20f29c0a5f4c5c3570f30e7e9d914777c5d84388d2"
+  },
+  {
+    "path": "reference_outputs/minimal_revision_checks/primary_sex_code_composition.csv",
+    "bytes": 727,
+    "sha256": "b1b8fadace694f172ab23b41af2c8a813b289aafe27c85d9e1d88d3ee05f6637"
+  },
+  {
+    "path": "reference_outputs/minimal_revision_checks/sapa_coverage_note.txt",
+    "bytes": 1716,
+    "sha256": "eaf8bc5d47b179a9f40d8a9f33ec4d8f973971cf111cff8cc87e414d465139a7"
+  },
+  {
+    "path": "reference_outputs/minimal_revision_checks/sapa_item_coverage.csv",
+    "bytes": 9343,
+    "sha256": "0c9af7f13e27b56cffe34d98bc7912c31342030f99a657cb55a8a85186f6ddc6"
+  },
+  {
+    "path": "reference_outputs/original_bic_exact_edge_counts.csv",
+    "bytes": 827,
+    "sha256": "7447b3e997ce072d22819062e9d7baab02c5a18f6e449ae2f1b510378e6474c2"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/descriptive_early_maximum_fractions.csv",
+    "bytes": 153,
+    "sha256": "332bf56e692cf8a1fac48be713ab5def0925a7bafd03378ef2da7ff7a7628ce1"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/descriptive_edge_count_contrasts.csv",
+    "bytes": 852,
+    "sha256": "2f136dc92ee0c8bc080c1d8adb7f21ae565754293da325c451bad3e9c01dff1a"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/edge_frequency_early_adolescent_contrasts.csv",
+    "bytes": 1450,
+    "sha256": "f9fe45f8660278dad4f50bfd7fb8188c83c8d18a38de1cc116e564cdc9320e09"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/edge_selection_frequencies.csv",
+    "bytes": 7113,
+    "sha256": "1b05bd0827b3c63b408f051d9ec6618838ae5e62ab35bda77c7969d81ff6f070"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/full_sample_results.csv",
+    "bytes": 1588,
+    "sha256": "042ac9bedf55f748c5b9d0099d9be33b6dd8138c7a815140fa0db2427642afa4"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/interpretation.txt",
+    "bytes": 3076,
+    "sha256": "08b92c40de2bf28827e339aa529c6854d9a80574848330c0dae9602eb05cdf24"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/matched_n3000_replicate_results.csv",
+    "bytes": 1728036,
+    "sha256": "c3037d1cee708374e8c85c1f3c0f4223ec2dd132e29ed2ecab3cbf9233117209"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/matched_n3000_summary.csv",
+    "bytes": 1073,
+    "sha256": "0f6ff47d42c596865ce134b225347906a08e4e9b99f3d945b70861f4dfe4c157"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/methods_results.txt",
+    "bytes": 5844,
+    "sha256": "dfb1f8336d441101fcd08f7c9db9a73bb21a068ae68534227dce06d8e78518c9"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/provenance.json",
+    "bytes": 1649,
+    "sha256": "0345492ccaee872cc078d053f1db123629e4ecd4710f01ebd426a2533510838d"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/result_verification.json",
+    "bytes": 551,
+    "sha256": "530b3d6ce66bd4893b99f66ffd9edec912be724467a00e96ae32eedd36eb4d95"
+  },
+  {
+    "path": "reference_outputs/original_continuous_bn_sensitivity/validation.json",
+    "bytes": 684,
+    "sha256": "73d1aaffa1377290846725c4eed1c42b976fe1bce7f124b217d7058a4abc3b47"
+  },
+  {
+    "path": "reference_outputs/original_pc_stable_edge_counts.csv",
+    "bytes": 480,
+    "sha256": "e102d31274a32eabe707c1652e1f0c5305da40d0285593f5231880b0b7d88c55"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/all_rerun_results.csv",
+    "bytes": 3680,
+    "sha256": "cceb4919c7fcc38b67d1bb93baecc8126582e7be7af8f7564be02cc88691a655"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/baseline_validation.txt",
+    "bytes": 1254,
+    "sha256": "94ad042edbcef584b6fe84b83a4ace54700eed5f3ab4b92a34cf20fcb4cee1ee"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/methods_results.txt",
+    "bytes": 4596,
+    "sha256": "95ccab6b8d5586e41f33d345b203ab4492d2ba927e31848f1e1506ce4624654c"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/native_eight_comparison.csv",
+    "bytes": 445,
+    "sha256": "94d48bd87b835367817b11b8844ca7572e12c459c7bdf228d476f8ec06b012f6"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/pooled_four_comparison.csv",
+    "bytes": 299,
+    "sha256": "68fc9b01d56a7be722bbb63524faf6e2813ee3f4b51732681aca7ff52cddb301"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/primary_exact_age_counts.csv",
+    "bytes": 823,
+    "sha256": "32458b78bc09b8dc267df1c66879d28cb177e6236528b2fd03989b0f146d2692"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/primary_original_to_harmonized_counts.csv",
+    "bytes": 209,
+    "sha256": "3e4c315856d2fce403799401f16bf270f0a17646f57e5a3ed86561105062d73a"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/primary_rerun_results.csv",
+    "bytes": 2542,
+    "sha256": "cd80c3fcb486979833a140d7fdbc98446a8783ba6e051d1c78f997999531fd2a"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/provenance.json",
+    "bytes": 1255,
+    "sha256": "4ff289a68ef9c1e0019b94e11c2862ccbbdc5eb4c88114a742853846e6ec5188"
+  },
+  {
+    "path": "reference_outputs/reviewer1_comment2_age_harmonization/sapa_rerun_results.csv",
+    "bytes": 1338,
+    "sha256": "4fd5d8bbae1de951d59f17853583180bce06193994b6a0dd8e92e9712ded469b"
+  },
+  {
+    "path": "reference_outputs/revision_cpdag/network_cpdag_results.csv",
+    "bytes": 4878,
+    "sha256": "78bf455236a4bce0a659f8c7aa96623407c3c3c15741dbbf13dcf6890e986990"
+  },
+  {
+    "path": "reference_outputs/revision_cpdag/pc_separating_sets.json",
+    "bytes": 10571,
+    "sha256": "754ce3421bf2935f98c041ed8bb0b45df67a74a8a8206a65f3f596bb44a80fd1"
+  },
+  {
+    "path": "reference_outputs/sapa_bic_exact_edge_counts.csv",
+    "bytes": 852,
+    "sha256": "6c6d9c72cf4debe67aeca69f2f79e6a457bb0a6705a36ca568ecbaf72d5a570a"
+  },
+  {
+    "path": "reference_outputs/sapa_categorical_discrepancy_audit/audit_note.txt",
+    "bytes": 1255,
+    "sha256": "e394256d448b6e87c4c602f6a5cdea69a6fbf2465d83f08662044184efd310b7"
+  },
+  {
+    "path": "reference_outputs/sapa_categorical_discrepancy_audit/bin_frequencies.csv",
+    "bytes": 2065,
+    "sha256": "1d40968ba5a6710f12d64d30cc0fe231f20e98d376c3020ee103deb0ba94d428"
+  },
+  {
+    "path": "reference_outputs/sapa_categorical_discrepancy_audit/fresh_raw_scoring_rerun.csv",
+    "bytes": 338,
+    "sha256": "53bef53f21f744ff507d7f3369c0c019d240161b6e22ae763e7f44cf35aa1fe4"
+  },
+  {
+    "path": "reference_outputs/sapa_categorical_discrepancy_audit/independent_frozen_cache_rerun.csv",
+    "bytes": 443,
+    "sha256": "db40c9c7bf7aff016708f839532c56272eba0b04d0727fb1663e68e29423078d"
+  },
+  {
+    "path": "reference_outputs/sapa_categorical_discrepancy_audit/independent_pc_test_trace.csv",
+    "bytes": 19930,
+    "sha256": "abc00b174942d2637e2bed8dab0764b82c964ef62480dc4d8777b0016210b15f"
+  },
+  {
+    "path": "reference_outputs/sapa_categorical_discrepancy_audit/provenance.json",
+    "bytes": 393,
+    "sha256": "e85700eb28b8858c0ecfdec2ab21a5d5fad95dbbfb696ce1105e40d5e236201b"
+  },
+  {
+    "path": "reference_outputs/sapa_categorical_discrepancy_audit/raw_rescoring_boundary_check.json",
+    "bytes": 434,
+    "sha256": "f9ecaec469a6fac0972c71b89f45768ea89aab02a1e02955e54888edaaaf71c3"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/captured_warnings.csv",
+    "bytes": 24,
+    "sha256": "3c1365d21fe24a866a77d5a9f188662f2159e5a54ab02a654d069a31f8bdc9f5"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/full_sample_results.csv",
+    "bytes": 7226,
+    "sha256": "2607a3a2370a13fffd25d6be842d52a13ce832458a794a430cf0fa20860dbf99"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/group_validation.csv",
+    "bytes": 1107,
+    "sha256": "98da04a354ec132f732a47db85e0d49a649e97e7639135abe600921ceaa72c1b"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/independent_validation.json",
+    "bytes": 3018,
+    "sha256": "376f6bc3037c913143ae4e830e8a7cb979e60bc3f1559c01ec01b8b7e88258f4"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/matched_n300_captured_warnings.csv",
+    "bytes": 27,
+    "sha256": "4d97dc8e0d1dd07614f21dfeb36de48d0fc0f9e5bef6d42d9502a76f9e0e43ab"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/matched_n300_edge_selection_frequencies.csv",
+    "bytes": 5884,
+    "sha256": "a80ce06244a9aeaf525d96b9050d66bfc5a8d0d2273796069c2a170b5c1d61a3"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/matched_n300_replicate_results.csv",
+    "bytes": 2145207,
+    "sha256": "f65fed457d81f7192c80d29e59de151253076475609bd226bcc5d07270eb271f"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/matched_n300_summary.csv",
+    "bytes": 1027,
+    "sha256": "69cb2db4e75a1f136c6e55851693d635394aa1f23ff930d2a354d9deb2cfad22"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/methods_results.txt",
+    "bytes": 5417,
+    "sha256": "92130edbd44adfb44c3810627ab2371e486c635a7dd5fff4eb02634c027bb62a"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/provenance.json",
+    "bytes": 2335,
+    "sha256": "2bbebfb8ea4cd5362eade03eeadcf838293ea7ae5a376232a8d73f4564dea69a"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/summary.csv",
+    "bytes": 2385,
+    "sha256": "f84a6ba8973275ec70811cf72ea36cbf6d34a587dd16c87e77ba29ee3e8e99be"
+  },
+  {
+    "path": "reference_outputs/sapa_gaussian_wrapup/validation.json",
+    "bytes": 832,
+    "sha256": "42b1b543ef059ba3945d090dcaf9f6dfee2c22c1989a87460fe45e28b5f7c51a"
+  },
+  {
+    "path": "reference_outputs/sapa_pc_stable_edge_counts.csv",
+    "bytes": 812,
+    "sha256": "d3cac9477ed66e6c3a81d18b560f5afa13c28fb78739a542b51e80246eec793f"
+  },
+  {
+    "path": "reference_outputs/six_png_results_tables/sapa_bic_manuscript_age_groups.csv",
+    "bytes": 654,
+    "sha256": "575fb347b193637fe6254dfc510d1e9e5c2e6d2abb6e328ae81c6dff4a01e572"
+  },
+  {
+    "path": "reference_outputs/six_png_results_tables/sapa_pc_stable_manuscript_age_groups.csv",
+    "bytes": 423,
+    "sha256": "10cb1277c702b9feb9eea5edb9c2ccfb74994f28f5d1912df11de1743579126c"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/captured_warnings.csv",
+    "bytes": 38,
+    "sha256": "d62edfa5d71fbc2cdf5969108138615fa582a030ec4a0d4979e0771c6e7fc03a"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/comparison.csv",
+    "bytes": 3127,
+    "sha256": "bbc4aa222edc07bfb4c68961ae52084877b8000a985083accc87a8a30d36c9b2"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/descriptive_early_maximum_fractions.csv",
+    "bytes": 374,
+    "sha256": "c29f5e053524d4e6b7554b68b6506b503a1e691bae36f9ab366e8033e9acdaf6"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/edge_selection_frequencies.csv",
+    "bytes": 11990,
+    "sha256": "2109606b2292163adf86e0a669fbfcaa7ed94e1c900c255d7a15011d507322bc"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/full_sample_results.csv",
+    "bytes": 5557,
+    "sha256": "65989f55b59b10699883811d5b99c7be6d25a384971d8f533608e2c03c19c81a"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/independent_validation.json",
+    "bytes": 9743,
+    "sha256": "1d65551bb336e65c28431df6e7d6c33d4a31321e750ca93c4d8a299ef0d4fa2c"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/matched_replicate_results.csv",
+    "bytes": 4167513,
+    "sha256": "09d9203eac2492e5e5418b04ed1deebebc84d88415480996d901e5107cd31416"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/methods_results.txt",
+    "bytes": 5453,
+    "sha256": "b8ad6f4e0c8127aa3ce12ef4d6c1064e23779de804448a74cf7d2e0ce98e2cae"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/provenance.json",
+    "bytes": 2530,
+    "sha256": "e4c3c50950e2a363f480884dc927fd0b1b0ff2e1d15045401e63fcbb752d14b9"
+  },
+  {
+    "path": "reference_outputs/sparse_gaussian_comparison/validation.json",
+    "bytes": 265,
+    "sha256": "0d3836807f6c8054a0ec8010d4fc669ce37e540c03004c8f401ea816d23ce3c7"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/associations/fresh_bootstrap_draw_checks.csv",
+    "bytes": 591,
+    "sha256": "9cfbc09a6068904b4819d099c29264081f19f4d51a7e23947acd33114eb5ee25"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/associations/validation.json",
+    "bytes": 823,
+    "sha256": "52fb0b842782c2e56f642e959ac10fb28f0372b853fffa035bb45729559c28cd"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/all_ci_tests.csv",
+    "bytes": 283328,
+    "sha256": "8ff25308bb938df8aced33d9c40550e691764fa9c9496ae5a2b5c930a3f07e82"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/audit_report.txt",
+    "bytes": 4123,
+    "sha256": "62696aaa79aa26c79480c181a7e57917b55f13e7464f0dc653815998d1347824"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/categorical_alpha_adolescence_adulthood.png",
+    "bytes": 189692,
+    "sha256": "9dc6c025c0fcab963fe71a27a6519872f122a0bb01548a45afee87338807a5e1"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/categorical_alpha_adolescence_adulthood.svg",
+    "bytes": 54833,
+    "sha256": "b31a89bc82bf89d794ba44e089bbe081bc4cb86e23fdbf28a84064e7b2c0236d"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/categorical_alpha_adolescence_adulthood_caption.txt",
+    "bytes": 550,
+    "sha256": "b314e9dec94035c4630337c60117b327b8f13573f2b814abce401295c173f865"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/categorical_alpha_results.csv",
+    "bytes": 1567,
+    "sha256": "d52153f3354f873e4916730b8025e6638d10cfbbaa5aafc297afac7d90b4d9c8"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/categorical_alpha_verified.png",
+    "bytes": 165958,
+    "sha256": "17aa61013bd00afa7d59a93c722d2506c7c5de809940bbb9e97e5374c65467bd"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/categorical_alpha_verified.svg",
+    "bytes": 65103,
+    "sha256": "09fe7f9f51b34a723048bf781ada71dd9bd60e6d3c0e71cc64c6c2801dbd2182"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/cross_sectional_cpdag_second_review.csv",
+    "bytes": 1224,
+    "sha256": "2d98c3c3c256bf9f9f05594e22a46f625fcb03a3606505d27f9bddea7c7e2602"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/historical_primary_comparison.csv",
+    "bytes": 1365,
+    "sha256": "b4db9ef57e392d3407dfa50501f0121184847b04061a2d513a486aa72e64e728"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/original_statistic_checks.csv",
+    "bytes": 7859,
+    "sha256": "2a2e7b5fb327737cf72f22771bebbd16d6fbdf5994971f9b966a6385f6052d07"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/second_review_notes.txt",
+    "bytes": 2755,
+    "sha256": "5d6099dd8681882e13bb2e5a20d6edb0e416ac111c4ac10c5ca10195dba15aa6"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/stage_edge_counts.csv",
+    "bytes": 15571,
+    "sha256": "9b216b89cf2029392800db5b238dd35713e2307903ade248a1c96af7614bcad2"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/categorical_alpha/validation.json",
+    "bytes": 828,
+    "sha256": "ef9107399c4659d03a77a0056918a44ba9b98108c03dba1994bd2ce4d7a790da"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/core/audit_report.txt",
+    "bytes": 7295,
+    "sha256": "85480149a0e8933bda71ad3917700b172b91b57840ff69417ad234385ed0ba1e"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/core/categorical_bic_independent_checks.csv",
+    "bytes": 826,
+    "sha256": "2ed19c640d7a44a303ab3821bc95e63af41f0deb786d2c74f8c476f532ef24a1"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/core/full_sample_independent_checks.csv",
+    "bytes": 1143,
+    "sha256": "af4d3b5b98208c1525c85ada35462125320ee5b6d0ddf51ed3cff58c5209ec09"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/core/saved_output_integrity.csv",
+    "bytes": 165,
+    "sha256": "52d37029c625fb28f56082874b4aa17c615e2f9e4519d9a3429c0df1953af1f9"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/core/selected_draw_refits.csv",
+    "bytes": 319237,
+    "sha256": "a891519044acac30d5d8a6e1bdde16a03db54ddbdcdb5746a888bf7a8ac9cd23"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/core/validation.json",
+    "bytes": 1608,
+    "sha256": "42eff32a2786d9569aadbb9821bf51f0341cb7370bc161db0db4e8a91e646065"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/README.txt",
+    "bytes": 3756,
+    "sha256": "4e088ebfb112ba785b6203307849c261eefac1db30553b128b6833a21edf2f9b"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/childhood_age_distribution.csv",
+    "bytes": 438,
+    "sha256": "d6389aac9c664178f1d2729872529f9b44223465c63c496bc9862eb583740bce"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/childhood_age_summary.csv",
+    "bytes": 137,
+    "sha256": "85e4e34007f9a71012531e40d4b85737d7e646d79b336a164d1e5760314a9322"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/childhood_domain_descriptives.csv",
+    "bytes": 983,
+    "sha256": "28c6589d0927d6f540553624dac208031b77eb78e0db55690a93e38960b88984"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/childhood_sex_composition.csv",
+    "bytes": 353,
+    "sha256": "c6893252a44489216ea0fcdca36aaf4527c88ba05fbeac7ab779e54fdecec849"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/descriptive_tables.html",
+    "bytes": 18692,
+    "sha256": "5813d20d0d72bc604d772084ff39f2042284d9d950337029f063f227c6db6001"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/domain_descriptives.csv",
+    "bytes": 7637,
+    "sha256": "452f941321d8652d804dcc1ae2ae19ffebb8e0407ed957a8c1b866450254a91b"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/domain_mean_sd_wide.csv",
+    "bytes": 927,
+    "sha256": "78b39bf8e8ac9fda4e111eb9151a8f22c0183882ac60c6be693c63f212ac7a06"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/missingness_summary.csv",
+    "bytes": 934,
+    "sha256": "3d2b8672a73c33bcaa97834ebb1e2e39b2bfc4a4c17256d45fc73e2fb987a3ab"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/primary_age_distribution.csv",
+    "bytes": 4146,
+    "sha256": "bf0cb3c115d9fdb7bcf55fb6bf0f275a3cb2dc38cab0ac207b47d852daad1794"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/primary_age_summary.csv",
+    "bytes": 506,
+    "sha256": "7d07803b5f34ad7a12605cfd8875f940650e41d13fb9f98c89abf5df4cbde790"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/sample_flow.csv",
+    "bytes": 432,
+    "sha256": "4b4906cb9d96d1778fab20b034cac8194d4781b7da97aeac65853d89e6b145f6"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/sapa_constituent_age_bands.csv",
+    "bytes": 578,
+    "sha256": "4fa3235a97a32c93731959d78d45ec68d1d87bf7cef3969bf850b5672d14d9ee"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/sapa_item_coverage.csv",
+    "bytes": 9824,
+    "sha256": "17b623559ff4ba58ec5cf07fe729bdb79befb89ca3329d0ec1a13ce6ef651dd9"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/sex_gender_composition.csv",
+    "bytes": 2024,
+    "sha256": "50a581b4895c920c75538ffac174e715f9e34c1a841fed6c6a2bbf6f4d8c67cd"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/descriptives/validation.json",
+    "bytes": 2254,
+    "sha256": "0676ce66f26e7adae3d8b0c4ba34fdafc985a15ff41e57a0db6582511d3d309b"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/measurement/R_session.txt",
+    "bytes": 615,
+    "sha256": "fd8bcfefc6383a49d129a8c4dab8ab920095348db575319883990b00e0e3d8d5"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/measurement/audit_note.txt",
+    "bytes": 294,
+    "sha256": "d0645ecf27e0accffbbe5fe325e15289f51be4a9fbf90b8f52d01ee43818a1d8"
+  },
+  {
+    "path": "reference_outputs/submission_code_audit/measurement/saved_cfa_rechecks.csv",
+    "bytes": 2785,
+    "sha256": "e9e87febacf896c631dfa36a3cc8087b52c942d1d1f8bd32c4c8a0cc9fe22f15"
+  },
+  {
+    "path": "requirements-cpdag.txt",
+    "bytes": 117,
+    "sha256": "ec204766de9de4bee2a05d23892bcae67e761d99f1a1508833c7aef9e1f2a9dc"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 119,
+    "sha256": "e6b1015d09b60fcd110154aaf0db3495b95fe4dad32cf2f67d304d083f0adcbe"
+  },
+  {
+    "path": "run_reproduction.py",
+    "bytes": 17026,
+    "sha256": "8fe8e203eaf7016b2ffe2f25e8c81e0e8962c5ffaa841e44feff0adb14a626c3"
+  },
+  {
+    "path": "validation/README.txt",
+    "bytes": 999,
+    "sha256": "1f494d5022cd6e959a5df66346a9bff1e2390f95b5e82767557fdc809207da36"
+  },
+  {
+    "path": "validation/association_validation.json",
+    "bytes": 823,
+    "sha256": "52fb0b842782c2e56f642e959ac10fb28f0372b853fffa035bb45729559c28cd"
+  },
+  {
+    "path": "validation/item_regeneration_validation.json",
+    "bytes": 327,
+    "sha256": "0c846a1c07d10742a77fbc5a81d94d46196bfb50bfeaa52e8978200d44b287e3"
+  },
+  {
+    "path": "validation/python_core_validation.json",
+    "bytes": 1609,
+    "sha256": "478e51f105c55a4c4ae1c44bdbe8b986108f490bc98f92d5223d92ed8bfbc324"
+  },
+  {
+    "path": "validation/sparse_validation.json",
+    "bytes": 10812,
+    "sha256": "94ee8881abcf2bba5360605bbfef219e8e014e140c5375bba60840de8d2ca21a"
+  },
+  {
+    "path": "validation/student_R_reference_comparisons.csv",
+    "bytes": 522,
+    "sha256": "3a810e1b1af4e22699c33fbfe31e30f1a7a4c23086c2a12a112b19d410090d30"
+  },
+  {
+    "path": "validation/student_R_reproduction_validation.json",
+    "bytes": 3436,
+    "sha256": "56fc80fcd85aec68487d59a2bcdcb1ce0f083e992133d806ce0d4176b47481cf"
+  }
+]

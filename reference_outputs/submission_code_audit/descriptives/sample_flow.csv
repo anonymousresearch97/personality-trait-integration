@@ -1,0 +1,9 @@
+dataset,stage,n_retained,n_removed_at_stage
+Primary,Source,100318,0
+Primary,Nonmissing age,98945,1373
+Primary,Age 3-100 (historical analytic sample),98917,28
+Primary,Age 13-100 (main sample; childhood archived separately),98819,98
+SAPA,Source,23679,0
+SAPA,Recognized nonmissing public age band,23679,0
+SAPA,At least 3 answered keyed items in every domain,18616,5063
+SAPA,Nonmissing six domain scores (final analytic sample),18616,0

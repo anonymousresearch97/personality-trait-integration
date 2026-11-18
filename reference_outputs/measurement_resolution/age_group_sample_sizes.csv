@@ -1,0 +1,9 @@
+dataset,actual_age_range_or_band,source_age_group,n,age_information,interpretation_note
+Primary HEXACO-100,13–19,Adolescence 13-19,7738,Exact reported age,Primary nonchild age group; not equivalent to the SAPA public bands
+Primary HEXACO-100,20–39,Early adulthood 20-39,51670,Exact reported age,Primary nonchild age group; not equivalent to the SAPA public bands
+Primary HEXACO-100,40–64,Middle adulthood 40-64,35496,Exact reported age,Primary nonchild age group; not equivalent to the SAPA public bands
+Primary HEXACO-100,65–100,Older adulthood 65-100,3915,Exact reported age,Primary nonchild age group; not equivalent to the SAPA public bands
+SAPA IPIP-HEXACO,18 and under,18 and under,4550,Pooled public age categories,Actual SAPA band; no separate childhood group; at least three answered keyed items per domain
+SAPA IPIP-HEXACO,19–39,19-39,11510,Pooled public age categories,Actual SAPA band; no separate childhood group; at least three answered keyed items per domain
+SAPA IPIP-HEXACO,40–59,40-59,2253,Pooled public age categories,Actual SAPA band; no separate childhood group; at least three answered keyed items per domain
+SAPA IPIP-HEXACO,60 and over,60 and over,303,Pooled public age categories,Actual SAPA band; no separate childhood group; at least three answered keyed items per domain

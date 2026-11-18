@@ -1,0 +1,123 @@
+CORE CROSS-SECTIONAL ANALYSIS CODE AUDIT
+Date: 12 November 2026
+
+Conclusion
+No numerical implementation error was detected in the scoped Gaussian PC,
+Gaussian exact-BIC, or categorical exact-BIC checks. The reproduced results
+agree with the saved results. This is a bounded verification of the specified
+code and data, not a guarantee that all historical project scripts are correct
+or that the statistical assumptions are satisfied.
+
+Fresh independent computations
+1. Recomputed all 192 Gaussian local scores per age group from raw-value
+   ordinary least-squares regressions, independently of the production
+   covariance/precision implementation: 1,728 scores across nine groups.
+2. Recomputed all 240 Gaussian pair/conditioning tests per group from raw OLS
+   residual correlations and Fisher-z probabilities: 2,160 probabilities.
+3. Rebuilt PC skeletons with a separate simultaneous-deletion implementation
+   that freezes adjacency throughout each conditioning level.
+4. Verified Gaussian BIC global optima by enumerating all 720 topological
+   orders for each group and maximizing each node's parent subset among its
+   predecessors, independently of the production subset dynamic program.
+5. Verified categorical BIC global optima in the same nine groups, using a
+   separate joint-minus-parent count-entropy likelihood. Optimized and
+   original categorical implementations produce identical selected DAGs.
+6. Reconstructed every one of the 8,000 equal-N participant selections from
+   the documented seeds. All saved row hashes matched; SAPA participant-ID
+   hashes also matched. Selection is without replacement within each draw.
+7. Refit every equal-N sample using both Gaussian algorithms: 16,000 method
+   fits. All saved skeleton identities, counts, and BIC scores reproduced.
+8. Independently recomputed the 16 equal-N summary rows and all 240 edge
+   selection-frequency rows. Means, SDs and empirical quantiles matched.
+9. Verified all saved equal-N graph counts and BIC DAG acyclicity. Both
+   algorithms receive the same participants within each draw.
+10. Compared the source graphs for all 16 cross-sectional main Gaussian
+    panels and eight supplementary categorical BIC panels with the fits.
+
+Numerical precision
+Largest Gaussian local-score absolute difference: 3.637978807091713e-11.
+Largest Fisher-z probability absolute difference: 1.3322676295501878e-14.
+See validation.json for the completed execution and code fingerprints.
+
+Verified full-sample counts (PC / BIC)
+Primary 13-19: 13 / 13; 20-39: 14 / 14; 40-64: 13 / 13;
+65-100: 10 / 10. Childhood 3-12, audited as historical supplementary
+material only: 4 / 6.
+SAPA 18 and under: 11 / 11; 19-39: 13 / 13; 40-59: 12 / 12;
+60 and over: 6 / 7.
+Categorical BIC, primary childhood through older adulthood: 0,4,7,7,4.
+Categorical BIC, four actual SAPA bands: 2,5,0,0.
+Categorical PC and alpha-sensitivity verification are documented separately
+in the categorical_alpha audit, not inferred from the Gaussian tests.
+
+Code review findings
+The Gaussian local score includes intercept, slopes and residual variance:
+log likelihood - 0.5*(number of parents + 2)*log(N). Covariance uses divisor
+N, consistent with the residual-variance MLE. Gaussian PC uses partial
+correlations with Fisher-z scaling sqrt(N - conditioning-set size - 3).
+The PC search uses frozen adjacency within each level. BIC allows up to all
+five other nodes as parents and PC up to four conditioning nodes. The
+deterministic Gaussian DP comparison tolerance is 1e-10; selected directions
+can differ among equivalent optimal DAGs without changing the equivalence
+class. Do not interpret the chosen DAG as a unique causal explanation.
+
+The categorical likelihood and penalty consistently use five nominal states
+per variable and 4*5^k local parameters with k parents. Sparse contingency
+tables and nominal full-state degrees of freedom remain substantive
+limitations of asymptotic conditional-independence tests and categorical
+model selection. This audit does not validate those approximations in small
+groups, establish measurement invariance, or establish causal assumptions.
+
+Equal-N intervals and frequencies are subsampling summaries conditional on
+the observed source data, not participant-bootstrap population confidence
+intervals. More repetitions reduce Monte Carlo error; they do not increase
+the available participants or resolve model uncertainty. The SAPA oldest
+band samples 300 of 303 participants, explaining its small subsampling spread.
+
+CPDAG scope
+The main figures show skeletons, whose edges were verified here. The
+supplementary PC orientation completion is a separate documented policy;
+four cross-sectional PC graphs depend on conflict resolution. SAPA 19-39
+uses an additional-collider allowance. Those oriented graphs must travel
+with their procedure and audit and must not be described as directions
+supported by edge subsampling. This audit does not newly certify that port.
+
+Packaging corrections/cautions
+- Replace the header word 'Prespecified' in the historical Gaussian
+  sensitivity script with 'Exploratory revision'. The study was not
+  preregistered; that heading must not imply otherwise. This is a reporting
+  correction, not a model change.
+- The old plotting entry point expects 20 graphs and also draws the community
+  longitudinal panel. The final cross-sectional package needs a 16-panel
+  driver that omits longitudinal execution and output.
+- Use a portable driver and explicit inputs. Do not promise that all legacy
+  script entry points run independently: several consume saved intermediate
+  tables, and figure scripts use other plotting modules for shared styles.
+- Validate complete finite scores, valid alpha, sufficient sample size,
+  available group N, and positive-definite covariance at the driver boundary.
+  These conditions were satisfied by the audited data. Legacy low-level PC
+  functions assume valid inputs rather than providing a full public API.
+- Run Python normally, without the -O flag that disables assert checks.
+- No repository was deposited and no DOI was created by this audit.
+
+Minimal fitting source modules
+analysis/original_hexaco_pc_bic.py (primary raw SAV preparation)
+analysis/sapa_hexaco_pc_bic.py (SAPA key, scoring, filtering, categorical PC)
+analysis/hexaco_bic_exhaustive.py (reference categorical BIC)
+analysis/fast_exact_bic.py (equivalent accelerated categorical BIC)
+analysis/fast_pc_stable.py (equivalent accelerated categorical PC)
+analysis/original_continuous_bn_sensitivity.py (Gaussian core and primary)
+analysis/sapa_gaussian_wrapup.py (SAPA Gaussian grouping and equal-N run)
+analysis/audit_submission_core.py (this independent audit)
+
+Dependencies for those modules
+Python standard library, numpy, pandas, scipy, matplotlib, networkx,
+pyreadstat (only for primary SAV input). Actual audit: Python 3.13.9,
+numpy 2.3.5, pandas 2.3.3, scipy 1.16.3. R is not used for the network fits;
+the separately archived measurement models use R/lavaan.
+
+Reproduction command from project root
+python analysis/audit_submission_core.py --all-draws
+Omit --all-draws for the same full-fit and summary audit but only 24 selected
+equal-N sample refits. This audit requires the established scored caches and
+saved reference outputs; it never overwrites the original analyses.

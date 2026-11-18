@@ -1,0 +1,3 @@
+PASS: 36 saved model objects, six metric constraints and group sample sizes independently rechecked.
+No fresh CFA fit was performed in this check. Prior independent named-facet H refits are archived separately.
+This verifies computation and constraints, not substantive measurement invariance.

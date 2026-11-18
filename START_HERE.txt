@@ -1,0 +1,92 @@
+ANONYMOUS PAPER: SELF-CONTAINED STUDENT CHECKING BUNDLE
+17 November 2026
+
+THE PREVIOUS MISSING FILE IS INCLUDED HERE:
+  data_prepared/primary_items.csv
+It contains 98,819 rows, 96 already keyed item columns, and age_group.
+It is generated from the included original SAV, without additional reversing.
+It is NOT inside a hidden folder and is NOT in reference_outputs.
+
+Unzip this entire archive to a normal writable folder before running anything.
+Keep the folder structure. Do not run files from inside the ZIP viewer.
+
+SOFTWARE SETUP (ONCE)
+The bundle includes all required research-data files. It does not include
+operating-system-specific Python/R executables or installed libraries.
+Use Python 3.13 (tested 3.13.9), then from this folder:
+  python -m pip install -r requirements.txt
+For the optional CPDAG verification, additionally:
+  python -m pip install -r requirements-cpdag.txt
+For measurement models, install R and lavaan. In R:
+  install.packages("lavaan", repos="https://cloud.r-project.org")
+The archived CFA used R 4.5.3 / lavaan 0.7-3. Other versions should be
+recorded when comparing estimates. Rscript must be on PATH for the runner.
+
+START WITH THESE TWO COMMANDS
+  python run_reproduction.py check-inputs
+  python run_reproduction.py audit --all-draws
+The first verifies every included input and the exact item-file dimensions.
+The second checks the networks against the archived results and refits the
+standard equal-N draws. Neither needs another data download or another folder.
+
+R MEASUREMENT CHECKS
+To check the six INCLUDED fitted-model objects (no fresh fitting):
+  python run_reproduction.py measurement-audit
+To fit all six domains again, including all four age groups:
+  python run_reproduction.py measurement
+For a direct R check of one domain, use e.g.:
+  Rscript analysis/primary_measurement_resolution.R H
+Replace H with E, X, A, C or O. The R scripts resolve their paths from their
+own file location. No .runtime, /private/tmp or personal computer path is
+needed to find the item data.
+
+REBUILDING INPUTS FROM RAW DATA
+  python run_reproduction.py prepare
+This rebuilds BOTH domain-score caches and data_prepared/primary_items.csv.
+For just the item CSV, facet map and six model specifications:
+  python run_reproduction.py prepare-measurement
+The included CSV is an exact export; it is not a new sample or imputation.
+
+OTHER SUPPORTED COMMANDS
+  python run_reproduction.py categorical
+  python run_reproduction.py gaussian-full
+  python run_reproduction.py gaussian-equal-n --workers 4
+  python run_reproduction.py sparse
+  python run_reproduction.py descriptives
+  python run_reproduction.py alpha
+  python run_reproduction.py associations
+  python run_reproduction.py cpdag-strict
+  python run_reproduction.py cpdag-resolved
+  python run_reproduction.py figures --cpdag-policy resolved
+
+Use run_reproduction.py for stages. Some files under analysis/ are shared
+helpers with historical main routines; those old entry points can refer to
+analyses outside this final cross-sectional package. They are not the student
+entry points. The direct R commands above are supported as well.
+
+FOLDER CONTENTS
+data_prepared/: the visible primary item input and its validation note.
+Lee & Ashton 2018  online sample data.sav: original primary input (two spaces
+between 2018 and online are intentional).
+data_external/sapa/: SAPA raw item responses and exact scoring key.
+outputs/: prepared caches, mapping/model files, six saved CFA objects and
+working result tables. Stages write fresh results here.
+reference_outputs/: archived comparison tables and bootstrap arrays. These
+remain unchanged when analyses run and are not a source of item-level data.
+analysis/: Python/R source; all statistical settings are unchanged.
+documentation/: earlier method/audit notes, explicitly marked as historical.
+INPUT_MANIFEST.json: exact input-file sizes and SHA-256 hashes.
+MANIFEST_SHA256.json: integrity hashes for the complete distributed archive.
+
+IMPORTANT INTERPRETATION
+The original study was not preregistered. Equal-N network runs are subsamples
+without replacement, not participant bootstraps. The separate association
+contrasts use participant bootstraps. CPDAG conflict resolution is a distinct
+documented orientation policy for four PC fits; skeleton counts do not change.
+The methods and substantive caveats are in documentation/previous_README.txt.
+That older README describes the prior CODE-ONLY archive; its statement that
+data were excluded does not apply to this new private student bundle.
+
+The check-inputs command verifies the originally delivered file versions.
+Rerunning preparation in a different software version may change CSV float
+serialization; use the numerical audits to compare a newly regenerated cache.

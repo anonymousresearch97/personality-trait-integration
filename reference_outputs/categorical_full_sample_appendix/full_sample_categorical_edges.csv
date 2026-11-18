@@ -1,0 +1,17 @@
+dataset,method,age_group,source_group,n,edge_count,skeleton_edges
+Primary,Categorical PC,Adolescence 13-19,Adolescence 13-19,7738,4,"A-H, C-X, E-H, H-X"
+Primary,Categorical PC,Early adulthood 20-39,Early adulthood 20-39,51670,5,"A-H, A-X, C-H, C-X, E-H"
+Primary,Categorical PC,Middle adulthood 40-64,Middle adulthood 40-64,35496,2,"A-H, A-X"
+Primary,Categorical PC,Older adulthood 65-100,Older adulthood 65-100,3915,1,A-H
+Primary,Categorical BIC,Adolescence 13-19,Adolescence 13-19,7738,4,"A-H, C-X, E-H, H-X"
+Primary,Categorical BIC,Early adulthood 20-39,Early adulthood 20-39,51670,7,"A-E, A-H, A-X, C-H, C-X, E-H, H-O"
+Primary,Categorical BIC,Middle adulthood 40-64,Middle adulthood 40-64,35496,7,"A-H, A-X, C-H, C-X, E-H, E-X, O-X"
+Primary,Categorical BIC,Older adulthood 65-100,Older adulthood 65-100,3915,4,"A-H, A-X, C-X, E-X"
+SAPA,Categorical PC,18 and under,Adolescence 13-19,4550,2,"A-H, C-H"
+SAPA,Categorical PC,19-39,Early adulthood 20-39,11510,0,
+SAPA,Categorical PC,40-59,Middle adulthood 40-64,2253,0,
+SAPA,Categorical PC,60 and over,Older adulthood 65-100,303,0,
+SAPA,Categorical BIC,18 and under,Adolescence 13-19,4550,2,"A-H, C-H"
+SAPA,Categorical BIC,19-39,Early adulthood 20-39,11510,5,"A-H, A-X, C-X, E-X, O-X"
+SAPA,Categorical BIC,40-59,Middle adulthood 40-64,2253,0,
+SAPA,Categorical BIC,60 and over,Older adulthood 65-100,303,0,

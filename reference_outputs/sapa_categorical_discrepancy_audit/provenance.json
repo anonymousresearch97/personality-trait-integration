@@ -1,0 +1,8 @@
+{
+  "source": "/Users/pouria.ramazi/Packages/Psychology project/outputs/sapa_hexaco_scored_domains.csv",
+  "sha256": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+  "no_resampling": true,
+  "pc_independently_reimplemented": true,
+  "bic_all_720_orders_enumerated": true
+}

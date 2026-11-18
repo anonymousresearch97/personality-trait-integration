@@ -1,0 +1,59 @@
+{
+  "analysis": "Full-sample SAPA Gaussian PC and exact Gaussian BIC on unchanged manuscript participants",
+  "sources": {
+    "outputs/sapa_hexaco_scored_domains.csv": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175",
+    "outputs/sapa_hexaco_scored_domains_all_rows.csv": "4264390011017f97e4127f34125d7632f4d9f931a8db42ef10e418e23bfaa35a",
+    "outputs/reviewer1_comment2_age_harmonization/sapa_rerun_results.csv": "4fd5d8bbae1de951d59f17853583180bce06193994b6a0dd8e92e9712ded469b"
+  },
+  "scripts": {
+    "analysis/sapa_gaussian_wrapup.py": "6d33d17485fc79d989973dc7c39b1413331c715630586b323808ffe21ebcd6ba",
+    "analysis/original_continuous_bn_sensitivity.py": "f382cd610900cb6a665a5a123f439c0db4e3f26d4c0b45176125581c5361ccdb",
+    "analysis/sapa_hexaco_pc_bic.py": "d62580332504c87f00673d4f4f3f6298a3e43deaee15296e4458be026f988997"
+  },
+  "pooled_bands": [
+    "18 and under",
+    "19-39",
+    "40-59",
+    "60 and over"
+  ],
+  "native_bands": [
+    "18 and under",
+    "19-24",
+    "25-29",
+    "30-34",
+    "35-39",
+    "40-49",
+    "50-59",
+    "60 and over"
+  ],
+  "collapse_map": {
+    "18 and under": "18 and under",
+    "19-24": "19-39",
+    "25-29": "19-39",
+    "30-34": "19-39",
+    "35-39": "19-39",
+    "40-49": "40-59",
+    "50-59": "40-59",
+    "60 and over": "60 and over"
+  },
+  "filter": "observed native age; at least 3 answered keyed items in each of all 6 domains; complete scores",
+  "scores": "unchanged cached keyed domain means, originally affine rescaled from 1-6 to 1-5",
+  "PC": "PC-stable, Gaussian partial-correlation Fisher-z test, alpha .05",
+  "BIC": "exact DAG optimization: log-likelihood minus half parameter count times log(n); intercept, slopes, residual variance per node",
+  "reported_networks": "undirected skeletons; one optimal BIC DAG recorded without causal interpretation",
+  "resampling": {
+    "full_sample": "none",
+    "matched_n": 300,
+    "draws_per_pooled_band": 1000,
+    "seed": 20261020,
+    "seed_rule": "SeedSequence([20261020, pooled_group_index_1_to_4, replicate_1_to_1000])",
+    "within_draw": "without replacement, sorted source CSV row indices",
+    "all_four_groups_resampled": true,
+    "across_draws": "overlap allowed"
+  },
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "scipy": "1.13.1",
+  "runtime_seconds": 12.025278291
+}

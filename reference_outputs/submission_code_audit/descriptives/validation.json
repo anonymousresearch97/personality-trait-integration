@@ -1,0 +1,77 @@
+{
+  "python": "3.13.9",
+  "pandas": "2.3.3",
+  "numpy": "2.3.5",
+  "pyreadstat": "1.3.5",
+  "script_sha256": "598c3c1d37ba8c750170f4ab1b251b6094b532d96419de5b3c808e593245a680",
+  "inputs": {
+    "primary_raw": {
+      "path_relative_to_project": "Lee & Ashton 2018  online sample data.sav",
+      "sha256": "d433cf80580009b94e1cf356ad77a2af82f7663f623a196b15907ae8aa2b18a4"
+    },
+    "primary_cache": {
+      "path_relative_to_project": "outputs/original_hexaco_scored_domains.csv",
+      "sha256": "041269e1e94ead7b3b4199ab8bf439a35dd827df1874b5916344127b954fceee"
+    },
+    "sapa_raw": {
+      "path_relative_to_project": "data_external/sapa/sapa_data.tab",
+      "sha256": "fb480e6bd4c5ba0832cdd105c2fac5dc47b144378e96ffb3a50f3e8d63868cb6"
+    },
+    "sapa_key": {
+      "path_relative_to_project": "data_external/sapa/superKey696.csv",
+      "sha256": "8d19b6a23c7f42b91cf5bc0895e2c63790510ba9355a2c69d19703c6f791bc49"
+    },
+    "sapa_cache": {
+      "path_relative_to_project": "outputs/sapa_hexaco_scored_domains.csv",
+      "sha256": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175"
+    }
+  },
+  "primary_sex_labels_from_sav_metadata": {
+    "1.0": "men",
+    "2.0": "women"
+  },
+  "primary_item_score_max_abs_errors": {
+    "H": 0.0,
+    "E": 0.0,
+    "X": 0.0,
+    "A": 0.0,
+    "C": 0.0,
+    "O": 0.0
+  },
+  "sapa_score_max_abs_errors_vs_cache": {
+    "H": 4.440892098500626e-16,
+    "E": 4.440892098500626e-16,
+    "X": 4.440892098500626e-16,
+    "A": 4.440892098500626e-16,
+    "C": 4.440892098500626e-16,
+    "O": 4.440892098500626e-16
+  },
+  "primary_cache_exactly_reproduced": true,
+  "sapa_RID_order_and_item_counts_exactly_reproduced": true,
+  "group_sample_sizes_reproduced": true,
+  "composition_counts_and_percentages_checked": true,
+  "primary_source_n": 100318,
+  "primary_main_n": 98819,
+  "childhood_n": 98,
+  "sapa_source_n": 23679,
+  "sapa_analytic_n": 18616,
+  "sample_sd_ddof": 1,
+  "primary_items_per_domain": {
+    "H": 16,
+    "E": 16,
+    "X": 16,
+    "A": 16,
+    "C": 16,
+    "O": 16
+  },
+  "sapa_keyed_items_per_domain": {
+    "H": 40,
+    "E": 40,
+    "X": 40,
+    "A": 40,
+    "C": 40,
+    "O": 40
+  },
+  "primary_keyed_items_missing": 0,
+  "raw_data_redistribution_permission_verified": false
+}

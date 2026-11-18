@@ -1,0 +1,13 @@
+scheme,age_band,n,n_with_all_four_facets_in_all_six_domains,percent_with_all_four_facets_in_all_six_domains
+pooled_four,18 and under,4550,292,6.417582417582418
+pooled_four,19-39,11510,800,6.950477845351869
+pooled_four,40-59,2253,209,9.276520195295163
+pooled_four,60 and over,303,40,13.2013201320132
+native_eight,18 and under,4550,292,6.417582417582418
+native_eight,19-24,6231,398,6.387417749959878
+native_eight,25-29,2586,188,7.269914926527456
+native_eight,30-34,1635,133,8.134556574923547
+native_eight,35-39,1058,81,7.655954631379962
+native_eight,40-49,1494,133,8.90227576974565
+native_eight,50-59,759,76,10.013175230566535
+native_eight,60 and over,303,40,13.2013201320132

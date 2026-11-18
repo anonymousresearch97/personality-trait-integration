@@ -1,0 +1,36 @@
+{
+  "raw_rows": 23679,
+  "analytic_rows": 18616,
+  "raw_distinct_relevant_items": 240,
+  "keyed_items_per_domain": 40,
+  "facets_per_domain": 4,
+  "keyed_items_per_facet": 10,
+  "domain_items_partition_into_facets_and_signs_agree": true,
+  "all_observed_responses_are_integer_1_to_6": true,
+  "raw_reconstructed_analytic_IDs_order_demographics_ages_item_counts_match_cache": true,
+  "maximum_absolute_score_difference": 4.440892098500626e-16,
+  "pooled_age_ns": [
+    4550,
+    11510,
+    2253,
+    303
+  ],
+  "unchanged_filter": "at least3 answered items in every domain, observed age, complete domain scores",
+  "item_pair_counts_computed_without_covariance_estimation": true,
+  "models_fitted": "none: no reliability, invariance, or networks",
+  "source_sha256": {
+    "data_external/sapa/sapa_data.tab": "fb480e6bd4c5ba0832cdd105c2fac5dc47b144378e96ffb3a50f3e8d63868cb6",
+    "data_external/sapa/superKey696.csv": "8d19b6a23c7f42b91cf5bc0895e2c63790510ba9355a2c69d19703c6f791bc49",
+    "outputs/sapa_hexaco_scored_domains.csv": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175",
+    "analysis/sapa_measurement_resolution.py": "7cfad65781ee7e6f35d4cd14d33e1dc7712fa2fc1a4fa8d6943cc2fe05fab501"
+  },
+  "output_rows": {
+    "key_map": 240,
+    "coverage_by_age": 72,
+    "item_exposure_by_age": 2880,
+    "item_pair_overlap_by_age": 56160,
+    "facet_coverage_by_age": 288,
+    "all_domain_facet_coverage_by_age": 12
+  },
+  "elapsed_seconds": 1.8555970000000002
+}

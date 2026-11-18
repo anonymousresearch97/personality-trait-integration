@@ -1,0 +1,38 @@
+{
+  "source_file": "/Users/pouria.ramazi/Packages/Psychology project/outputs/original_hexaco_scored_domains.csv",
+  "source_sha256": "041269e1e94ead7b3b4199ab8bf439a35dd827df1874b5916344127b954fceee",
+  "script_sha256": "f382cd610900cb6a665a5a123f439c0db4e3f26d4c0b45176125581c5361ccdb",
+  "sample_n": 3000,
+  "repetitions_per_group": 1000,
+  "seed": 20261015,
+  "seed_rule": "default_rng(SeedSequence([20261015, original_group_index, replicate]))",
+  "sampling": "Without replacement within a draw; repeats may overlap; all four nonchildhood groups sampled.",
+  "models": "Untransformed continuous scores; Gaussian PC-stable Fisher z alpha .05; exact Gaussian BIC subset DP.",
+  "bic": "Full OLS Gaussian log likelihood minus .5*(parents+2)*log(n) per node.",
+  "interpretation": "Alternative Gaussian model sensitivity, not a validation of discretized networks.",
+  "validation": {
+    "local_ols_scores_checked": 384,
+    "max_local_score_absolute_error": 1.3642420526593924e-12,
+    "partial_correlations_checked": 150,
+    "max_partial_correlation_absolute_error": 3.3306690738754696e-16,
+    "exhaustive_dag_checks": [
+      {
+        "sample": 0,
+        "n": 98,
+        "enumerated_four_node_dags": 543,
+        "dp_score": -404.8883104487569,
+        "enumerated_best_score": -404.8883104487568
+      },
+      {
+        "sample": 1,
+        "n": 3000,
+        "enumerated_four_node_dags": 543,
+        "dp_score": -12275.296751838749,
+        "enumerated_best_score": -12275.296751838749
+      }
+    ],
+    "all_five_group_pc_order_checks_passed": true,
+    "all_five_group_bic_dags_acyclic": true
+  },
+  "runtime_seconds": 12.129006042
+}

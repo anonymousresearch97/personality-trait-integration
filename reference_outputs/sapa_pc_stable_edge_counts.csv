@@ -1,0 +1,9 @@
+dataset,age_band,n,status,min_items_per_domain,alpha,discretization,edge_count,edges
+SAPA IPIP-HEXACO,18 and under,4550,estimated,3,0.05,score_1_to_5_equal_width_5_bins,2,"A-H, C-H"
+SAPA IPIP-HEXACO,19-24,6231,estimated,3,0.05,score_1_to_5_equal_width_5_bins,5,"A-E, A-H, A-X, C-H, C-X"
+SAPA IPIP-HEXACO,25-29,2586,estimated,3,0.05,score_1_to_5_equal_width_5_bins,0,
+SAPA IPIP-HEXACO,30-34,1635,estimated,3,0.05,score_1_to_5_equal_width_5_bins,1,A-H
+SAPA IPIP-HEXACO,35-39,1058,estimated,3,0.05,score_1_to_5_equal_width_5_bins,2,"A-H, O-X"
+SAPA IPIP-HEXACO,40-49,1494,estimated,3,0.05,score_1_to_5_equal_width_5_bins,5,"A-E, A-H, C-H, E-X, O-X"
+SAPA IPIP-HEXACO,50-59,759,estimated,3,0.05,score_1_to_5_equal_width_5_bins,1,C-X
+SAPA IPIP-HEXACO,60 and over,303,estimated,3,0.05,score_1_to_5_equal_width_5_bins,0,

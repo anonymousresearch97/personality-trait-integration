@@ -1,0 +1,241 @@
+dataset,analysis,group_index,age_band,method,edge,fits,selection_fraction
+Primary,equal_n,1,Adolescence 13-19,BIC,A-C,1000,0.0
+Primary,equal_n,1,Adolescence 13-19,BIC,A-E,1000,0.145
+Primary,equal_n,1,Adolescence 13-19,BIC,A-H,1000,1.0
+Primary,equal_n,1,Adolescence 13-19,BIC,A-O,1000,0.377
+Primary,equal_n,1,Adolescence 13-19,BIC,A-X,1000,1.0
+Primary,equal_n,1,Adolescence 13-19,BIC,C-E,1000,0.019
+Primary,equal_n,1,Adolescence 13-19,BIC,C-H,1000,0.012
+Primary,equal_n,1,Adolescence 13-19,BIC,C-O,1000,0.754
+Primary,equal_n,1,Adolescence 13-19,BIC,C-X,1000,1.0
+Primary,equal_n,1,Adolescence 13-19,BIC,E-H,1000,1.0
+Primary,equal_n,1,Adolescence 13-19,BIC,E-O,1000,0.226
+Primary,equal_n,1,Adolescence 13-19,BIC,E-X,1000,0.307
+Primary,equal_n,1,Adolescence 13-19,BIC,H-O,1000,0.5
+Primary,equal_n,1,Adolescence 13-19,BIC,H-X,1000,1.0
+Primary,equal_n,1,Adolescence 13-19,BIC,O-X,1000,0.273
+Primary,equal_n,1,Adolescence 13-19,PC,A-C,1000,0.0
+Primary,equal_n,1,Adolescence 13-19,PC,A-E,1000,0.42
+Primary,equal_n,1,Adolescence 13-19,PC,A-H,1000,1.0
+Primary,equal_n,1,Adolescence 13-19,PC,A-O,1000,0.263
+Primary,equal_n,1,Adolescence 13-19,PC,A-X,1000,0.999
+Primary,equal_n,1,Adolescence 13-19,PC,C-E,1000,0.063
+Primary,equal_n,1,Adolescence 13-19,PC,C-H,1000,0.002
+Primary,equal_n,1,Adolescence 13-19,PC,C-O,1000,0.981
+Primary,equal_n,1,Adolescence 13-19,PC,C-X,1000,1.0
+Primary,equal_n,1,Adolescence 13-19,PC,E-H,1000,1.0
+Primary,equal_n,1,Adolescence 13-19,PC,E-O,1000,0.302
+Primary,equal_n,1,Adolescence 13-19,PC,E-X,1000,0.78
+Primary,equal_n,1,Adolescence 13-19,PC,H-O,1000,0.309
+Primary,equal_n,1,Adolescence 13-19,PC,H-X,1000,1.0
+Primary,equal_n,1,Adolescence 13-19,PC,O-X,1000,0.471
+Primary,equal_n,2,Early adulthood 20-39,BIC,A-C,1000,0.002
+Primary,equal_n,2,Early adulthood 20-39,BIC,A-E,1000,0.026
+Primary,equal_n,2,Early adulthood 20-39,BIC,A-H,1000,1.0
+Primary,equal_n,2,Early adulthood 20-39,BIC,A-O,1000,0.595
+Primary,equal_n,2,Early adulthood 20-39,BIC,A-X,1000,1.0
+Primary,equal_n,2,Early adulthood 20-39,BIC,C-E,1000,0.012
+Primary,equal_n,2,Early adulthood 20-39,BIC,C-H,1000,1.0
+Primary,equal_n,2,Early adulthood 20-39,BIC,C-O,1000,0.033
+Primary,equal_n,2,Early adulthood 20-39,BIC,C-X,1000,1.0
+Primary,equal_n,2,Early adulthood 20-39,BIC,E-H,1000,1.0
+Primary,equal_n,2,Early adulthood 20-39,BIC,E-O,1000,0.059
+Primary,equal_n,2,Early adulthood 20-39,BIC,E-X,1000,0.983
+Primary,equal_n,2,Early adulthood 20-39,BIC,H-O,1000,0.682
+Primary,equal_n,2,Early adulthood 20-39,BIC,H-X,1000,0.989
+Primary,equal_n,2,Early adulthood 20-39,BIC,O-X,1000,0.823
+Primary,equal_n,2,Early adulthood 20-39,PC,A-C,1000,0.001
+Primary,equal_n,2,Early adulthood 20-39,PC,A-E,1000,0.197
+Primary,equal_n,2,Early adulthood 20-39,PC,A-H,1000,1.0
+Primary,equal_n,2,Early adulthood 20-39,PC,A-O,1000,0.868
+Primary,equal_n,2,Early adulthood 20-39,PC,A-X,1000,1.0
+Primary,equal_n,2,Early adulthood 20-39,PC,C-E,1000,0.184
+Primary,equal_n,2,Early adulthood 20-39,PC,C-H,1000,0.999
+Primary,equal_n,2,Early adulthood 20-39,PC,C-O,1000,0.117
+Primary,equal_n,2,Early adulthood 20-39,PC,C-X,1000,1.0
+Primary,equal_n,2,Early adulthood 20-39,PC,E-H,1000,1.0
+Primary,equal_n,2,Early adulthood 20-39,PC,E-O,1000,0.11
+Primary,equal_n,2,Early adulthood 20-39,PC,E-X,1000,0.993
+Primary,equal_n,2,Early adulthood 20-39,PC,H-O,1000,0.688
+Primary,equal_n,2,Early adulthood 20-39,PC,H-X,1000,0.434
+Primary,equal_n,2,Early adulthood 20-39,PC,O-X,1000,0.948
+Primary,equal_n,3,Middle adulthood 40-64,BIC,A-C,1000,0.001
+Primary,equal_n,3,Middle adulthood 40-64,BIC,A-E,1000,0.094
+Primary,equal_n,3,Middle adulthood 40-64,BIC,A-H,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,BIC,A-O,1000,0.059
+Primary,equal_n,3,Middle adulthood 40-64,BIC,A-X,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,BIC,C-E,1000,0.015
+Primary,equal_n,3,Middle adulthood 40-64,BIC,C-H,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,BIC,C-O,1000,0.004
+Primary,equal_n,3,Middle adulthood 40-64,BIC,C-X,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,BIC,E-H,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,BIC,E-O,1000,0.002
+Primary,equal_n,3,Middle adulthood 40-64,BIC,E-X,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,BIC,H-O,1000,0.924
+Primary,equal_n,3,Middle adulthood 40-64,BIC,H-X,1000,0.859
+Primary,equal_n,3,Middle adulthood 40-64,BIC,O-X,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,PC,A-C,1000,0.0
+Primary,equal_n,3,Middle adulthood 40-64,PC,A-E,1000,0.076
+Primary,equal_n,3,Middle adulthood 40-64,PC,A-H,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,PC,A-O,1000,0.232
+Primary,equal_n,3,Middle adulthood 40-64,PC,A-X,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,PC,C-E,1000,0.15
+Primary,equal_n,3,Middle adulthood 40-64,PC,C-H,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,PC,C-O,1000,0.069
+Primary,equal_n,3,Middle adulthood 40-64,PC,C-X,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,PC,E-H,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,PC,E-O,1000,0.023
+Primary,equal_n,3,Middle adulthood 40-64,PC,E-X,1000,1.0
+Primary,equal_n,3,Middle adulthood 40-64,PC,H-O,1000,0.646
+Primary,equal_n,3,Middle adulthood 40-64,PC,H-X,1000,0.0
+Primary,equal_n,3,Middle adulthood 40-64,PC,O-X,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,A-C,1000,0.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,A-E,1000,0.744
+Primary,equal_n,4,Older adulthood 65-100,BIC,A-H,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,A-O,1000,0.004
+Primary,equal_n,4,Older adulthood 65-100,BIC,A-X,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,C-E,1000,0.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,C-H,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,C-O,1000,0.004
+Primary,equal_n,4,Older adulthood 65-100,BIC,C-X,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,E-H,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,E-O,1000,0.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,E-X,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,BIC,H-O,1000,0.936
+Primary,equal_n,4,Older adulthood 65-100,BIC,H-X,1000,0.24
+Primary,equal_n,4,Older adulthood 65-100,BIC,O-X,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,PC,A-C,1000,0.0
+Primary,equal_n,4,Older adulthood 65-100,PC,A-E,1000,0.298
+Primary,equal_n,4,Older adulthood 65-100,PC,A-H,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,PC,A-O,1000,0.026
+Primary,equal_n,4,Older adulthood 65-100,PC,A-X,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,PC,C-E,1000,0.004
+Primary,equal_n,4,Older adulthood 65-100,PC,C-H,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,PC,C-O,1000,0.489
+Primary,equal_n,4,Older adulthood 65-100,PC,C-X,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,PC,E-H,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,PC,E-O,1000,0.003
+Primary,equal_n,4,Older adulthood 65-100,PC,E-X,1000,1.0
+Primary,equal_n,4,Older adulthood 65-100,PC,H-O,1000,0.144
+Primary,equal_n,4,Older adulthood 65-100,PC,H-X,1000,0.0
+Primary,equal_n,4,Older adulthood 65-100,PC,O-X,1000,1.0
+SAPA,equal_n,1,18 and under,BIC,A-C,1000,0.006
+SAPA,equal_n,1,18 and under,BIC,A-E,1000,0.087
+SAPA,equal_n,1,18 and under,BIC,A-H,1000,0.894
+SAPA,equal_n,1,18 and under,BIC,A-O,1000,0.005
+SAPA,equal_n,1,18 and under,BIC,A-X,1000,0.297
+SAPA,equal_n,1,18 and under,BIC,C-E,1000,0.007
+SAPA,equal_n,1,18 and under,BIC,C-H,1000,0.375
+SAPA,equal_n,1,18 and under,BIC,C-O,1000,0.005
+SAPA,equal_n,1,18 and under,BIC,C-X,1000,0.026
+SAPA,equal_n,1,18 and under,BIC,E-H,1000,0.135
+SAPA,equal_n,1,18 and under,BIC,E-O,1000,0.013
+SAPA,equal_n,1,18 and under,BIC,E-X,1000,0.094
+SAPA,equal_n,1,18 and under,BIC,H-O,1000,0.005
+SAPA,equal_n,1,18 and under,BIC,H-X,1000,0.056
+SAPA,equal_n,1,18 and under,BIC,O-X,1000,0.059
+SAPA,equal_n,1,18 and under,PC,A-C,1000,0.011
+SAPA,equal_n,1,18 and under,PC,A-E,1000,0.122
+SAPA,equal_n,1,18 and under,PC,A-H,1000,0.955
+SAPA,equal_n,1,18 and under,PC,A-O,1000,0.037
+SAPA,equal_n,1,18 and under,PC,A-X,1000,0.405
+SAPA,equal_n,1,18 and under,PC,C-E,1000,0.026
+SAPA,equal_n,1,18 and under,PC,C-H,1000,0.569
+SAPA,equal_n,1,18 and under,PC,C-O,1000,0.015
+SAPA,equal_n,1,18 and under,PC,C-X,1000,0.078
+SAPA,equal_n,1,18 and under,PC,E-H,1000,0.213
+SAPA,equal_n,1,18 and under,PC,E-O,1000,0.049
+SAPA,equal_n,1,18 and under,PC,E-X,1000,0.215
+SAPA,equal_n,1,18 and under,PC,H-O,1000,0.015
+SAPA,equal_n,1,18 and under,PC,H-X,1000,0.072
+SAPA,equal_n,1,18 and under,PC,O-X,1000,0.167
+SAPA,equal_n,2,19-39,BIC,A-C,1000,0.015
+SAPA,equal_n,2,19-39,BIC,A-E,1000,0.186
+SAPA,equal_n,2,19-39,BIC,A-H,1000,0.891
+SAPA,equal_n,2,19-39,BIC,A-O,1000,0.046
+SAPA,equal_n,2,19-39,BIC,A-X,1000,0.326
+SAPA,equal_n,2,19-39,BIC,C-E,1000,0.034
+SAPA,equal_n,2,19-39,BIC,C-H,1000,0.355
+SAPA,equal_n,2,19-39,BIC,C-O,1000,0.008
+SAPA,equal_n,2,19-39,BIC,C-X,1000,0.404
+SAPA,equal_n,2,19-39,BIC,E-H,1000,0.078
+SAPA,equal_n,2,19-39,BIC,E-O,1000,0.093
+SAPA,equal_n,2,19-39,BIC,E-X,1000,0.171
+SAPA,equal_n,2,19-39,BIC,H-O,1000,0.067
+SAPA,equal_n,2,19-39,BIC,H-X,1000,0.06
+SAPA,equal_n,2,19-39,BIC,O-X,1000,0.271
+SAPA,equal_n,2,19-39,PC,A-C,1000,0.015
+SAPA,equal_n,2,19-39,PC,A-E,1000,0.237
+SAPA,equal_n,2,19-39,PC,A-H,1000,0.957
+SAPA,equal_n,2,19-39,PC,A-O,1000,0.058
+SAPA,equal_n,2,19-39,PC,A-X,1000,0.364
+SAPA,equal_n,2,19-39,PC,C-E,1000,0.067
+SAPA,equal_n,2,19-39,PC,C-H,1000,0.485
+SAPA,equal_n,2,19-39,PC,C-O,1000,0.013
+SAPA,equal_n,2,19-39,PC,C-X,1000,0.55
+SAPA,equal_n,2,19-39,PC,E-H,1000,0.102
+SAPA,equal_n,2,19-39,PC,E-O,1000,0.181
+SAPA,equal_n,2,19-39,PC,E-X,1000,0.268
+SAPA,equal_n,2,19-39,PC,H-O,1000,0.102
+SAPA,equal_n,2,19-39,PC,H-X,1000,0.05
+SAPA,equal_n,2,19-39,PC,O-X,1000,0.418
+SAPA,equal_n,3,40-59,BIC,A-C,1000,0.021
+SAPA,equal_n,3,40-59,BIC,A-E,1000,0.196
+SAPA,equal_n,3,40-59,BIC,A-H,1000,0.895
+SAPA,equal_n,3,40-59,BIC,A-O,1000,0.034
+SAPA,equal_n,3,40-59,BIC,A-X,1000,0.524
+SAPA,equal_n,3,40-59,BIC,C-E,1000,0.066
+SAPA,equal_n,3,40-59,BIC,C-H,1000,0.436
+SAPA,equal_n,3,40-59,BIC,C-O,1000,0.003
+SAPA,equal_n,3,40-59,BIC,C-X,1000,0.398
+SAPA,equal_n,3,40-59,BIC,E-H,1000,0.052
+SAPA,equal_n,3,40-59,BIC,E-O,1000,0.091
+SAPA,equal_n,3,40-59,BIC,E-X,1000,0.374
+SAPA,equal_n,3,40-59,BIC,H-O,1000,0.006
+SAPA,equal_n,3,40-59,BIC,H-X,1000,0.072
+SAPA,equal_n,3,40-59,BIC,O-X,1000,0.518
+SAPA,equal_n,3,40-59,PC,A-C,1000,0.017
+SAPA,equal_n,3,40-59,PC,A-E,1000,0.232
+SAPA,equal_n,3,40-59,PC,A-H,1000,0.936
+SAPA,equal_n,3,40-59,PC,A-O,1000,0.066
+SAPA,equal_n,3,40-59,PC,A-X,1000,0.498
+SAPA,equal_n,3,40-59,PC,C-E,1000,0.108
+SAPA,equal_n,3,40-59,PC,C-H,1000,0.54
+SAPA,equal_n,3,40-59,PC,C-O,1000,0.006
+SAPA,equal_n,3,40-59,PC,C-X,1000,0.477
+SAPA,equal_n,3,40-59,PC,E-H,1000,0.074
+SAPA,equal_n,3,40-59,PC,E-O,1000,0.151
+SAPA,equal_n,3,40-59,PC,E-X,1000,0.424
+SAPA,equal_n,3,40-59,PC,H-O,1000,0.016
+SAPA,equal_n,3,40-59,PC,H-X,1000,0.06
+SAPA,equal_n,3,40-59,PC,O-X,1000,0.623
+SAPA,equal_n,4,60 and over,BIC,A-C,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,A-E,1000,1.0
+SAPA,equal_n,4,60 and over,BIC,A-H,1000,1.0
+SAPA,equal_n,4,60 and over,BIC,A-O,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,A-X,1000,0.982
+SAPA,equal_n,4,60 and over,BIC,C-E,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,C-H,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,C-O,1000,0.009
+SAPA,equal_n,4,60 and over,BIC,C-X,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,E-H,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,E-O,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,E-X,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,H-O,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,H-X,1000,0.0
+SAPA,equal_n,4,60 and over,BIC,O-X,1000,1.0
+SAPA,equal_n,4,60 and over,PC,A-C,1000,0.0
+SAPA,equal_n,4,60 and over,PC,A-E,1000,1.0
+SAPA,equal_n,4,60 and over,PC,A-H,1000,1.0
+SAPA,equal_n,4,60 and over,PC,A-O,1000,0.0
+SAPA,equal_n,4,60 and over,PC,A-X,1000,0.999
+SAPA,equal_n,4,60 and over,PC,C-E,1000,0.0
+SAPA,equal_n,4,60 and over,PC,C-H,1000,0.0
+SAPA,equal_n,4,60 and over,PC,C-O,1000,0.956
+SAPA,equal_n,4,60 and over,PC,C-X,1000,0.0
+SAPA,equal_n,4,60 and over,PC,E-H,1000,0.0
+SAPA,equal_n,4,60 and over,PC,E-O,1000,0.0
+SAPA,equal_n,4,60 and over,PC,E-X,1000,0.0
+SAPA,equal_n,4,60 and over,PC,H-O,1000,0.0
+SAPA,equal_n,4,60 and over,PC,H-X,1000,0.0
+SAPA,equal_n,4,60 and over,PC,O-X,1000,1.0

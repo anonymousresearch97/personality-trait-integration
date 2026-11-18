@@ -1,0 +1,47 @@
+Continuous-score Gaussian BN sensitivity
+
+All six original domain averages are used directly, without discretization or
+transformation. Gaussian PC-stable uses partial correlations and Fisher z tests
+at alpha .05. Exact Gaussian BIC maximizes the sum of Gaussian regression log
+likelihoods minus half the parameter count times log(n); each local regression
+counts an intercept, one slope per parent, and a residual variance. No
+hyperparameters were chosen to recover the original age pattern. BIC DAG
+directions are one optimum and must not be interpreted causally.
+
+The five original age groups are first fitted in full, with childhood marked
+as a descriptive N98 estimate. The matched-size comparison excludes childhood
+and samples3000 from each of the other four groups, including older adulthood.
+Both methods receive identical selected rows. Draws use the same original-row
+seed rule as the N3000 discrete analysis. Repeated draws overlap.
+
+This is an alternative model sensitivity requiring linear Gaussian conditional
+relationships and approximately suitable Fisher-z inference. Domain scores are
+bounded averages; multivariate normality is not established. Similar edge
+counts do not imply similar edge identities or evidence for equal dependence
+strength. Large samples can detect very small departures from independence.
+Intervals describe subsampling variability, not confidence intervals for age
+differences. More repetitions reduce simulation error, not model uncertainty.
+
+Full-sample results
+             age_group  original_group_index     n             method  edge_count                                                       skeleton_edges      bic_score                                                                    one_optimal_dag
+        Childhood 3-12                     0    98 Gaussian PC-stable           4                                                   A-H, A-X, C-O, E-H            NaN                                                                                   
+        Childhood 3-12                     0    98 Gaussian exact BIC           6                                         A-C, A-H, A-X, C-E, C-O, E-H    -587.131899                                                 A->H, A->X, C->A, E->C, E->H, O->C
+     Adolescence 13-19                     1  7738 Gaussian PC-stable          13      A-E, A-H, A-O, A-X, C-E, C-O, C-X, E-H, E-O, E-X, H-O, H-X, O-X            NaN                                                                                   
+     Adolescence 13-19                     1  7738 Gaussian exact BIC          13      A-E, A-H, A-O, A-X, C-E, C-O, C-X, E-H, E-O, E-X, H-O, H-X, O-X  -45647.026976       A->E, C->E, C->X, H->A, H->E, H->X, O->A, O->C, O->E, O->H, O->X, X->A, X->E
+ Early adulthood 20-39                     2 51670 Gaussian PC-stable          14 A-E, A-H, A-O, A-X, C-E, C-H, C-O, C-X, E-H, E-O, E-X, H-O, H-X, O-X            NaN                                                                                   
+ Early adulthood 20-39                     2 51670 Gaussian exact BIC          14 A-E, A-H, A-O, A-X, C-E, C-H, C-O, C-X, E-H, E-O, E-X, H-O, H-X, O-X -290451.747991 A->E, A->H, A->X, C->E, C->H, C->X, E->H, O->A, O->C, O->E, O->H, O->X, X->E, X->H
+Middle adulthood 40-64                     3 35496 Gaussian PC-stable          13      A-C, A-E, A-H, A-O, A-X, C-E, C-H, C-O, C-X, E-H, E-X, H-O, O-X            NaN                                                                                   
+Middle adulthood 40-64                     3 35496 Gaussian exact BIC          13      A-C, A-E, A-H, A-O, A-X, C-E, C-H, C-O, C-X, E-H, E-X, H-O, O-X -180891.366952       C->A, E->A, E->C, E->H, H->A, H->C, O->A, O->C, O->H, O->X, X->A, X->C, X->E
+Older adulthood 65-100                     4  3915 Gaussian PC-stable          10                     A-E, A-H, A-X, C-H, C-O, C-X, E-H, E-X, H-O, O-X            NaN                                                                                   
+Older adulthood 65-100                     4  3915 Gaussian exact BIC          10                     A-E, A-H, A-X, C-H, C-O, C-X, E-H, E-X, H-O, O-X  -18038.619756                         C->H, C->O, C->X, E->A, E->H, H->A, H->O, X->A, X->E, X->O
+
+Matched N3000 summary
+             age_group             method  source_n  sample_n  fits  mean_edges  sd_edges  monte_carlo_se  median_edges  percentile_2_5  percentile_97_5  min_edges  max_edges
+     Adolescence 13-19 Gaussian PC-stable      7738      3000  1000      10.305  0.943857        0.029847          10.0               9               12          7         13
+     Adolescence 13-19 Gaussian exact BIC      7738      3000  1000      10.157  0.912789        0.028865          10.0               8               12          7         12
+ Early adulthood 20-39 Gaussian PC-stable     51670      3000  1000      10.762  1.056633        0.033414          11.0               9               13          8         14
+ Early adulthood 20-39 Gaussian exact BIC     51670      3000  1000      10.489  0.800325        0.025308          10.0               9               12          8         13
+Middle adulthood 40-64 Gaussian PC-stable     35496      3000  1000       9.093  0.936605        0.029618           9.0               8               11          7         12
+Middle adulthood 40-64 Gaussian exact BIC     35496      3000  1000       9.514  0.675470        0.021360           9.0               9               11          8         12
+Older adulthood 65-100 Gaussian PC-stable      3915      3000  1000       9.467  0.776862        0.024567          10.0               8               11          7         12
+Older adulthood 65-100 Gaussian exact BIC      3915      3000  1000       9.374  0.516130        0.016321           9.0               9               10          9         11

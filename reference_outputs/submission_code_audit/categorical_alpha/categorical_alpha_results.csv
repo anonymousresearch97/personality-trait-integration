@@ -1,0 +1,28 @@
+dataset,age_group,n,alpha,edge_count,edges,matches_production,childhood_exploratory
+Primary,Childhood 3-12,98,0.01,1,A-H,True,True
+Primary,Childhood 3-12,98,0.05,1,A-H,True,True
+Primary,Childhood 3-12,98,0.1,1,C-O,True,True
+Primary,Adolescence 13-19,7738,0.01,3,"A-H, E-H, H-X",True,False
+Primary,Adolescence 13-19,7738,0.05,4,"A-H, C-X, E-H, H-X",True,False
+Primary,Adolescence 13-19,7738,0.1,4,"A-H, C-X, E-H, H-X",True,False
+Primary,Early adulthood 20-39,51670,0.01,5,"A-H, A-X, C-H, C-X, E-H",True,False
+Primary,Early adulthood 20-39,51670,0.05,5,"A-H, A-X, C-H, C-X, E-H",True,False
+Primary,Early adulthood 20-39,51670,0.1,5,"A-H, A-X, C-H, C-X, E-H",True,False
+Primary,Middle adulthood 40-64,35496,0.01,2,"A-H, A-X",True,False
+Primary,Middle adulthood 40-64,35496,0.05,2,"A-H, A-X",True,False
+Primary,Middle adulthood 40-64,35496,0.1,2,"A-H, A-X",True,False
+Primary,Older adulthood 65-100,3915,0.01,1,A-H,True,False
+Primary,Older adulthood 65-100,3915,0.05,1,A-H,True,False
+Primary,Older adulthood 65-100,3915,0.1,1,A-H,True,False
+SAPA,18 and under,4550,0.01,4,"A-E, A-H, C-H, E-H",True,False
+SAPA,18 and under,4550,0.05,2,"A-H, C-H",True,False
+SAPA,18 and under,4550,0.1,2,"A-H, C-H",True,False
+SAPA,19-39,11510,0.01,2,"A-H, C-H",True,False
+SAPA,19-39,11510,0.05,0,,True,False
+SAPA,19-39,11510,0.1,0,,True,False
+SAPA,40-59,2253,0.01,3,"A-E, A-H, C-H",True,False
+SAPA,40-59,2253,0.05,0,,True,False
+SAPA,40-59,2253,0.1,0,,True,False
+SAPA,60 and over,303,0.01,2,"A-H, O-X",True,False
+SAPA,60 and over,303,0.05,0,,True,False
+SAPA,60 and over,303,0.1,0,,True,False

@@ -1,0 +1,2 @@
+"domain","lavaan_version","config_df","metric_df","config_loglik","metric_loglik","metric_free_loading_rows","metric_distinct_free_loading_labels","delta_cfi_robust","delta_rmsea_robust","delta_srmr"
+"E","0.7.3",400,445,-2265623.17324425,-2266099.79003922,60,15,-0.00214740133675506,-0.00261161708385339,0.00253078616107637

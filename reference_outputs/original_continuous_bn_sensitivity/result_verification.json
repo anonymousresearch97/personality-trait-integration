@@ -1,0 +1,9 @@
+{
+  "graph_edge_counts_verified": 8000,
+  "bic_dags_acyclic_and_skeletons_verified": 4000,
+  "all_summary_means_and_sds_independently_recomputed": true,
+  "samples_identical_to_previous_discrete_n3000_draws": 4000,
+  "contrasts": "Descriptive conditional-on-source-data resampling comparisons; not population p-values.",
+  "validation_arithmetic": "Independent OLS predictions use einsum and squared residual sums; all finite. No BLAS matmul warnings in rerun.",
+  "result_sha256": "c3037d1cee708374e8c85c1f3c0f4223ec2dd132e29ed2ecab3cbf9233117209"
+}

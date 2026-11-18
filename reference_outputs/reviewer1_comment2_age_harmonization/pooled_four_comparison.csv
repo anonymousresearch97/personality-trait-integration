@@ -1,0 +1,5 @@
+comparison_band,primary_ages,sapa_public_ages,primary_n,primary_pc_edges,primary_bic_edges,sapa_n,sapa_pc_edges,sapa_bic_edges
+18 and under,3-18,18 and under,5612,2,2,4550,2,2
+19-39,19-39,19-39,53894,5,7,11510,0,5
+40-59,40-59,40-59,31402,1,7,2253,0,0
+60 and over,60-100,60 and over,8009,3,5,303,0,0

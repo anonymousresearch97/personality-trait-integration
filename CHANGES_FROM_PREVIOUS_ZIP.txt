@@ -1,0 +1,12 @@
+Corrected the missing-data packaging problem; no statistical-model changes.
+Included all three raw input files and all three domain-score caches.
+Included visible data_prepared/primary_items.csv and the mapping/model files.
+Included six saved CFA objects for immediate verification.
+Both R and Python now use the same visible primary_items.csv path.
+The main prepare stage now generates primary_items.csv automatically.
+Added check-inputs, prepare-measurement and measurement-audit entry points.
+R scripts resolve the package location independently of the current directory.
+Input and full-archive integrity manifests accompany this replacement.
+Decoded the Rscript space marker when locating files in folders with spaces.
+Sparse-validator provenance now distinguishes original hashes from documented portable source edits; its verification counter remains separate.
+All 36 CFA models were actually refitted from this extracted bundle and reproduced all reference fit statistics exactly.

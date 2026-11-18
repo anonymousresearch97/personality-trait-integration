@@ -1,0 +1,8 @@
+Software setup and validation — 10 November 2026
+R4.5.3: /opt/anaconda3/envs/r-bnlearn/bin/Rscript. lavaan0.7-3 installed in /private/tmp/psychology-sem-library.
+Downloaded CRAN arm64 binaries expected Framework R library paths. Only temporary .so files in MASS, mnormt, pbivnorm and quadprog were adjusted with install_name_tool and ad-hoc codesign.
+libRblas was redirected to Conda libblas.3; libR/libgfortran/libquadmath were redirected to compatible existing Conda libraries. No Conda or system file was changed. Original temporary binaries were preserved as .so.original.
+The accompanying software_dependency_path_changes.json records exact replacements and backups.
+Sanity check: built-in HolzingerSwineford1939 three-factor9-item two-school configural/metric MLR CFA converged, df48→54; standard chi-square115.8513→124.0435; robust difference chi-square6.5672 on6df; robust fit indices and lavTestLRT executed.
+The independent validation script additionally rebuilt the actual H hierarchical model with actual facet/item names and manual cross-group loading labels, matching the saved production fits.
+For reproduction on a normal compatible R installation, install lavaan from CRAN normally; machine-specific binary path substitutions are not part of the statistical method.

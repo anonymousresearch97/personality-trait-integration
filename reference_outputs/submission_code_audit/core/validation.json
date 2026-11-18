@@ -1,0 +1,32 @@
+{
+  "status": "All scoped numerical checks passed",
+  "full_groups": 9,
+  "local_ols_scores": 1728,
+  "ci_probabilities": 2160,
+  "independent_six_node_orders_per_group": 720,
+  "max_local_score_error": 3.637978807091713e-11,
+  "max_ci_probability_error": 1.3322676295501878e-14,
+  "saved_equal_n_method_rows_checked": 16000,
+  "memberships_rebuilt": 8000,
+  "equal_n_sample_refits": 8000,
+  "categorical_bic_full_groups_independently_checked": 9,
+  "gaussian_main_figure_panels_matched": 16,
+  "categorical_bic_figure_panels_matched": 8,
+  "summary_rows": 16,
+  "edge_frequency_rows": 240,
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "scipy": "1.16.3",
+  "script_hashes": {
+    "analysis/original_continuous_bn_sensitivity.py": "f8052a879605358dbf585b98fe554e208319f385aeea68640fd12b8dd01cd85b",
+    "analysis/sapa_gaussian_wrapup.py": "6d33d17485fc79d989973dc7c39b1413331c715630586b323808ffe21ebcd6ba",
+    "analysis/original_hexaco_pc_bic.py": "c8b1ad84adc2905c09a8e7354be244bf8c002b582ee3455974dbd0c6c51d13bf",
+    "analysis/sapa_hexaco_pc_bic.py": "d62580332504c87f00673d4f4f3f6298a3e43deaee15296e4458be026f988997",
+    "analysis/hexaco_bic_exhaustive.py": "84096c91bc72d41314fd89155d20739b63e3e6d004f8d6f75c5042ad9288f952",
+    "analysis/fast_exact_bic.py": "ce224e49724f437e31e50a73054a09e8e05142a81c2dccb9b31040eca0c7c49b",
+    "analysis/fast_pc_stable.py": "a3ca5044d37902cd317d02b84834b7d50a57f9fd2f75f05ac3d13a4ebf8f6742",
+    "analysis/audit_submission_core.py": "8d265dd390c004d9dd9173fa4ca8cf54b925497cd84b7a4df0500adcdc70794a"
+  },
+  "runtime_seconds": 37.5266857920069
+}

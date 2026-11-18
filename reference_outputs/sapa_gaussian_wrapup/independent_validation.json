@@ -1,0 +1,75 @@
+{
+  "source_sha256": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175",
+  "full_results_sha256": "2607a3a2370a13fffd25d6be842d52a13ce832458a794a430cf0fa20860dbf99",
+  "independently_filtered_all_rows_exactly_equal_analytic_cache": true,
+  "complete_unique_participants": 18616,
+  "pooled_group_sizes": {
+    "18 and under": 4550,
+    "19-39": 11510,
+    "40-59": 2253,
+    "60 and over": 303
+  },
+  "full_group_row_and_RID_hashes_verified": true,
+  "full_graph_rows_verified": 24,
+  "full_summary_gaussian_and_original_categorical_counts_verified": true,
+  "source_provenance_hashes_verified": true,
+  "independent_model_checks": [
+    {
+      "description": "full pooled group1 (18 and under)",
+      "n": 4550,
+      "independent_residualization_pc_matches": true,
+      "independent_all720_orders_bic_absolute_error": 3.637978807091713e-12
+    },
+    {
+      "description": "full pooled group2 (19-39)",
+      "n": 11510,
+      "independent_residualization_pc_matches": true,
+      "independent_all720_orders_bic_absolute_error": 1.4551915228366852e-11
+    },
+    {
+      "description": "full pooled group3 (40-59)",
+      "n": 2253,
+      "independent_residualization_pc_matches": true,
+      "independent_all720_orders_bic_absolute_error": 3.637978807091713e-12
+    },
+    {
+      "description": "full pooled group4 (60 and over)",
+      "n": 303,
+      "independent_residualization_pc_matches": true,
+      "independent_all720_orders_bic_absolute_error": 6.821210263296962e-13
+    },
+    {
+      "description": "N300 group1 replicate1",
+      "n": 300,
+      "independent_residualization_pc_matches": true,
+      "independent_all720_orders_bic_absolute_error": 2.2737367544323206e-13
+    },
+    {
+      "description": "N300 group2 replicate1",
+      "n": 300,
+      "independent_residualization_pc_matches": true,
+      "independent_all720_orders_bic_absolute_error": 0.0
+    },
+    {
+      "description": "N300 group3 replicate1",
+      "n": 300,
+      "independent_residualization_pc_matches": true,
+      "independent_all720_orders_bic_absolute_error": 2.2737367544323206e-13
+    },
+    {
+      "description": "N300 group4 replicate1",
+      "n": 300,
+      "independent_residualization_pc_matches": true,
+      "independent_all720_orders_bic_absolute_error": 2.2737367544323206e-13
+    }
+  ],
+  "matched_results_available": true,
+  "matched_graph_rows_verified": 8000,
+  "all4000_seeded_memberships_reconstructed": true,
+  "all_matched_summary_statistics_verified": true,
+  "all_matched_edge_selection_frequencies_verified": true,
+  "matched_provenance_seed_and_sampling_verified": true,
+  "interpretation_note": "SAPA uses300 per group; primary equal-N analysis uses3000 per group. These are within-dataset equalizations. Sampling300 of303 older SAPA respondents gives narrow conditional subsampling variability, not narrow population uncertainty.",
+  "runtime_seconds": 3.1904273749999996,
+  "validation_script_sha256": "ad27add6ed39cba5b040d5f0acdeed293ab80b32064f3a32dc64303304120d9d"
+}

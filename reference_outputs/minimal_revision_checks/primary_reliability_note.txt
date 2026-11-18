@@ -1,0 +1,32 @@
+Minimal primary measurement check — 10 November 2026
+
+Computed raw-score Cronbach alpha separately by age and domain, using the
+16 stored keyed items underlying each released domain mean. All 96 items
+have complete responses in the file. Their unmodified means exactly match
+all six released domain scores for every one of the100,318 source records.
+No extra reverse-scoring or imputation was applied. Four interstitial
+Altruism items were excluded. Filtering age3–100 exactly reproduces the
+98,917-person analysis cache:1,373 missing ages and28 outside the range.
+
+domain                     H     E     X     A     C     O
+age_group                                                 
+Childhood 3-12         0.880 0.792 0.834 0.844 0.786 0.789
+Adolescence 13-19      0.887 0.854 0.880 0.868 0.849 0.818
+Early adulthood 20-39  0.883 0.842 0.868 0.865 0.826 0.818
+Middle adulthood 40-64 0.877 0.834 0.854 0.860 0.801 0.817
+Older adulthood 65-100 0.866 0.806 0.841 0.850 0.784 0.801
+
+Alpha describes internal consistency of the stored item responses. It is
+not evidence of unidimensionality, validity, invariant factor loadings,
+equivalent response processes, or absence of differential measurement
+error. No configural/metric invariance analysis was performed. Source-file
+completion does not establish whether upstream imputation occurred.
+These point estimates have no confidence intervals. The childhood N98
+and use of an adult inventory remain limitations regardless of alpha.
+Administration assistance is not established by this check.
+
+Age summaries, sex-code counts (without invented code labels), domain
+means/SDs and childhood single-year counts are saved alongside this note.
+No network was rerun. All previous analyses and participant filters remain
+unchanged. Primary reliability and SAPA item coverage address parts of
+the reviewer requests; they do not resolve measurement comparability.

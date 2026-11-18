@@ -1,0 +1,6 @@
+dataset,age_group,n,alpha,discretization,edge_count,edges
+Original HEXACO-100,Childhood 3-12,98,0.05,equal_width_1_to_5,1,A-H
+Original HEXACO-100,Adolescence 13-19,7738,0.05,equal_width_1_to_5,4,"A-H, C-X, E-H, H-X"
+Original HEXACO-100,Early adulthood 20-39,51670,0.05,equal_width_1_to_5,5,"A-H, A-X, C-H, C-X, E-H"
+Original HEXACO-100,Middle adulthood 40-64,35496,0.05,equal_width_1_to_5,2,"A-H, A-X"
+Original HEXACO-100,Older adulthood 65-100,3915,0.05,equal_width_1_to_5,1,A-H

@@ -1,0 +1,27 @@
+{
+  "analytic_cache_equals_three_item_filtered_all_rows_exactly": true,
+  "unique_participants": 18616,
+  "complete_six_domain_scores": true,
+  "all_12_group_sizes_equal_categorical_reference": true,
+  "all_four_pooled_N_and_categorical_counts_equal_manuscript_tables": true,
+  "explicit_covariance_same_pc_and_bic_skeleton": true,
+  "selected_bic_score_matches_raw_ols": true,
+  "pc_node_order_invariance": true,
+  "unique_group_fits": 10,
+  "recorded_method_rows": 24,
+  "warning_count": 0,
+  "matched_n300": {
+    "method_rows": 8000,
+    "samples": 4000,
+    "fits_per_group_per_method": 1000,
+    "within_sample_distinct_participants": 300,
+    "same_membership_both_methods": true,
+    "warning_count": 0,
+    "distinct_sample_hashes_by_group": {
+      "1": 1000,
+      "2": 1000,
+      "3": 1000,
+      "4": 1000
+    }
+  }
+}

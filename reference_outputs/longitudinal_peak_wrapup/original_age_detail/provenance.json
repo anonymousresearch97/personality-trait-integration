@@ -1,0 +1,11 @@
+{
+  "seed": 2026101521,
+  "bootstrap_replicates": 2000,
+  "matched_replicates": 1000,
+  "matched_n": 1000,
+  "signed_edge_contrast_family": 45,
+  "max_t_critical": 3.2440673437974814,
+  "source_sha256": "041269e1e94ead7b3b4199ab8bf439a35dd827df1874b5916344127b954fceee",
+  "script_sha256": "4ba3ddd3537ffd27a192b485c8ca385f7bc04053014673ce210b0cc7868bc0a1",
+  "elapsed_seconds": 144.29711198806763
+}

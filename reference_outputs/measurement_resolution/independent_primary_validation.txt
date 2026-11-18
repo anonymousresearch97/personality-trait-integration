@@ -1,0 +1,15 @@
+Independent primary measurement validation — 10 November 2026
+lavaan: 0.7.3 
+PASS: all96 source item columns, all100318 source domain scores, exact98819-row nonchild cache, all96 exported columns and all4 group memberships verified independently. 
+Saved joint-model numeric group IDs follow first appearance: 1=Early adulthood 20-39; 2=Middle adulthood 40-64; 3=Adolescence 13-19; 4=Older adulthood 65-100 
+H : six summaries reconstructed, df400→445;12 item and3 higher-order loading equalities across4groups; free intercepts/variances; all fits admissible. Every-age prespecified fit screen: TRUE 
+E : six summaries reconstructed, df400→445;12 item and3 higher-order loading equalities across4groups; free intercepts/variances; all fits admissible. Every-age prespecified fit screen: FALSE 
+X : six summaries reconstructed, df400→445;12 item and3 higher-order loading equalities across4groups; free intercepts/variances; all fits admissible. Every-age prespecified fit screen: FALSE 
+A : six summaries reconstructed, df400→445;12 item and3 higher-order loading equalities across4groups; free intercepts/variances; all fits admissible. Every-age prespecified fit screen: TRUE 
+C : six summaries reconstructed, df400→445;12 item and3 higher-order loading equalities across4groups; free intercepts/variances; all fits admissible. Every-age prespecified fit screen: FALSE 
+O : six summaries reconstructed, df400→445;12 item and3 higher-order loading equalities across4groups; free intercepts/variances; all fits admissible. Every-age prespecified fit screen: FALSE 
+PASS: fresh named-facet/manual-equality H multigroup_configural:all four reproduces saved likelihood and all fit measures within1e-4; likelihood difference 0 .
+PASS: fresh named-facet/manual-equality H multigroup_metric:all four reproduces saved likelihood and all fit measures within1e-4; likelihood difference 0 .
+[1] TRUE
+PASS:36 saved model summaries,6 loading-invariance comparisons,2 independently rebuilt joint fits and exact source/export reconstruction.
+Scope: numerical/model-specification verification. MLR treats five-category items as numeric; neither this audit nor small metric-fit changes establish ordinal threshold or scalar invariance. Poor configural fit still limits domain comparability.

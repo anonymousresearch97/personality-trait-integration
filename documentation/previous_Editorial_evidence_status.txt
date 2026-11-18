@@ -1,0 +1,35 @@
+EDITORIAL EVIDENCE STATUS -- NOT THE JOURNAL'S COMPLETED ONLINE FORM
+
+Available facts and evidence:
+1. Study preregistration: not preregistered; explicitly confirmed by author.
+2. Data design: secondary cross-sectional analyses of primary HEXACO and SAPA.
+   Actual SAPA age categories are non-equivalent and must remain labeled.
+3. Sample sizes/exclusions: raw-data-verified descriptive tables supplied.
+4. Measurement: primary item scoring and reliability plus fixed R/lavaan
+   hierarchical configural/metric checks; SAPA score reconstruction and
+   item/facet coverage. Full measurement invariance is not established.
+5. Sample-size sensitivity: standard and stronger-penalty Gaussian equal-N
+   draws, saved per-draw edge counts and skeleton-selection frequencies.
+6. Direct association comparisons: 2,000 participant bootstrap draws per
+   primary group; 45 adjacent signed-partial-correlation contrasts with
+   approximate simultaneous intervals. These differ from the PC edge tests.
+7. Code/data reproducibility: curated code archive and required input hashes
+   supplied; raw participant data obtained separately from original sources.
+8. Alpha sensitivity: fixed full-sample categorical rerun verified, including
+   the counterintuitive SAPA alpha ordering; no new tuning or resampling.
+9. Manuscript files and response letter: edited in the other chat. Their
+   current inclusion of the new descriptive tables has not been verified here.
+
+Still requires an external action or an unavailable document:
+A. Deposit the prepared code in the selected repository and record its real
+   URL/DOI. The existence of a local ZIP is not public deposition.
+B. Supply and complete the actual linked Editorial Requests Table. Its link
+   was lost from the pasted decision letter. This evidence list does not
+   substitute for it and cannot establish its completion.
+
+Do not invent declarations, manuscript locations, repository identifiers,
+or checklist answers whose underlying facts have not been verified.
+
+Journal guidance checked:
+https://www.nature.com/commspsychol/submit/guide-to-authors
+https://www.nature.com/commspsychol/submit/policy

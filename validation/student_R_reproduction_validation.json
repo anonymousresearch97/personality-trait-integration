@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "R_version": "4.5.3",
+  "lavaan_version": "0.7-3",
+  "fresh_models_fitted": 36,
+  "domains": 6,
+  "direct_R_invocation_from_unrelated_directory": true,
+  "extraction_path_contains_spaces": true,
+  "included_primary_items_csv_read": true,
+  "all36_fresh_fits_converged_and_admissible": true,
+  "all_six_metric_loading_constraints_validated": true,
+  "all_reported_values_match_archived_reference": true,
+  "execution_checks": [
+    {
+      "test": "student_saved_CFA_check",
+      "returncode": 0,
+      "seconds": 2.06,
+      "working_directory": "/private/tmp"
+    },
+    {
+      "test": "fresh_CFA_H",
+      "returncode": 0,
+      "seconds": 15.64,
+      "working_directory": "/private/tmp"
+    },
+    {
+      "test": "fresh_CFA_E",
+      "returncode": 0,
+      "seconds": 15.76,
+      "working_directory": "/private/tmp"
+    },
+    {
+      "test": "fresh_CFA_X",
+      "returncode": 0,
+      "seconds": 11.78,
+      "working_directory": "/private/tmp"
+    },
+    {
+      "test": "fresh_CFA_A",
+      "returncode": 0,
+      "seconds": 11.77,
+      "working_directory": "/private/tmp"
+    },
+    {
+      "test": "fresh_CFA_C",
+      "returncode": 0,
+      "seconds": 12.03,
+      "working_directory": "/private/tmp"
+    },
+    {
+      "test": "fresh_CFA_O",
+      "returncode": 0,
+      "seconds": 12.06,
+      "working_directory": "/private/tmp"
+    },
+    {
+      "test": "student_fresh_CFA_check",
+      "returncode": 0,
+      "seconds": 2.03,
+      "working_directory": "/private/tmp"
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "primary_H_fit_summary.csv",
+      "rows": 6,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_H_metric_comparison.csv",
+      "rows": 1,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_E_fit_summary.csv",
+      "rows": 6,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_E_metric_comparison.csv",
+      "rows": 1,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_X_fit_summary.csv",
+      "rows": 6,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_X_metric_comparison.csv",
+      "rows": 1,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_A_fit_summary.csv",
+      "rows": 6,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_A_metric_comparison.csv",
+      "rows": 1,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_C_fit_summary.csv",
+      "rows": 6,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_C_metric_comparison.csv",
+      "rows": 1,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_O_fit_summary.csv",
+      "rows": 6,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "primary_O_metric_comparison.csv",
+      "rows": 1,
+      "matches": true,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "environment_note": "Local test library uses CRAN Apple Silicon binaries with dynamic-library paths redirected to existing Conda R/BLAS libraries. No such binaries or path changes belong in the student ZIP. See local_R_environment_adjustments.json."
+}

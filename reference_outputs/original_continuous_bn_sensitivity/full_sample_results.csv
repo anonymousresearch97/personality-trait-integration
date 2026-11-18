@@ -1,0 +1,11 @@
+age_group,original_group_index,n,method,edge_count,skeleton_edges,bic_score,one_optimal_dag
+Childhood 3-12,0,98,Gaussian PC-stable,4,"A-H, A-X, C-O, E-H",,
+Childhood 3-12,0,98,Gaussian exact BIC,6,"A-C, A-H, A-X, C-E, C-O, E-H",-587.1318993776429,"A->H, A->X, C->A, E->C, E->H, O->C"
+Adolescence 13-19,1,7738,Gaussian PC-stable,13,"A-E, A-H, A-O, A-X, C-E, C-O, C-X, E-H, E-O, E-X, H-O, H-X, O-X",,
+Adolescence 13-19,1,7738,Gaussian exact BIC,13,"A-E, A-H, A-O, A-X, C-E, C-O, C-X, E-H, E-O, E-X, H-O, H-X, O-X",-45647.02697602526,"A->E, C->E, C->X, H->A, H->E, H->X, O->A, O->C, O->E, O->H, O->X, X->A, X->E"
+Early adulthood 20-39,2,51670,Gaussian PC-stable,14,"A-E, A-H, A-O, A-X, C-E, C-H, C-O, C-X, E-H, E-O, E-X, H-O, H-X, O-X",,
+Early adulthood 20-39,2,51670,Gaussian exact BIC,14,"A-E, A-H, A-O, A-X, C-E, C-H, C-O, C-X, E-H, E-O, E-X, H-O, H-X, O-X",-290451.74799080007,"A->E, A->H, A->X, C->E, C->H, C->X, E->H, O->A, O->C, O->E, O->H, O->X, X->E, X->H"
+Middle adulthood 40-64,3,35496,Gaussian PC-stable,13,"A-C, A-E, A-H, A-O, A-X, C-E, C-H, C-O, C-X, E-H, E-X, H-O, O-X",,
+Middle adulthood 40-64,3,35496,Gaussian exact BIC,13,"A-C, A-E, A-H, A-O, A-X, C-E, C-H, C-O, C-X, E-H, E-X, H-O, O-X",-180891.366951856,"C->A, E->A, E->C, E->H, H->A, H->C, O->A, O->C, O->H, O->X, X->A, X->C, X->E"
+Older adulthood 65-100,4,3915,Gaussian PC-stable,10,"A-E, A-H, A-X, C-H, C-O, C-X, E-H, E-X, H-O, O-X",,
+Older adulthood 65-100,4,3915,Gaussian exact BIC,10,"A-E, A-H, A-X, C-H, C-O, C-X, E-H, E-X, H-O, O-X",-18038.61975613311,"C->H, C->O, C->X, E->A, E->H, H->A, H->O, X->A, X->E, X->O"

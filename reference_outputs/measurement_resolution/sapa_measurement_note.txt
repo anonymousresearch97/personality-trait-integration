@@ -1,0 +1,71 @@
+SAPA measurement-resolution audit (descriptive, no model refits)
+
+The raw item responses and local superKey696 were used to reconstruct the
+EXISTING analytic sample and scores. All 18,616 participant IDs, their order,
+demographics, age categories and item counts match the cache exactly. Score
+differences are at floating-point precision. The >=3-item/domain inclusion
+rule and all networks remain unchanged.
+
+Each 40-item IPIP-HEXACO domain key partitions exactly into four 10-item facet
+keys with identical scoring directions. A represented facet means at least
+one answered item; this is only a minimal content indicator, not adequate
+facet measurement. Item counts indicate observed responses; the raw file does
+not distinguish an item not presented from a presented item left unanswered.
+Counts therefore must not be interpreted as verified exposure or dropout.
+
+Within each actual age band, we tabulated observed item coverage, item-pair
+co-observation and the facets represented in each person's scored mean.
+Zero/low co-observation counts diagnose information available for item-level
+modeling; cutoffs of 5/10/20/30 are descriptive only, not established pass/fail
+rules for measurement invariance. No correlations, alpha, omega or invariance
+tests were estimated. Complete 40-item cases are separately counted.
+
+    age_band domain     n  percent_all_four_facets  percent_at_most_two_facets  item_exposure_n_min  item_exposure_n_max  item_pair_n_median  pairs_n_below_10  pairs_n_below_20  pairs_n_zero
+18 and under      H  4550                    58.75                        2.02                  662                 1270              182.00                 0                 0             0
+18 and under      E  4550                    37.69                       17.19                  483                  835               98.00                 0                 0             0
+18 and under      X  4550                    38.62                       15.71                  521                  928              117.00                 0                 0             0
+18 and under      A  4550                    23.36                       28.22                  504                  934               75.00                 0                 0             0
+18 and under      C  4550                    39.60                       13.93                  515                  935              121.00                 0                 0             0
+18 and under      O  4550                    36.29                       16.09                  540                  920              108.00                 0                 0             0
+       19-39      H 11510                    60.05                        2.23                 1776                 3151              497.50                 0                 0             0
+       19-39      E 11510                    36.90                       17.72                 1279                 2091              265.00                 0                 0             0
+       19-39      X 11510                    38.90                       15.33                 1310                 2367              314.00                 0                 0             0
+       19-39      A 11510                    23.65                       28.52                 1302                 2256              200.00                 0                 0             0
+       19-39      C 11510                    40.03                       13.84                 1380                 2332              318.00                 0                 0             0
+       19-39      O 11510                    37.54                       15.33                 1392                 2356              302.00                 0                 0             0
+       40-59      H  2253                    62.09                        2.22                  345                  675               96.50                 0                 0             0
+       40-59      E  2253                    41.10                       15.89                  265                  419               60.00                 0                 0             0
+       40-59      X  2253                    40.30                       14.65                  279                  490               64.50                 0                 0             0
+       40-59      A  2253                    25.79                       26.63                  254                  461               46.00                 0                 0             0
+       40-59      C  2253                    42.52                       13.05                  267                  501               69.00                 0                 0             0
+       40-59      O  2253                    40.92                       14.69                  280                  493               60.00                 0                 0             0
+ 60 and over      H   303                    64.69                        2.97                   37                   95               14.00               165               651             0
+ 60 and over      E   303                    46.20                       14.52                   26                   62                9.00               443               780             0
+ 60 and over      X   303                    43.56                       14.85                   34                   70               10.00               336               778             0
+ 60 and over      A   303                    30.36                       26.40                   30                   66                7.00               607               779             0
+ 60 and over      C   303                    46.20                       12.87                   32                   81               10.00               387               774             0
+ 60 and over      O   303                    38.94                       14.52                   29                   79                9.00               444               772             0
+
+     scheme     age_band     n  n_with_all_four_facets_in_all_six_domains  percent_with_all_four_facets_in_all_six_domains
+pooled_four 18 and under  4550                                        292                                             6.42
+pooled_four        19-39 11510                                        800                                             6.95
+pooled_four        40-59  2253                                        209                                             9.28
+pooled_four  60 and over   303                                         40                                            13.20
+
+Interpretation: reproducing scores confirms scoring correctness, not score
+reliability or equivalence. The actual domain means use participant-specific
+item subsets and often incomplete facet coverage. Reliability for a hypothetical
+40-item composite reconstructed from pairwise covariances would not establish
+reliability of those variable-subset means. Estimating their reliability would
+require an explicit measurement model and missingness assumptions; a pooled
+coefficient cannot substitute for age-specific measurement comparability.
+
+The small older sample and sparse item overlaps limit a quick defensible
+multi-group item-invariance analysis. This audit does not prove invariance or
+noninvariance, nor establish that a more assumption-intensive model is impossible.
+The justified manuscript treatment is a partial external comparison using
+different items and incomplete, variable content coverage, with this unresolved
+measurement limitation stated. A >=3-item threshold alone is not a validation
+of full domain content, score reliability, or measurement invariance.
+
+Reproduce: python3 analysis/sapa_measurement_resolution.py

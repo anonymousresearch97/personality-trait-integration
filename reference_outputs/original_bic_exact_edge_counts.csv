@@ -1,0 +1,7 @@
+dataset,group,n,bic,dag_edge_count,skeleton_edge_count,dag_edges,skeleton_edges
+Original HEXACO-100,All ages 3-100,98917,-703279.5970098404,8,8,"C->H, C->X, E->H, H->A, H->O, X->A, X->E, X->O","A-H, A-X, C-H, C-X, E-H, E-X, H-O, O-X"
+Original HEXACO-100,Childhood 3-12,98,-772.171102889791,0,0,,
+Original HEXACO-100,Adolescence 13-19,7738,-58360.54115915556,4,4,"A->H, H->E, H->X, X->C","A-H, C-X, E-H, H-X"
+Original HEXACO-100,Early adulthood 20-39,51670,-374862.5573151616,7,7,"A->E, C->X, H->A, H->C, H->E, O->H, X->A","A-E, A-H, A-X, C-H, C-X, E-H, H-O"
+Original HEXACO-100,Middle adulthood 40-64,35496,-241489.78034389092,7,7,"C->H, E->H, H->A, X->A, X->C, X->E, X->O","A-H, A-X, C-H, C-X, E-H, E-X, O-X"
+Original HEXACO-100,Older adulthood 65-100,3915,-25403.99177489408,4,4,"A->X, H->A, X->C, X->E","A-H, A-X, C-X, E-X"

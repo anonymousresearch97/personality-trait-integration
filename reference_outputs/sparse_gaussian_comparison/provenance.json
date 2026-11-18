@@ -1,0 +1,66 @@
+{
+  "settings": {
+    "pc_alpha": 0.01,
+    "bic_penalty_multiplier": 2.0
+  },
+  "selection": "One fixed post-review sensitivity requested before seeing its results; no outcome-based tuning.",
+  "specs": {
+    "Primary": {
+      "source": "original_hexaco_scored_domains.csv",
+      "seed": 20261015,
+      "n": 3000,
+      "baseline": "original_continuous_bn_sensitivity",
+      "labels": [
+        "Childhood 3-12",
+        "Adolescence 13-19",
+        "Early adulthood 20-39",
+        "Middle adulthood 40-64",
+        "Older adulthood 65-100"
+      ],
+      "expected_ns": [
+        98,
+        7738,
+        51670,
+        35496,
+        3915
+      ]
+    },
+    "SAPA": {
+      "source": "sapa_hexaco_scored_domains.csv",
+      "seed": 20261020,
+      "n": 300,
+      "baseline": "sapa_gaussian_wrapup",
+      "labels": [
+        "18 and under",
+        "19-39",
+        "40-59",
+        "60 and over"
+      ],
+      "expected_ns": [
+        4550,
+        11510,
+        2253,
+        303
+      ]
+    }
+  },
+  "repetitions_per_group": 1000,
+  "files": {
+    "analysis/sparse_gaussian_comparison.py": "ba406736b096c0eadf2ee7834728b159b759ddf7f5974226df6d7e7d033b28a2",
+    "analysis/original_continuous_bn_sensitivity.py": "f8052a879605358dbf585b98fe554e208319f385aeea68640fd12b8dd01cd85b",
+    "outputs/original_hexaco_scored_domains.csv": "041269e1e94ead7b3b4199ab8bf439a35dd827df1874b5916344127b954fceee",
+    "outputs/original_continuous_bn_sensitivity/full_sample_results.csv": "042ac9bedf55f748c5b9d0099d9be33b6dd8138c7a815140fa0db2427642afa4",
+    "outputs/original_continuous_bn_sensitivity/matched_n3000_replicate_results.csv": "c3037d1cee708374e8c85c1f3c0f4223ec2dd132e29ed2ecab3cbf9233117209",
+    "outputs/sapa_hexaco_scored_domains.csv": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175",
+    "outputs/sapa_gaussian_wrapup/full_sample_results.csv": "2607a3a2370a13fffd25d6be842d52a13ce832458a794a430cf0fa20860dbf99",
+    "outputs/sapa_gaussian_wrapup/matched_n300_replicate_results.csv": "f65fed457d81f7192c80d29e59de151253076475609bd226bcc5d07270eb271f"
+  },
+  "sampling": "Same seeded samples as earlier comparison; without replacement within each draw; overlap across draws.",
+  "seed_rule": "default_rng(SeedSequence([dataset seed, group_index, replicate]))",
+  "objective": "sum logL_i - multiplier/2 * (parents_i+2) * log(N), maximized over all DAGs by exact subset DP",
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "scipy": "1.13.1",
+  "runtime_seconds": 15.473334041
+}

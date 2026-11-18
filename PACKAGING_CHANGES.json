@@ -1,0 +1,213 @@
+[
+  {
+    "file": "analysis/original_hexaco_pc_bic.py",
+    "original_sha256": "c8b1ad84adc2905c09a8e7354be244bf8c002b582ee3455974dbd0c6c51d13bf",
+    "packaged_sha256": "c8b1ad84adc2905c09a8e7354be244bf8c002b582ee3455974dbd0c6c51d13bf",
+    "changes": []
+  },
+  {
+    "file": "analysis/sapa_hexaco_pc_bic.py",
+    "original_sha256": "d62580332504c87f00673d4f4f3f6298a3e43deaee15296e4458be026f988997",
+    "packaged_sha256": "d62580332504c87f00673d4f4f3f6298a3e43deaee15296e4458be026f988997",
+    "changes": []
+  },
+  {
+    "file": "analysis/hexaco_bic_exhaustive.py",
+    "original_sha256": "84096c91bc72d41314fd89155d20739b63e3e6d004f8d6f75c5042ad9288f952",
+    "packaged_sha256": "84096c91bc72d41314fd89155d20739b63e3e6d004f8d6f75c5042ad9288f952",
+    "changes": []
+  },
+  {
+    "file": "analysis/fast_pc_stable.py",
+    "original_sha256": "a3ca5044d37902cd317d02b84834b7d50a57f9fd2f75f05ac3d13a4ebf8f6742",
+    "packaged_sha256": "a3ca5044d37902cd317d02b84834b7d50a57f9fd2f75f05ac3d13a4ebf8f6742",
+    "changes": []
+  },
+  {
+    "file": "analysis/fast_exact_bic.py",
+    "original_sha256": "ce224e49724f437e31e50a73054a09e8e05142a81c2dccb9b31040eca0c7c49b",
+    "packaged_sha256": "ce224e49724f437e31e50a73054a09e8e05142a81c2dccb9b31040eca0c7c49b",
+    "changes": []
+  },
+  {
+    "file": "analysis/original_continuous_bn_sensitivity.py",
+    "original_sha256": "f8052a879605358dbf585b98fe554e208319f385aeea68640fd12b8dd01cd85b",
+    "packaged_sha256": "fec10ce83d62e8e00610a36df64e255f305aa2690a470e25302fef7810f367c2",
+    "changes": [
+      "Replace machine-specific Matplotlib cache with package .runtime/matplotlib",
+      "Correct misleading prespecified header; original study was not preregistered"
+    ]
+  },
+  {
+    "file": "analysis/sapa_gaussian_wrapup.py",
+    "original_sha256": "6d33d17485fc79d989973dc7c39b1413331c715630586b323808ffe21ebcd6ba",
+    "packaged_sha256": "616dc35c470eed6bd600a40d2c8dfc391920528128a3733f4daa9d472db37f3e",
+    "changes": [
+      "Replace machine-specific Matplotlib cache with package .runtime/matplotlib"
+    ]
+  },
+  {
+    "file": "analysis/sparse_gaussian_comparison.py",
+    "original_sha256": "ba406736b096c0eadf2ee7834728b159b759ddf7f5974226df6d7e7d033b28a2",
+    "packaged_sha256": "de1a673f52a1fbf8d5443fa7444fd16f5e774ce3f6e0b7ebf933f9bd89e60c07",
+    "changes": [
+      "Replace machine-specific Matplotlib cache with package .runtime/matplotlib"
+    ]
+  },
+  {
+    "file": "analysis/original_continuous_age_detail.py",
+    "original_sha256": "4ba3ddd3537ffd27a192b485c8ca385f7bc04053014673ce210b0cc7868bc0a1",
+    "packaged_sha256": "4ba3ddd3537ffd27a192b485c8ca385f7bc04053014673ce210b0cc7868bc0a1",
+    "changes": []
+  },
+  {
+    "file": "analysis/validate_sparse_gaussian_comparison.py",
+    "original_sha256": "72980ff33d462fd3e4eda68e4275e942136e44aeadcd22e383224bd278dc7417",
+    "packaged_sha256": "e7045cc4f29e564fa62a975d2ef1265901732ac7b1ee2a286ba8eb8d5a64fe09",
+    "changes": [
+      "Student bundle: visible item input / portable R paths / explicit archived-provenance mapping as applicable; see CHANGES_FROM_PREVIOUS_ZIP.txt"
+    ],
+    "previous_packaged_sha256": "72980ff33d462fd3e4eda68e4275e942136e44aeadcd22e383224bd278dc7417"
+  },
+  {
+    "file": "analysis/longitudinal_gaussian_bn.py",
+    "original_sha256": "e84e0236761f4243d2fa9b76f7765322ef3f62357f85474eaf27c6f59de95b0a",
+    "packaged_sha256": "2b947f92621dbb6d55d6e56e55c86e10dfbcc421ca9f8aa78aae3bb57c1cfcd9",
+    "changes": [
+      "Clarify fixed settings without implying preregistration"
+    ]
+  },
+  {
+    "file": "analysis/reviewer1_comment2_age_harmonization.py",
+    "original_sha256": "fc8e227b9d638233b191086623290be5fa9e11ab1d8f8dbb946f2c533245eeb0",
+    "packaged_sha256": "1b6daca0a23d087bb8fab09f725a62d030756ba1d9698a3c43ab1d5e6bd8b6e3",
+    "changes": [
+      "Replace machine-specific Matplotlib cache with package .runtime/matplotlib"
+    ]
+  },
+  {
+    "file": "analysis/minimal_primary_measurement_audit.py",
+    "original_sha256": "1d1770bc87cc08bc8c92884d1b5ad975658644117ff70f7f814536d6cf4a7046",
+    "packaged_sha256": "1d1770bc87cc08bc8c92884d1b5ad975658644117ff70f7f814536d6cf4a7046",
+    "changes": []
+  },
+  {
+    "file": "analysis/minimal_sapa_measurement_audit.py",
+    "original_sha256": "eab38167326639da7e38830b916d99ffbe5ca152346cde59253e81b386dd441c",
+    "packaged_sha256": "eab38167326639da7e38830b916d99ffbe5ca152346cde59253e81b386dd441c",
+    "changes": []
+  },
+  {
+    "file": "analysis/prepare_measurement_resolution.py",
+    "original_sha256": "83c5e5a7edee7c48e9a2e523488a499de808a558c0a8b9c54c57b6a7778466e4",
+    "packaged_sha256": "cc351b0a04f0314cd651b601839941e292f4b20627c481c9dc41059bc74970d5",
+    "changes": [
+      "Place optional measurement participant working file under .runtime/measurement",
+      "Student bundle: visible item input / portable R paths / explicit archived-provenance mapping as applicable; see CHANGES_FROM_PREVIOUS_ZIP.txt"
+    ],
+    "previous_packaged_sha256": "3dadc98b4547aef0f6857dbce2cdbc725e5a24dddaac55d472569ecd1bbcbe81"
+  },
+  {
+    "file": "analysis/primary_measurement_resolution.R",
+    "original_sha256": "0781d4346dca50539f0be05c523c8894dbf271f960a41a552076fb9f72dbaa18",
+    "packaged_sha256": "b422964f4722c2b7052ca8ffee0dde979d2c35da771020780fe35cb6907b39ca",
+    "changes": [
+      "Use installed R library and package-relative measurement working file",
+      "Student bundle: visible item input / portable R paths / explicit archived-provenance mapping as applicable; see CHANGES_FROM_PREVIOUS_ZIP.txt"
+    ],
+    "previous_packaged_sha256": "9a164fe21cc427eb1c01c7028f5f6ac8fe3755931858c78a0d9f11e7b111221b"
+  },
+  {
+    "file": "analysis/sapa_measurement_resolution.py",
+    "original_sha256": "7cfad65781ee7e6f35d4cd14d33e1dc7712fa2fc1a4fa8d6943cc2fe05fab501",
+    "packaged_sha256": "7cfad65781ee7e6f35d4cd14d33e1dc7712fa2fc1a4fa8d6943cc2fe05fab501",
+    "changes": []
+  },
+  {
+    "file": "analysis/summarize_measurement_resolution.py",
+    "original_sha256": "261ac3c98f4a9bb1e386fee296b1736620421fdb2a73cf4c2932b03df122a622",
+    "packaged_sha256": "261ac3c98f4a9bb1e386fee296b1736620421fdb2a73cf4c2932b03df122a622",
+    "changes": []
+  },
+  {
+    "file": "analysis/audit_sapa_categorical_discrepancy.py",
+    "original_sha256": "1402b643e5ad54e6991971828f895fc600397e35390251336f3aad0fff253925",
+    "packaged_sha256": "1402b643e5ad54e6991971828f895fc600397e35390251336f3aad0fff253925",
+    "changes": []
+  },
+  {
+    "file": "analysis/audit_categorical_alpha.py",
+    "original_sha256": "29ea47d3b3848176a2342321f8668b7b9c83e065d3dd7151b5b559bf912e3c93",
+    "packaged_sha256": "29ea47d3b3848176a2342321f8668b7b9c83e065d3dd7151b5b559bf912e3c93",
+    "changes": []
+  },
+  {
+    "file": "analysis/audit_submission_core.py",
+    "original_sha256": "8d265dd390c004d9dd9173fa4ca8cf54b925497cd84b7a4df0500adcdc70794a",
+    "packaged_sha256": "b987bcdd2c0cf20d034532b3399ca7079e237909b64e6028ed9561e160e3cb41",
+    "changes": [
+      "Replace machine-specific Matplotlib cache with package .runtime/matplotlib"
+    ]
+  },
+  {
+    "file": "analysis/audit_submission_associations.py",
+    "original_sha256": "e80af2d611c6e99654959105d64a504b7d45334badedd223afa67a5e38d439ce",
+    "packaged_sha256": "e80af2d611c6e99654959105d64a504b7d45334badedd223afa67a5e38d439ce",
+    "changes": []
+  },
+  {
+    "file": "analysis/complete_submission_descriptives.py",
+    "original_sha256": "598c3c1d37ba8c750170f4ab1b251b6094b532d96419de5b3c808e593245a680",
+    "packaged_sha256": "598c3c1d37ba8c750170f4ab1b251b6094b532d96419de5b3c808e593245a680",
+    "changes": []
+  },
+  {
+    "file": "analysis/audit_submission_measurement.R",
+    "original_sha256": "90d001776adec95b1fc6f886d7e37a2105bdb182e63338e6668016c308ad57f9",
+    "packaged_sha256": "86f6d739cf9f0292887603dd151dfdd378e13ad702e1df719bdaf7b046a3264f",
+    "changes": [
+      "Student bundle: visible item input / portable R paths / explicit archived-provenance mapping as applicable; see CHANGES_FROM_PREVIOUS_ZIP.txt"
+    ],
+    "previous_packaged_sha256": "90d001776adec95b1fc6f886d7e37a2105bdb182e63338e6668016c308ad57f9"
+  },
+  {
+    "file": "analysis/revision_cpdag_reconstruction.py",
+    "original_sha256": "fe432a20bdaca3dbfaf0260cd73f70a60b7d5961137a33bd5fecc36e623d0f53",
+    "packaged_sha256": "b84fd156cdd84670eb33dd268f5ae4334f07c1be6231e4622b70ded77070c62c",
+    "changes": [
+      "Replace machine-specific Matplotlib cache with package .runtime/matplotlib"
+    ]
+  },
+  {
+    "file": "analysis/complete_main_pc_cpdags.py",
+    "original_sha256": "578dbaa7c0eeb27a64ff613cba5802c2d318aa27494995f1ddac1d5d386e2440",
+    "packaged_sha256": "e238e6b03e365cd083871442aa0010e6740270d2a846dae51306910b28ef21c2",
+    "changes": [
+      "Add verified pcalg author/license attribution to the documented Python port"
+    ]
+  },
+  {
+    "file": "analysis/plot_revision_cpdags.py",
+    "original_sha256": "195b39f2af088a2dd28fa6aae15b0f0c3c93ad7447f2620cf742ee1fe9efc628",
+    "packaged_sha256": "8247f1093aa2280b5a03498672a1c22ede5275c97a7829148bf1c2a9e5146dd4",
+    "changes": [
+      "Replace machine-specific Matplotlib cache with package .runtime/matplotlib"
+    ]
+  },
+  {
+    "file": "analysis/plot_publication_skeletons.py",
+    "original_sha256": "37db31eaa944229006f05a3ae684769f2567fae8a6687ab6299d06aad1e7f94c",
+    "packaged_sha256": "81cbc2de83e559ef1cb48c628cd5d5fffdf9c8f14b88d2920abfce06137022b3",
+    "changes": [
+      "Replace machine-specific Matplotlib cache with package .runtime/matplotlib"
+    ]
+  },
+  {
+    "file": "analysis/plot_categorical_full_sample_appendix.py",
+    "original_sha256": "682fa1cf7ac51223820338467a82d82ec182e08a02e1ff1408fe200c40b447d8",
+    "packaged_sha256": "3c093a2ced81f68544a14bbef603b6cb247f1d48f1da0657c0198602a8413a4f",
+    "changes": [
+      "Replace machine-specific Matplotlib cache with package .runtime/matplotlib"
+    ]
+  }
+]

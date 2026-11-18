@@ -1,0 +1,41 @@
+Categorical alpha verification: fixed full samples, no resampling.
+Fresh independent G-squared/PC-stable skeleton fits agree with the production implementation in all 27 fits.
+All 15 primary alpha fits also agree exactly with the archived primary alpha table.
+The separate historical SAPA alpha figure/table was not found. The rerun verifies the reviewer-described nonmonotonic pattern, not pixel identity of that unavailable figure.
+
+dataset              age_group     n  alpha  edge_count                   edges
+Primary         Childhood 3-12    98   0.01           1                     A-H
+Primary         Childhood 3-12    98   0.05           1                     A-H
+Primary         Childhood 3-12    98   0.10           1                     C-O
+Primary      Adolescence 13-19  7738   0.01           3           A-H, E-H, H-X
+Primary      Adolescence 13-19  7738   0.05           4      A-H, C-X, E-H, H-X
+Primary      Adolescence 13-19  7738   0.10           4      A-H, C-X, E-H, H-X
+Primary  Early adulthood 20-39 51670   0.01           5 A-H, A-X, C-H, C-X, E-H
+Primary  Early adulthood 20-39 51670   0.05           5 A-H, A-X, C-H, C-X, E-H
+Primary  Early adulthood 20-39 51670   0.10           5 A-H, A-X, C-H, C-X, E-H
+Primary Middle adulthood 40-64 35496   0.01           2                A-H, A-X
+Primary Middle adulthood 40-64 35496   0.05           2                A-H, A-X
+Primary Middle adulthood 40-64 35496   0.10           2                A-H, A-X
+Primary Older adulthood 65-100  3915   0.01           1                     A-H
+Primary Older adulthood 65-100  3915   0.05           1                     A-H
+Primary Older adulthood 65-100  3915   0.10           1                     A-H
+   SAPA           18 and under  4550   0.01           4      A-E, A-H, C-H, E-H
+   SAPA           18 and under  4550   0.05           2                A-H, C-H
+   SAPA           18 and under  4550   0.10           2                A-H, C-H
+   SAPA                  19-39 11510   0.01           2                A-H, C-H
+   SAPA                  19-39 11510   0.05           0                        
+   SAPA                  19-39 11510   0.10           0                        
+   SAPA                  40-59  2253   0.01           3           A-E, A-H, C-H
+   SAPA                  40-59  2253   0.05           0                        
+   SAPA                  40-59  2253   0.10           0                        
+   SAPA            60 and over   303   0.01           2                A-H, O-X
+   SAPA            60 and over   303   0.05           0                        
+   SAPA            60 and over   303   0.10           0                        
+
+Interpretation: PC-stable freezes adjacency sets within each conditioning depth, but those sets still depend on the chosen alpha. A higher alpha can retain more edges at an early depth, allowing additional conditioning sets later; those later tests can remove more edges. Final edge counts therefore need not be monotonic in alpha.
+Concrete SAPA 19-39 example: at alpha .01, A-C is removed at conditioning depth 2 (given H,O; p=.038637), leaving neither A nor H with three eligible neighbors for the later H-A test. At alpha .05, A-C survives depth 2, so H-A given E,X,C is eligible at depth 3 (p=.063663) and is removed. The graph has 9 versus 11 edges after depth 2, then 2 versus 0 after depth 3. This directly reproduces and explains the counterintuitive final counts.
+The five-state conditional G-squared tests use the full nominal degrees of freedom, 16*5^k. With sparse contingency tables (especially SAPA and large conditioning sets), this asymptotic approximation can be poorly calibrated and favor edge deletion. Reproducing the computation does not validate those distributional assumptions or establish an age effect.
+The primary childhood group is retained only for this audit of the old figure; it remains exploratory and is excluded from the revised adolescence/adulthood main analysis.
+The SAPA childhood group is unavailable and is not plotted as a fitted zero-edge graph.
+
+Python 3.13.9; numpy 2.3.5; pandas 2.3.3; scipy 1.16.3.

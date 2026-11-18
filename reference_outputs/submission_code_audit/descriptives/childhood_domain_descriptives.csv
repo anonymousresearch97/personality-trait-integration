@@ -1,0 +1,7 @@
+dataset,age_group,domain,domain_name,n_group,missing_scores,n_observed,mean,sd,median,minimum,q1,q3,maximum
+Primary childhood (separate archive),Childhood 3-12,H,Honesty-Humility,98,0,98,3.336734693877551,0.7562898117801685,3.375,1.1875,2.9375,3.875,4.875
+Primary childhood (separate archive),Childhood 3-12,E,Emotionality,98,0,98,3.2442602040816326,0.6001561447579119,3.1875,1.625,2.875,3.609375,4.6875
+Primary childhood (separate archive),Childhood 3-12,X,Extraversion,98,0,98,3.3144132653061225,0.6631679477595548,3.3125,1.1875,2.9375,3.6875,4.75
+Primary childhood (separate archive),Childhood 3-12,A,Agreeableness,98,0,98,2.7933673469387754,0.6655292156328901,2.84375,1.375,2.328125,3.25,4.375
+Primary childhood (separate archive),Childhood 3-12,C,Conscientiousness,98,0,98,3.385204081632653,0.5685665047225759,3.375,2.0,3.0,3.875,4.8125
+Primary childhood (separate archive),Childhood 3-12,O,Openness,98,0,98,3.513392857142857,0.6204246186880618,3.5625,2.0,3.140625,3.859375,5.0

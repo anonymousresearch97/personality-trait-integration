@@ -1,0 +1,49 @@
+SAPA full-sample Gaussian comparison
+
+All 18,616 participants are exactly those in the saved manuscript analytic
+sample, requiring at least three answered keyed items per domain. Refiltering
+the saved all-row scores reproduces that analytic cache exactly. Domain means
+are used without discretization, rescoring, or additional exclusion.
+
+Four pooled actual SAPA bands are <=18, 19-39, 40-59 and >=60. These are not
+the original primary dataset's developmental age boundaries. A separate SAPA
+childhood estimate is unavailable and must not be displayed as a zero-edge fit.
+The native eight bands are included for records only. Endpoint fits are shared.
+
+PC uses the existing validated Gaussian PC-stable function at alpha .05;
+BIC uses the existing exact Gaussian DAG optimizer. Both summarize skeleton
+edge counts. These are full-sample estimates with different sample sizes;
+they do not establish age-group differences independently of sample size.
+The separate equal-N comparison uses 1,000 samples of 300 distinct participants
+from each pooled band, including random samples from the 303 older participants.
+PC and BIC receive the same participants for every draw. Draws can overlap;
+their empirical percentile ranges are not population confidence intervals.
+Equal N is enforced within SAPA; this N=300 is not the primary study's N=3,000.
+Gaussian assumptions remain, and numerical checks do not validate those
+substantive modeling assumptions. BIC values are not compared across models
+with differently transformed responses or discrete versus continuous scores.
+
+         dataset       scheme     age_band     n  min_items_per_domain  gaussian_pc_edges  gaussian_bic_edges  categorical_pc_edges  categorical_bic_edges
+SAPA IPIP-HEXACO  pooled_four 18 and under  4550                     3                 11                  11                     2                      2
+SAPA IPIP-HEXACO  pooled_four        19-39 11510                     3                 13                  13                     0                      5
+SAPA IPIP-HEXACO  pooled_four        40-59  2253                     3                 12                  12                     0                      0
+SAPA IPIP-HEXACO  pooled_four  60 and over   303                     3                  6                   7                     0                      0
+SAPA IPIP-HEXACO native_eight 18 and under  4550                     3                 11                  11                     2                      2
+SAPA IPIP-HEXACO native_eight        19-24  6231                     3                 14                  14                     5                      4
+SAPA IPIP-HEXACO native_eight        25-29  2586                     3                 11                  10                     0                      1
+SAPA IPIP-HEXACO native_eight        30-34  1635                     3                 11                  11                     1                      0
+SAPA IPIP-HEXACO native_eight        35-39  1058                     3                 10                   9                     2                      0
+SAPA IPIP-HEXACO native_eight        40-49  1494                     3                 11                  11                     5                      0
+SAPA IPIP-HEXACO native_eight        50-59   759                     3                  8                   8                     1                      0
+SAPA IPIP-HEXACO native_eight  60 and over   303                     3                  6                   7                     0                      0
+
+Matched N=300
+ group_index     age_band             method  sample_n  source_n  fits  mean_edges  sd_edges  median_edges  percentile_2_5  percentile_97_5  min_edges  max_edges  empty_fraction  monte_carlo_se_of_mean
+           1 18 and under Gaussian PC-stable       300      4550  1000       4.616  1.161849           5.0               2                7          1          9             0.0                0.036741
+           1 18 and under Exact Gaussian BIC       300      4550  1000       4.405  1.314040           4.0               2                7          1          9             0.0                0.041554
+           2        19-39 Gaussian PC-stable       300     11510  1000       5.792  1.218286           6.0               3                8          2         10             0.0                0.038526
+           2        19-39 Exact Gaussian BIC       300     11510  1000       5.931  1.321357           6.0               3                8          2         10             0.0                0.041785
+           3        40-59 Gaussian PC-stable       300      2253  1000       6.146  1.157594           6.0               4                8          2         10             0.0                0.036606
+           3        40-59 Exact Gaussian BIC       300      2253  1000       6.382  1.182994           6.0               4                9          2         10             0.0                0.037410
+           4  60 and over Gaussian PC-stable       300       303  1000       5.852  0.355278           6.0               5                6          5          6             0.0                0.011235
+           4  60 and over Exact Gaussian BIC       300       303  1000       6.998  0.044699           7.0               7                7          6          7             0.0                0.001414

@@ -1,0 +1,3 @@
+-r requirements.txt
+# Optional independent DAG-to-CPDAG conversion used in orientation checks.
+causal-learn==0.1.4.8

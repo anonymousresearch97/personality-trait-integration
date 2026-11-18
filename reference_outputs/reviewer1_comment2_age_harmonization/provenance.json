@@ -1,0 +1,30 @@
+{
+  "analysis": "Reviewer 1, major comment 2: primary ages regrouped to SAPA public boundaries",
+  "inputs": {
+    "outputs/original_hexaco_scored_domains.csv": {
+      "sha256": "041269e1e94ead7b3b4199ab8bf439a35dd827df1874b5916344127b954fceee"
+    },
+    "outputs/sapa_hexaco_scored_domains.csv": {
+      "sha256": "20171de0e907040b12eaaf5d85942a29c875d12101670f5c5262aae64055d175"
+    }
+  },
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "scipy": "1.13.1",
+  "model": {
+    "discretization": "5 equal-width categories over 1-5; unchanged implementation",
+    "pc_alpha": 0.05,
+    "pc_test": "G^2 asymptotic chi-square, full 5-level state space",
+    "max_conditioning_set": 4,
+    "bic": "loglik - 0.5 * parameter_count * log(n)",
+    "max_parents": 5,
+    "bic_search": "existing exact dynamic-programming search",
+    "reported_edges": "undirected skeleton"
+  },
+  "analysis_sources": {
+    "analysis/reviewer1_comment2_age_harmonization.py": "fc8e227b9d638233b191086623290be5fa9e11ab1d8f8dbb946f2c533245eeb0",
+    "analysis/sapa_hexaco_pc_bic.py": "d62580332504c87f00673d4f4f3f6298a3e43deaee15296e4458be026f988997",
+    "analysis/hexaco_bic_exhaustive.py": "84096c91bc72d41314fd89155d20739b63e3e6d004f8d6f75c5042ad9288f952"
+  }
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "file": "/private/tmp/psychology-sem-library/mnormt/libs/mnormt.so",
+    "backup": "/private/tmp/psychology-sem-library/mnormt/libs/mnormt.so.original",
+    "replacements": [
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libR.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/R/lib/libR.dylib"
+      ],
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libgfortran.5.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/libgfortran.5.dylib"
+      ],
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libquadmath.0.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/libquadmath.0.dylib"
+      ]
+    ]
+  },
+  {
+    "file": "/private/tmp/psychology-sem-library/MASS/libs/MASS.so",
+    "backup": "/private/tmp/psychology-sem-library/MASS/libs/MASS.so.original",
+    "replacements": [
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libR.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/R/lib/libR.dylib"
+      ]
+    ]
+  },
+  {
+    "file": "/private/tmp/psychology-sem-library/quadprog/libs/quadprog.so",
+    "backup": "/private/tmp/psychology-sem-library/quadprog/libs/quadprog.so.original",
+    "replacements": [
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/libblas.3.dylib"
+      ],
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libR.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/R/lib/libR.dylib"
+      ],
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libgfortran.5.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/libgfortran.5.dylib"
+      ],
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libquadmath.0.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/libquadmath.0.dylib"
+      ]
+    ]
+  },
+  {
+    "file": "/private/tmp/psychology-sem-library/pbivnorm/libs/pbivnorm.so",
+    "backup": "/private/tmp/psychology-sem-library/pbivnorm/libs/pbivnorm.so.original",
+    "replacements": [
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libR.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/R/lib/libR.dylib"
+      ],
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libgfortran.5.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/libgfortran.5.dylib"
+      ],
+      [
+        "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libquadmath.0.dylib",
+        "/opt/anaconda3/envs/r-bnlearn/lib/libquadmath.0.dylib"
+      ]
+    ]
+  }
+]

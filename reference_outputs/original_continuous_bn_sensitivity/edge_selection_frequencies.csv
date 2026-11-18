@@ -1,0 +1,121 @@
+age_group,method,edge,times_selected,fits,selection_fraction
+Adolescence 13-19,Gaussian PC-stable,A-C,2,1000,0.002
+Adolescence 13-19,Gaussian PC-stable,A-E,693,1000,0.693
+Adolescence 13-19,Gaussian PC-stable,A-H,1000,1000,1.0
+Adolescence 13-19,Gaussian PC-stable,A-O,479,1000,0.479
+Adolescence 13-19,Gaussian PC-stable,A-X,1000,1000,1.0
+Adolescence 13-19,Gaussian PC-stable,C-E,199,1000,0.199
+Adolescence 13-19,Gaussian PC-stable,C-H,26,1000,0.026
+Adolescence 13-19,Gaussian PC-stable,C-O,998,1000,0.998
+Adolescence 13-19,Gaussian PC-stable,C-X,1000,1000,1.0
+Adolescence 13-19,Gaussian PC-stable,E-H,1000,1000,1.0
+Adolescence 13-19,Gaussian PC-stable,E-O,598,1000,0.598
+Adolescence 13-19,Gaussian PC-stable,E-X,935,1000,0.935
+Adolescence 13-19,Gaussian PC-stable,H-O,605,1000,0.605
+Adolescence 13-19,Gaussian PC-stable,H-X,1000,1000,1.0
+Adolescence 13-19,Gaussian PC-stable,O-X,770,1000,0.77
+Adolescence 13-19,Gaussian exact BIC,A-C,4,1000,0.004
+Adolescence 13-19,Gaussian exact BIC,A-E,673,1000,0.673
+Adolescence 13-19,Gaussian exact BIC,A-H,1000,1000,1.0
+Adolescence 13-19,Gaussian exact BIC,A-O,357,1000,0.357
+Adolescence 13-19,Gaussian exact BIC,A-X,1000,1000,1.0
+Adolescence 13-19,Gaussian exact BIC,C-E,164,1000,0.164
+Adolescence 13-19,Gaussian exact BIC,C-H,203,1000,0.203
+Adolescence 13-19,Gaussian exact BIC,C-O,967,1000,0.967
+Adolescence 13-19,Gaussian exact BIC,C-X,1000,1000,1.0
+Adolescence 13-19,Gaussian exact BIC,E-H,1000,1000,1.0
+Adolescence 13-19,Gaussian exact BIC,E-O,550,1000,0.55
+Adolescence 13-19,Gaussian exact BIC,E-X,793,1000,0.793
+Adolescence 13-19,Gaussian exact BIC,H-O,739,1000,0.739
+Adolescence 13-19,Gaussian exact BIC,H-X,1000,1000,1.0
+Adolescence 13-19,Gaussian exact BIC,O-X,707,1000,0.707
+Early adulthood 20-39,Gaussian PC-stable,A-C,8,1000,0.008
+Early adulthood 20-39,Gaussian PC-stable,A-E,410,1000,0.41
+Early adulthood 20-39,Gaussian PC-stable,A-H,1000,1000,1.0
+Early adulthood 20-39,Gaussian PC-stable,A-O,943,1000,0.943
+Early adulthood 20-39,Gaussian PC-stable,A-X,1000,1000,1.0
+Early adulthood 20-39,Gaussian PC-stable,C-E,369,1000,0.369
+Early adulthood 20-39,Gaussian PC-stable,C-H,1000,1000,1.0
+Early adulthood 20-39,Gaussian PC-stable,C-O,259,1000,0.259
+Early adulthood 20-39,Gaussian PC-stable,C-X,1000,1000,1.0
+Early adulthood 20-39,Gaussian PC-stable,E-H,1000,1000,1.0
+Early adulthood 20-39,Gaussian PC-stable,E-O,263,1000,0.263
+Early adulthood 20-39,Gaussian PC-stable,E-X,999,1000,0.999
+Early adulthood 20-39,Gaussian PC-stable,H-O,870,1000,0.87
+Early adulthood 20-39,Gaussian PC-stable,H-X,655,1000,0.655
+Early adulthood 20-39,Gaussian PC-stable,O-X,986,1000,0.986
+Early adulthood 20-39,Gaussian exact BIC,A-C,9,1000,0.009
+Early adulthood 20-39,Gaussian exact BIC,A-E,189,1000,0.189
+Early adulthood 20-39,Gaussian exact BIC,A-H,1000,1000,1.0
+Early adulthood 20-39,Gaussian exact BIC,A-O,854,1000,0.854
+Early adulthood 20-39,Gaussian exact BIC,A-X,1000,1000,1.0
+Early adulthood 20-39,Gaussian exact BIC,C-E,141,1000,0.141
+Early adulthood 20-39,Gaussian exact BIC,C-H,1000,1000,1.0
+Early adulthood 20-39,Gaussian exact BIC,C-O,224,1000,0.224
+Early adulthood 20-39,Gaussian exact BIC,C-X,1000,1000,1.0
+Early adulthood 20-39,Gaussian exact BIC,E-H,1000,1000,1.0
+Early adulthood 20-39,Gaussian exact BIC,E-O,191,1000,0.191
+Early adulthood 20-39,Gaussian exact BIC,E-X,998,1000,0.998
+Early adulthood 20-39,Gaussian exact BIC,H-O,930,1000,0.93
+Early adulthood 20-39,Gaussian exact BIC,H-X,989,1000,0.989
+Early adulthood 20-39,Gaussian exact BIC,O-X,964,1000,0.964
+Middle adulthood 40-64,Gaussian PC-stable,A-C,0,1000,0.0
+Middle adulthood 40-64,Gaussian PC-stable,A-E,195,1000,0.195
+Middle adulthood 40-64,Gaussian PC-stable,A-H,1000,1000,1.0
+Middle adulthood 40-64,Gaussian PC-stable,A-O,471,1000,0.471
+Middle adulthood 40-64,Gaussian PC-stable,A-X,1000,1000,1.0
+Middle adulthood 40-64,Gaussian PC-stable,C-E,309,1000,0.309
+Middle adulthood 40-64,Gaussian PC-stable,C-H,1000,1000,1.0
+Middle adulthood 40-64,Gaussian PC-stable,C-O,196,1000,0.196
+Middle adulthood 40-64,Gaussian PC-stable,C-X,1000,1000,1.0
+Middle adulthood 40-64,Gaussian PC-stable,E-H,1000,1000,1.0
+Middle adulthood 40-64,Gaussian PC-stable,E-O,78,1000,0.078
+Middle adulthood 40-64,Gaussian PC-stable,E-X,1000,1000,1.0
+Middle adulthood 40-64,Gaussian PC-stable,H-O,843,1000,0.843
+Middle adulthood 40-64,Gaussian PC-stable,H-X,1,1000,0.001
+Middle adulthood 40-64,Gaussian PC-stable,O-X,1000,1000,1.0
+Middle adulthood 40-64,Gaussian exact BIC,A-C,78,1000,0.078
+Middle adulthood 40-64,Gaussian exact BIC,A-E,173,1000,0.173
+Middle adulthood 40-64,Gaussian exact BIC,A-H,1000,1000,1.0
+Middle adulthood 40-64,Gaussian exact BIC,A-O,193,1000,0.193
+Middle adulthood 40-64,Gaussian exact BIC,A-X,1000,1000,1.0
+Middle adulthood 40-64,Gaussian exact BIC,C-E,126,1000,0.126
+Middle adulthood 40-64,Gaussian exact BIC,C-H,1000,1000,1.0
+Middle adulthood 40-64,Gaussian exact BIC,C-O,66,1000,0.066
+Middle adulthood 40-64,Gaussian exact BIC,C-X,1000,1000,1.0
+Middle adulthood 40-64,Gaussian exact BIC,E-H,1000,1000,1.0
+Middle adulthood 40-64,Gaussian exact BIC,E-O,68,1000,0.068
+Middle adulthood 40-64,Gaussian exact BIC,E-X,1000,1000,1.0
+Middle adulthood 40-64,Gaussian exact BIC,H-O,964,1000,0.964
+Middle adulthood 40-64,Gaussian exact BIC,H-X,846,1000,0.846
+Middle adulthood 40-64,Gaussian exact BIC,O-X,1000,1000,1.0
+Older adulthood 65-100,Gaussian PC-stable,A-C,0,1000,0.0
+Older adulthood 65-100,Gaussian PC-stable,A-E,763,1000,0.763
+Older adulthood 65-100,Gaussian PC-stable,A-H,1000,1000,1.0
+Older adulthood 65-100,Gaussian PC-stable,A-O,186,1000,0.186
+Older adulthood 65-100,Gaussian PC-stable,A-X,1000,1000,1.0
+Older adulthood 65-100,Gaussian PC-stable,C-E,55,1000,0.055
+Older adulthood 65-100,Gaussian PC-stable,C-H,1000,1000,1.0
+Older adulthood 65-100,Gaussian PC-stable,C-O,880,1000,0.88
+Older adulthood 65-100,Gaussian PC-stable,C-X,1000,1000,1.0
+Older adulthood 65-100,Gaussian PC-stable,E-H,1000,1000,1.0
+Older adulthood 65-100,Gaussian PC-stable,E-O,45,1000,0.045
+Older adulthood 65-100,Gaussian PC-stable,E-X,1000,1000,1.0
+Older adulthood 65-100,Gaussian PC-stable,H-O,538,1000,0.538
+Older adulthood 65-100,Gaussian PC-stable,H-X,0,1000,0.0
+Older adulthood 65-100,Gaussian PC-stable,O-X,1000,1000,1.0
+Older adulthood 65-100,Gaussian exact BIC,A-C,19,1000,0.019
+Older adulthood 65-100,Gaussian exact BIC,A-E,770,1000,0.77
+Older adulthood 65-100,Gaussian exact BIC,A-H,1000,1000,1.0
+Older adulthood 65-100,Gaussian exact BIC,A-O,31,1000,0.031
+Older adulthood 65-100,Gaussian exact BIC,A-X,1000,1000,1.0
+Older adulthood 65-100,Gaussian exact BIC,C-E,16,1000,0.016
+Older adulthood 65-100,Gaussian exact BIC,C-H,1000,1000,1.0
+Older adulthood 65-100,Gaussian exact BIC,C-O,313,1000,0.313
+Older adulthood 65-100,Gaussian exact BIC,C-X,1000,1000,1.0
+Older adulthood 65-100,Gaussian exact BIC,E-H,1000,1000,1.0
+Older adulthood 65-100,Gaussian exact BIC,E-O,12,1000,0.012
+Older adulthood 65-100,Gaussian exact BIC,E-X,1000,1000,1.0
+Older adulthood 65-100,Gaussian exact BIC,H-O,975,1000,0.975
+Older adulthood 65-100,Gaussian exact BIC,H-X,238,1000,0.238
+Older adulthood 65-100,Gaussian exact BIC,O-X,1000,1000,1.0

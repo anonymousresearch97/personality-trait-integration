@@ -1,0 +1,23 @@
+External methods and dependencies
+
+Python statistical work uses NumPy, pandas, SciPy, Matplotlib, NetworkX and
+pyreadstat. Independent CPDAG conversion uses causal-learn 0.1.4.8:
+https://github.com/py-why/causal-learn
+
+The optional PC conflict-resolution implementation in complete_main_pc_cpdags.py
+is explicitly a Python port of the pcalg udag2pdagSpecial / pdag2dag retry policy:
+https://github.com/cran/pcalg/blob/master/R/pcalg.R
+It was not obtained by running R pcalg. Code comments identify the source.
+The pcalg source package credits Markus Kalisch, Alain Hauser, Martin Maechler
+and contributors and is licensed GPL (>= 2), as recorded in its DESCRIPTION:
+https://raw.githubusercontent.com/cran/pcalg/master/DESCRIPTION
+That source-derived port is not offered under a blanket MIT license here.
+
+The optional primary measurement models use R/lavaan (audited version 0.7-3):
+https://lavaan.ugent.be/
+
+These packages and source methods retain their respective authorship and
+licensing terms. This archive does not confer a new license to third-party
+software or data. This private student-checking bundle includes the study data inputs supplied in the working project. It is separate from the code-only publication archive.
+The authors have not supplied a public code repository, DOI or an archive
+license selection in this session; those must not be inferred from the ZIP.

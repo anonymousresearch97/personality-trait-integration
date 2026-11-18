@@ -1,0 +1,24 @@
+{
+  "local_ols_scores_checked": 384,
+  "max_local_score_absolute_error": 1.3642420526593924e-12,
+  "partial_correlations_checked": 150,
+  "max_partial_correlation_absolute_error": 3.3306690738754696e-16,
+  "exhaustive_dag_checks": [
+    {
+      "sample": 0,
+      "n": 98,
+      "enumerated_four_node_dags": 543,
+      "dp_score": -404.8883104487569,
+      "enumerated_best_score": -404.8883104487568
+    },
+    {
+      "sample": 1,
+      "n": 3000,
+      "enumerated_four_node_dags": 543,
+      "dp_score": -12275.296751838749,
+      "enumerated_best_score": -12275.296751838749
+    }
+  ],
+  "all_five_group_pc_order_checks_passed": true,
+  "all_five_group_bic_dags_acyclic": true
+}

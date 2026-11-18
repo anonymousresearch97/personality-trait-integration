@@ -1,0 +1,768 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Verified descriptive statistics</title><style>body{font:15px Arial,sans-serif;margin:32px;color:#17242d}table{border-collapse:collapse;font-size:13px;margin-bottom:32px}td,th{padding:6px 10px;border:1px solid #ccd5dc;text-align:right}th{background:#eef3f7}pre{white-space:pre-wrap;max-width:1000px}</style></head><body>
+<h1>Verified descriptive statistics</h1><pre>Descriptive-statistics completion, 12 November 2026
+
+Reviewer 1 minor 8 requested primary mean/SD/median/range/age distributions,
+SAPA constituent age-band distributions, and sex/gender and domain means/SDs
+by age group. All numerical tables for those requests are now supplied here.
+These tables have not been inserted into a manuscript or Google document.
+
+Primary main sample: ages 13-19 N=7,738; 20-39 N=51,670; 40-64 N=35,496;
+65-100 N=3,915; total N=98,819. Childhood N=98 is in separate childhood_* files.
+The source has 100,318 records: 1,373 missing age and 28 ages outside 3-100.
+Source domain scores exactly equal means of the 16 stored keyed items per
+domain in all 100,318 records. Those 96 items and six source scores are complete.
+No additional reverse scoring or imputation was used. File completeness
+cannot establish whether any imputation occurred before data release.
+
+Primary sexnumeric labels are verified directly from SPSS SAV metadata:
+1=men, 2=women. These replace the unlabeled codes in the older audit table.
+SAPA retains source gender labels female/male. Percentages use every participant
+in the specified age group as denominator; missing counts are explicit.
+
+SAPA main sample: 18 and under N=4,550; 19-39 N=11,510; 40-59 N=2,253;
+60 and over N=303; total N=18,616. Raw 1-6 responses were independently keyed,
+averaged within each 40-item domain key, and mapped linearly to 1-5. At least
+three answered keyed items in every domain and an observed public age band
+were required. Raw reconstruction reproduced participant IDs, item counts,
+and domain scores (maximum numerical discrepancy below 1e-14) in the cache.
+SAPA means/SDs here are on that analyzed 1-5 scale. Item coverage is reported
+separately; sparse item availability is not evidence of equivalent reliability.
+
+Exact SAPA individual ages, mean age, median age, SD age, or observed age
+range cannot be recovered from these public categories. No category midpoints
+are substituted for ages. SAPA 18-and-under may include children; age 19 and
+ages 60-64 are grouped differently than in the primary sample. The endpoint
+bands are open-ended. The two sets of developmental categories are non-equivalent.
+
+Contents:
+primary_age_summary.csv: age means, sample SDs, medians, observed minima/maxima,
+  quartiles and Ns for the four primary main groups and their combined sample.
+primary_age_distribution.csv: single-year observed age frequencies by main group.
+sapa_constituent_age_bands.csv: all eight constituent public age-band counts,
+  with percentages within the pooled band and within the SAPA analytic sample.
+domain_descriptives.csv: six domain means, sample SDs, medians, quartiles,
+  observed ranges and missingness for each dataset/group and overall main sample.
+domain_mean_sd_wide.csv: compact eight-row presentation of mean (SD) by group.
+sex_gender_composition.csv: verified source labels, counts and percentages.
+childhood_*.csv: all corresponding original childhood descriptions separately.
+sapa_item_coverage.csv: answered-item counts across the four pooled/eight native bands.
+sample_flow.csv and missingness_summary.csv: exclusions and missingness checks.
+validation.json: versions, source hashes and reconstruction checks.
+
+Language: Python (pandas/numpy/pyreadstat); no R or statistical network fitting
+was needed for these descriptive tables. SDs are sample SDs (denominator N-1).
+
+Data-deposition note: no explicit raw-data redistribution license was verified
+from the local materials used in this audit. Package the code and aggregate
+tables, and identify the original data sources; do not claim a public code
+deposit, DOI, repository URL, or permission to redistribute participant-level
+raw/cached data merely because this local package exists.
+</pre>
+<h2>primary_age_summary.csv</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>age_group</th>
+      <th>n_observed</th>
+      <th>mean</th>
+      <th>sd</th>
+      <th>median</th>
+      <th>minimum</th>
+      <th>q1</th>
+      <th>q3</th>
+      <th>maximum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Adolescence 13-19</td>
+      <td>7738</td>
+      <td>17.474</td>
+      <td>1.431</td>
+      <td>18.000</td>
+      <td>13.000</td>
+      <td>17.000</td>
+      <td>19.000</td>
+      <td>19.000</td>
+    </tr>
+    <tr>
+      <td>Early adulthood 20-39</td>
+      <td>51670</td>
+      <td>29.001</td>
+      <td>5.640</td>
+      <td>29.000</td>
+      <td>20.000</td>
+      <td>24.000</td>
+      <td>34.000</td>
+      <td>39.000</td>
+    </tr>
+    <tr>
+      <td>Middle adulthood 40-64</td>
+      <td>35496</td>
+      <td>49.761</td>
+      <td>6.818</td>
+      <td>49.000</td>
+      <td>40.000</td>
+      <td>44.000</td>
+      <td>55.000</td>
+      <td>64.000</td>
+    </tr>
+    <tr>
+      <td>Older adulthood 65-100</td>
+      <td>3915</td>
+      <td>69.339</td>
+      <td>4.349</td>
+      <td>68.000</td>
+      <td>65.000</td>
+      <td>66.000</td>
+      <td>71.000</td>
+      <td>100.000</td>
+    </tr>
+    <tr>
+      <td>All primary ages 13-100</td>
+      <td>98819</td>
+      <td>37.153</td>
+      <td>14.052</td>
+      <td>35.000</td>
+      <td>13.000</td>
+      <td>26.000</td>
+      <td>47.000</td>
+      <td>100.000</td>
+    </tr>
+  </tbody>
+</table>
+<h2>sapa_constituent_age_bands.csv</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>pooled_age_band</th>
+      <th>constituent_public_age_band</th>
+      <th>n</th>
+      <th>pooled_n</th>
+      <th>percent_within_pooled_band</th>
+      <th>percent_of_sapa_analytic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>18 and under</td>
+      <td>18 and under</td>
+      <td>4550</td>
+      <td>4550</td>
+      <td>100.000</td>
+      <td>24.441</td>
+    </tr>
+    <tr>
+      <td>19-39</td>
+      <td>19-24</td>
+      <td>6231</td>
+      <td>11510</td>
+      <td>54.136</td>
+      <td>33.471</td>
+    </tr>
+    <tr>
+      <td>19-39</td>
+      <td>25-29</td>
+      <td>2586</td>
+      <td>11510</td>
+      <td>22.467</td>
+      <td>13.891</td>
+    </tr>
+    <tr>
+      <td>19-39</td>
+      <td>30-34</td>
+      <td>1635</td>
+      <td>11510</td>
+      <td>14.205</td>
+      <td>8.783</td>
+    </tr>
+    <tr>
+      <td>19-39</td>
+      <td>35-39</td>
+      <td>1058</td>
+      <td>11510</td>
+      <td>9.192</td>
+      <td>5.683</td>
+    </tr>
+    <tr>
+      <td>40-59</td>
+      <td>40-49</td>
+      <td>1494</td>
+      <td>2253</td>
+      <td>66.312</td>
+      <td>8.025</td>
+    </tr>
+    <tr>
+      <td>40-59</td>
+      <td>50-59</td>
+      <td>759</td>
+      <td>2253</td>
+      <td>33.688</td>
+      <td>4.077</td>
+    </tr>
+    <tr>
+      <td>60 and over</td>
+      <td>60 and over</td>
+      <td>303</td>
+      <td>303</td>
+      <td>100.000</td>
+      <td>1.628</td>
+    </tr>
+  </tbody>
+</table>
+<h2>sex_gender_composition.csv</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>dataset</th>
+      <th>age_group</th>
+      <th>source_variable</th>
+      <th>category</th>
+      <th>n</th>
+      <th>n_group</th>
+      <th>percent_within_group</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary</td>
+      <td>Adolescence 13-19</td>
+      <td>sexnumeric</td>
+      <td>men</td>
+      <td>3829</td>
+      <td>7738</td>
+      <td>49.483</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Adolescence 13-19</td>
+      <td>sexnumeric</td>
+      <td>women</td>
+      <td>3873</td>
+      <td>7738</td>
+      <td>50.052</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Adolescence 13-19</td>
+      <td>sexnumeric</td>
+      <td>Missing</td>
+      <td>36</td>
+      <td>7738</td>
+      <td>0.465</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Early adulthood 20-39</td>
+      <td>sexnumeric</td>
+      <td>men</td>
+      <td>25994</td>
+      <td>51670</td>
+      <td>50.308</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Early adulthood 20-39</td>
+      <td>sexnumeric</td>
+      <td>women</td>
+      <td>25421</td>
+      <td>51670</td>
+      <td>49.199</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Early adulthood 20-39</td>
+      <td>sexnumeric</td>
+      <td>Missing</td>
+      <td>255</td>
+      <td>51670</td>
+      <td>0.494</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Middle adulthood 40-64</td>
+      <td>sexnumeric</td>
+      <td>men</td>
+      <td>17914</td>
+      <td>35496</td>
+      <td>50.468</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Middle adulthood 40-64</td>
+      <td>sexnumeric</td>
+      <td>women</td>
+      <td>17250</td>
+      <td>35496</td>
+      <td>48.597</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Middle adulthood 40-64</td>
+      <td>sexnumeric</td>
+      <td>Missing</td>
+      <td>332</td>
+      <td>35496</td>
+      <td>0.935</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Older adulthood 65-100</td>
+      <td>sexnumeric</td>
+      <td>men</td>
+      <td>2269</td>
+      <td>3915</td>
+      <td>57.957</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Older adulthood 65-100</td>
+      <td>sexnumeric</td>
+      <td>women</td>
+      <td>1580</td>
+      <td>3915</td>
+      <td>40.358</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Older adulthood 65-100</td>
+      <td>sexnumeric</td>
+      <td>Missing</td>
+      <td>66</td>
+      <td>3915</td>
+      <td>1.686</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>All analytic participants</td>
+      <td>sexnumeric</td>
+      <td>men</td>
+      <td>50006</td>
+      <td>98819</td>
+      <td>50.604</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>All analytic participants</td>
+      <td>sexnumeric</td>
+      <td>women</td>
+      <td>48124</td>
+      <td>98819</td>
+      <td>48.699</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>All analytic participants</td>
+      <td>sexnumeric</td>
+      <td>Missing</td>
+      <td>689</td>
+      <td>98819</td>
+      <td>0.697</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>18 and under</td>
+      <td>gender</td>
+      <td>female</td>
+      <td>2922</td>
+      <td>4550</td>
+      <td>64.220</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>18 and under</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>1628</td>
+      <td>4550</td>
+      <td>35.780</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>18 and under</td>
+      <td>gender</td>
+      <td>Missing</td>
+      <td>0</td>
+      <td>4550</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>19-39</td>
+      <td>gender</td>
+      <td>female</td>
+      <td>7326</td>
+      <td>11510</td>
+      <td>63.649</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>19-39</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>4184</td>
+      <td>11510</td>
+      <td>36.351</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>19-39</td>
+      <td>gender</td>
+      <td>Missing</td>
+      <td>0</td>
+      <td>11510</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>40-59</td>
+      <td>gender</td>
+      <td>female</td>
+      <td>1494</td>
+      <td>2253</td>
+      <td>66.312</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>40-59</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>759</td>
+      <td>2253</td>
+      <td>33.688</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>40-59</td>
+      <td>gender</td>
+      <td>Missing</td>
+      <td>0</td>
+      <td>2253</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>60 and over</td>
+      <td>gender</td>
+      <td>female</td>
+      <td>189</td>
+      <td>303</td>
+      <td>62.376</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>60 and over</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>114</td>
+      <td>303</td>
+      <td>37.624</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>60 and over</td>
+      <td>gender</td>
+      <td>Missing</td>
+      <td>0</td>
+      <td>303</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>All analytic participants</td>
+      <td>gender</td>
+      <td>female</td>
+      <td>11931</td>
+      <td>18616</td>
+      <td>64.090</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>All analytic participants</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>6685</td>
+      <td>18616</td>
+      <td>35.910</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>All analytic participants</td>
+      <td>gender</td>
+      <td>Missing</td>
+      <td>0</td>
+      <td>18616</td>
+      <td>0.000</td>
+    </tr>
+  </tbody>
+</table>
+<h2>domain_mean_sd_wide.csv</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>dataset</th>
+      <th>age_group</th>
+      <th>n_group</th>
+      <th>H</th>
+      <th>E</th>
+      <th>X</th>
+      <th>A</th>
+      <th>C</th>
+      <th>O</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary</td>
+      <td>Adolescence 13-19</td>
+      <td>7738</td>
+      <td>3.000 (0.760)</td>
+      <td>3.131 (0.675)</td>
+      <td>3.126 (0.702)</td>
+      <td>2.772 (0.664)</td>
+      <td>3.359 (0.617)</td>
+      <td>3.530 (0.610)</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Early adulthood 20-39</td>
+      <td>51670</td>
+      <td>3.191 (0.746)</td>
+      <td>3.137 (0.643)</td>
+      <td>3.185 (0.658)</td>
+      <td>2.751 (0.642)</td>
+      <td>3.512 (0.571)</td>
+      <td>3.675 (0.582)</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Middle adulthood 40-64</td>
+      <td>35496</td>
+      <td>3.477 (0.677)</td>
+      <td>3.094 (0.593)</td>
+      <td>3.279 (0.601)</td>
+      <td>2.810 (0.595)</td>
+      <td>3.563 (0.515)</td>
+      <td>3.749 (0.549)</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Older adulthood 65-100</td>
+      <td>3915</td>
+      <td>3.630 (0.611)</td>
+      <td>3.003 (0.531)</td>
+      <td>3.353 (0.555)</td>
+      <td>2.899 (0.557)</td>
+      <td>3.628 (0.473)</td>
+      <td>3.775 (0.514)</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>18 and under</td>
+      <td>4550</td>
+      <td>3.382 (0.641)</td>
+      <td>2.888 (0.718)</td>
+      <td>3.261 (0.800)</td>
+      <td>3.061 (0.733)</td>
+      <td>3.411 (0.670)</td>
+      <td>3.554 (0.678)</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>19-39</td>
+      <td>11510</td>
+      <td>3.517 (0.631)</td>
+      <td>2.887 (0.717)</td>
+      <td>3.255 (0.796)</td>
+      <td>3.196 (0.725)</td>
+      <td>3.598 (0.669)</td>
+      <td>3.614 (0.664)</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>40-59</td>
+      <td>2253</td>
+      <td>3.727 (0.603)</td>
+      <td>2.868 (0.702)</td>
+      <td>3.340 (0.774)</td>
+      <td>3.329 (0.762)</td>
+      <td>3.766 (0.667)</td>
+      <td>3.696 (0.661)</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>60 and over</td>
+      <td>303</td>
+      <td>3.727 (0.580)</td>
+      <td>2.918 (0.685)</td>
+      <td>3.347 (0.768)</td>
+      <td>3.448 (0.718)</td>
+      <td>3.774 (0.630)</td>
+      <td>3.842 (0.679)</td>
+    </tr>
+  </tbody>
+</table>
+<h2>childhood_age_summary.csv</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>age_group</th>
+      <th>n_observed</th>
+      <th>mean</th>
+      <th>sd</th>
+      <th>median</th>
+      <th>minimum</th>
+      <th>q1</th>
+      <th>q3</th>
+      <th>maximum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>98</td>
+      <td>10.143</td>
+      <td>2.553</td>
+      <td>11.000</td>
+      <td>3.000</td>
+      <td>9.000</td>
+      <td>12.000</td>
+      <td>12.000</td>
+    </tr>
+  </tbody>
+</table>
+<h2>childhood_age_distribution.csv</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>age_group</th>
+      <th>age</th>
+      <th>n</th>
+      <th>percent_within_group</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>3.000</td>
+      <td>2</td>
+      <td>2.041</td>
+    </tr>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>4.000</td>
+      <td>3</td>
+      <td>3.061</td>
+    </tr>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>5.000</td>
+      <td>7</td>
+      <td>7.143</td>
+    </tr>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>6.000</td>
+      <td>1</td>
+      <td>1.020</td>
+    </tr>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>7.000</td>
+      <td>3</td>
+      <td>3.061</td>
+    </tr>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>8.000</td>
+      <td>1</td>
+      <td>1.020</td>
+    </tr>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>9.000</td>
+      <td>10</td>
+      <td>10.204</td>
+    </tr>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>10.000</td>
+      <td>10</td>
+      <td>10.204</td>
+    </tr>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>11.000</td>
+      <td>16</td>
+      <td>16.327</td>
+    </tr>
+    <tr>
+      <td>Childhood 3-12</td>
+      <td>12.000</td>
+      <td>45</td>
+      <td>45.918</td>
+    </tr>
+  </tbody>
+</table>
+<h2>sample_flow.csv</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>dataset</th>
+      <th>stage</th>
+      <th>n_retained</th>
+      <th>n_removed_at_stage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary</td>
+      <td>Source</td>
+      <td>100318</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Nonmissing age</td>
+      <td>98945</td>
+      <td>1373</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Age 3-100 (historical analytic sample)</td>
+      <td>98917</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>Primary</td>
+      <td>Age 13-100 (main sample; childhood archived separately)</td>
+      <td>98819</td>
+      <td>98</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>Source</td>
+      <td>23679</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>Recognized nonmissing public age band</td>
+      <td>23679</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>At least 3 answered keyed items in every domain</td>
+      <td>18616</td>
+      <td>5063</td>
+    </tr>
+    <tr>
+      <td>SAPA</td>
+      <td>Nonmissing six domain scores (final analytic sample)</td>
+      <td>18616</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

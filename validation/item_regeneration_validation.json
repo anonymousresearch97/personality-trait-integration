@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "deleted_primary_items_then_regenerated": true,
+  "byte_identical_csv": true,
+  "sha256": "0c0fc5a72a8ff178cdf606c99a0ba321027695e9f66021236e4ad34a99479da5",
+  "all_input_checks_after_regeneration": true,
+  "current_working_directory_outside_bundle": true,
+  "extraction_path_contains_spaces": true
+}

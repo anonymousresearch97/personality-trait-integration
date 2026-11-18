@@ -1,0 +1,16 @@
+dataset,age_group,n,alpha,edge_count,edges,matches_production,childhood_exploratory,saved_count,saved_edges,match
+Primary,Childhood 3-12,98,0.01,1,A-H,True,True,1,A-H,True
+Primary,Childhood 3-12,98,0.05,1,A-H,True,True,1,A-H,True
+Primary,Childhood 3-12,98,0.1,1,C-O,True,True,1,C-O,True
+Primary,Adolescence 13-19,7738,0.01,3,"A-H, E-H, H-X",True,False,3,"A-H, E-H, H-X",True
+Primary,Adolescence 13-19,7738,0.05,4,"A-H, C-X, E-H, H-X",True,False,4,"A-H, C-X, E-H, H-X",True
+Primary,Adolescence 13-19,7738,0.1,4,"A-H, C-X, E-H, H-X",True,False,4,"A-H, C-X, E-H, H-X",True
+Primary,Early adulthood 20-39,51670,0.01,5,"A-H, A-X, C-H, C-X, E-H",True,False,5,"A-H, A-X, C-H, C-X, E-H",True
+Primary,Early adulthood 20-39,51670,0.05,5,"A-H, A-X, C-H, C-X, E-H",True,False,5,"A-H, A-X, C-H, C-X, E-H",True
+Primary,Early adulthood 20-39,51670,0.1,5,"A-H, A-X, C-H, C-X, E-H",True,False,5,"A-H, A-X, C-H, C-X, E-H",True
+Primary,Middle adulthood 40-64,35496,0.01,2,"A-H, A-X",True,False,2,"A-H, A-X",True
+Primary,Middle adulthood 40-64,35496,0.05,2,"A-H, A-X",True,False,2,"A-H, A-X",True
+Primary,Middle adulthood 40-64,35496,0.1,2,"A-H, A-X",True,False,2,"A-H, A-X",True
+Primary,Older adulthood 65-100,3915,0.01,1,A-H,True,False,1,A-H,True
+Primary,Older adulthood 65-100,3915,0.05,1,A-H,True,False,1,A-H,True
+Primary,Older adulthood 65-100,3915,0.1,1,A-H,True,False,1,A-H,True

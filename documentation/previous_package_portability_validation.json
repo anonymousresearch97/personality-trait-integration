@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "isolated_portability_execution": true,
+  "stages": [
+    {
+      "stage": "prepare",
+      "returncode": 0,
+      "seconds": 20.61
+    },
+    {
+      "stage": "categorical",
+      "returncode": 0,
+      "seconds": 36.69
+    },
+    {
+      "stage": "gaussian-full",
+      "returncode": 0,
+      "seconds": 2.48
+    },
+    {
+      "stage": "gaussian-equal-n --workers 4",
+      "returncode": 0,
+      "seconds": 10.38
+    },
+    {
+      "stage": "sparse",
+      "returncode": 0,
+      "seconds": 6.51
+    },
+    {
+      "stage": "cpdag-strict",
+      "returncode": 0,
+      "seconds": 1.32
+    },
+    {
+      "stage": "cpdag-resolved",
+      "returncode": 0,
+      "seconds": 0.78
+    },
+    {
+      "stage": "audit --all-draws",
+      "returncode": 0,
+      "seconds": 21.8
+    }
+  ],
+  "additional_passed": [
+    "descriptives",
+    "validate_sparse_gaussian_comparison",
+    "prepare_measurement_resolution",
+    "figures --cpdag-policy resolved",
+    "both R scripts parse"
+  ],
+  "reference_comparisons": [
+    {
+      "file": "original_continuous_bn_sensitivity/matched_n3000_replicate_results.csv",
+      "rows": 8000,
+      "all_edges_and_counts_identical": true,
+      "max_bic_absolute_difference": 1.8189894035458565e-11
+    },
+    {
+      "file": "sapa_gaussian_wrapup/matched_n300_replicate_results.csv",
+      "rows": 8000,
+      "all_edges_and_counts_identical": true,
+      "max_bic_absolute_difference": 1.5916157281026244e-12
+    },
+    {
+      "file": "sparse_gaussian_comparison/matched_replicate_results.csv",
+      "rows": 16000,
+      "all_edges_and_counts_identical": true,
+      "max_bic_absolute_difference": 1.8189894035458565e-11
+    },
+    {
+      "file": "sparse_gaussian_comparison/full_sample_results.csv",
+      "rows": 18,
+      "all_edges_and_counts_identical": true,
+      "max_bic_absolute_difference": 1.1641532182693481e-10
+    }
+  ],
+  "figure_pdf_rendering": "Both categorical PDFs rendered and visually checked",
+  "full_R_CFA_refit_in_package": false,
+  "measurement_scope": "36 original saved CFA objects rechecked; packaged input preparation run and R syntax checked; full 36-model CFA not refit in copied package"
+}

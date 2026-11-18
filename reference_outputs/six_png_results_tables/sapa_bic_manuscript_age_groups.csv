@@ -1,0 +1,6 @@
+dataset,age_group,age_note,n,status,bic,dag_edge_count,skeleton_edge_count,dag_edges,skeleton_edges,cpdag_edges
+SAPA IPIP-HEXACO,Childhood 3-12,not available,0,skipped n<30,,0,0,,,
+SAPA IPIP-HEXACO,Adolescence 13-19,SAPA <=18,4550,estimated,-36022.55466461277,2,2,"H->A, H->C","A-H, C-H","A-H, C-H"
+SAPA IPIP-HEXACO,Early adulthood 20-39,SAPA 19-39,11510,estimated,-89984.02904003808,5,5,"A->H, X->A, X->C, X->E, X->O","A-H, A-X, C-X, E-X, O-X","A-H, A-X, C-X, E-X, O-X"
+SAPA IPIP-HEXACO,Middle adulthood 40-64,SAPA 40-59,2253,estimated,-17540.858481199863,0,0,,,
+SAPA IPIP-HEXACO,Older adulthood 65-100,SAPA 60+,303,estimated,-2365.4119517526697,0,0,,,

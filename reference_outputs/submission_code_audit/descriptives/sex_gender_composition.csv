@@ -1,0 +1,31 @@
+dataset,age_group,source_variable,category,n,n_group,percent_within_group
+Primary,Adolescence 13-19,sexnumeric,men,3829,7738,49.48307056086844
+Primary,Adolescence 13-19,sexnumeric,women,3873,7738,50.05169294391315
+Primary,Adolescence 13-19,sexnumeric,Missing,36,7738,0.4652364952184027
+Primary,Early adulthood 20-39,sexnumeric,men,25994,51670,50.3077220824463
+Primary,Early adulthood 20-39,sexnumeric,women,25421,51670,49.19876137023418
+Primary,Early adulthood 20-39,sexnumeric,Missing,255,51670,0.49351654731952777
+Primary,Middle adulthood 40-64,sexnumeric,men,17914,35496,50.46765832769889
+Primary,Middle adulthood 40-64,sexnumeric,women,17250,35496,48.597025016903316
+Primary,Middle adulthood 40-64,sexnumeric,Missing,332,35496,0.9353166553977913
+Primary,Older adulthood 65-100,sexnumeric,men,2269,3915,57.956577266922096
+Primary,Older adulthood 65-100,sexnumeric,women,1580,3915,40.357598978288635
+Primary,Older adulthood 65-100,sexnumeric,Missing,66,3915,1.685823754789272
+Primary,All analytic participants,sexnumeric,men,50006,98819,50.60362885679879
+Primary,All analytic participants,sexnumeric,women,48124,98819,48.699136805675025
+Primary,All analytic participants,sexnumeric,Missing,689,98819,0.6972343375261842
+SAPA,18 and under,gender,female,2922,4550,64.21978021978022
+SAPA,18 and under,gender,male,1628,4550,35.78021978021978
+SAPA,18 and under,gender,Missing,0,4550,0.0
+SAPA,19-39,gender,female,7326,11510,63.64900086880973
+SAPA,19-39,gender,male,4184,11510,36.35099913119027
+SAPA,19-39,gender,Missing,0,11510,0.0
+SAPA,40-59,gender,female,1494,2253,66.3115845539281
+SAPA,40-59,gender,male,759,2253,33.68841544607191
+SAPA,40-59,gender,Missing,0,2253,0.0
+SAPA,60 and over,gender,female,189,303,62.37623762376238
+SAPA,60 and over,gender,male,114,303,37.62376237623762
+SAPA,60 and over,gender,Missing,0,303,0.0
+SAPA,All analytic participants,gender,female,11931,18616,64.0900300816502
+SAPA,All analytic participants,gender,male,6685,18616,35.90996991834981
+SAPA,All analytic participants,gender,Missing,0,18616,0.0

@@ -1,0 +1,6 @@
+.runtime/
+outputs/
+__pycache__/
+*.pyc
+*.sav
+data_external/
